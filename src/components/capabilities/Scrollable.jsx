@@ -33,7 +33,7 @@ function Scrollable({ children, id, pluginEnabled, shouldResetScroll, setShouldR
         if(!plugin) {
             const div = document.getElementById(id)
             setTimeout(() => {
-                div.scrollTo({ top: 0, behavior: "instant" })
+                div.scrollTop = 0
             }, 50)
         }
         else {

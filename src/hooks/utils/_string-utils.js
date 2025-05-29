@@ -38,6 +38,31 @@ export const _stringUtils = {
      * @param {string} string
      * @return {string}
      */
+    extractFirstPart: (string) => {
+        if (!string)
+            return string
+
+        string = _stringUtils.stripHTMLTags(string)
+
+        const separators = [':', '-', '–']
+        let firstIndex = -1
+
+        for (const sep of separators) {
+            const index = string.indexOf(sep)
+            if (index !== -1 && (firstIndex === -1 || index < firstIndex)) {
+                firstIndex = index
+            }
+        }
+
+        return firstIndex !== -1 ?
+            string.substring(0, firstIndex).trim() :
+            string
+    },
+
+    /**
+     * @param {string} string
+     * @return {string}
+     */
     extractFirstPeriod: (string) => {
         if(!string)
             return string

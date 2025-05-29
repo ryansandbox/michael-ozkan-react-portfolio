@@ -53,7 +53,7 @@
                 "fr": {
                     "contact_thank_you_title": "{{Merci}} pour le contact!",
                     "contact_thank_you_body": "Votre message a été reçu, et je vous contacterai bientôt. J'apprécie votre temps et j'ai hâte de me connecter avec vous!",
-                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail : {{$email}}",
+                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail: {{$email}}",
                     "title": "Envoyez-moi un {{message}}"
                 },
                 "ko": {

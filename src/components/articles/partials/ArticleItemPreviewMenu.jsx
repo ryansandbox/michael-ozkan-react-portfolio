@@ -85,11 +85,18 @@ function ItemPreviewMenuYoutubeButton({ itemWrapper }) {
 
 function ItemPreviewMenuGalleryButton({ itemWrapper }) {
     const language = useLanguage()
+    const utils = useUtils()
 
     const screenshots = itemWrapper.preview?.screenshots
     const screenshotsAspectRatio = itemWrapper.preview?.screenshotsAspectRatio
+
+    const splitTitle = utils.string.extractFirstPart(itemWrapper.locales.title || "")
+    const title = splitTitle.length < 35 ?
+        splitTitle :
+        language.getString("get_to_know_more")
+
     const metadata = {
-        title: itemWrapper.locales.title,
+        title: title,
         images: screenshots,
         aspectRatio: screenshotsAspectRatio,
     }
