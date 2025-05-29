@@ -1,0 +1,53 @@
+{
+    "name": "Mark Choi",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Mark Choi",
+            "localized_name_stylized": " [[Mark {{Choi}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Backend Developer",
+                "Frontend Developer",
+                "DevOps Engineer",
+                "UX Designer"
+            ]
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                "Desarrollador Backend",
+                "Desarrollador Frontend",
+                "Ingeniero DevOps",
+                "Diseñador UX"
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "roles": [
+                "Développeur Backend",
+                "Développeur Frontend",
+                "Ingénieur DevOps",
+                "Designer UX"
+            ]
+        },
+        "ko": {
+            "localized_name": "최민석",
+            "localized_name_stylized": "{{최}}민석",
+            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+            "roles": [
+                "백엔드 개발자",
+                "프론트엔드 개발자",
+                "데브옵스 엔지니어",
+                "UX 디자이너"
+            ]
+        }
+    }
+}

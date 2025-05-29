@@ -1,58 +1,77 @@
-import React, { createContext, useContext, useState, useEffect } from 'react'
-import {useUtils} from "/src/helpers/utils.js"
-import {useData} from "/src/providers/DataProvider.jsx"
+/**
+ * @author Ryan Balieiro
+ * @date 2025-05-10
+ * @description This provider handles the theme management for the application, allowing users to switch between different themes.
+ */
 
-const ThemeContext = createContext(null)
-export const useTheme = () => useContext(ThemeContext)
+import React, {createContext, useContext, useEffect, useState} from 'react'
+import {useUtils} from "/src/hooks/utils.js"
 
-export const ThemeProvider = ({children}) => {
-    const {getSettings} = useData()
+function ThemeProvider({ children, supportedThemes, defaultThemeId, onThemeChanged }) {
+    const utils = useUtils()
 
-    const settings = getSettings()
-    const allThemes = settings['supportedThemes'] || []
-    const localStorageName = 'theme-preferences'
-    const canChangeTheme = allThemes.length >= 2
+    const allThemes = Array.isArray(supportedThemes) && supportedThemes.length > 0 ?
+        supportedThemes :
+        []
+
+    const defaultTheme = allThemes.find(theme => theme.id === defaultThemeId)
+        || allThemes[0]
+
+    const supportsMultipleThemes = allThemes.length >= 2
 
     const [selectedThemeId, setSelectedThemeId] = useState(null)
 
-    /** On configurations loaded... **/
+    /** @constructs **/
     useEffect(() => {
-        const savedThemeId = window.localStorage.getItem(localStorageName)
-        const savedTheme = allThemes.find(theme => theme.id === savedThemeId)
-        const defaultTheme = allThemes.find(theme => theme.default) || allThemes[0]
-
-        selectTheme(savedTheme || defaultTheme)
-    }, [])
-
-    const selectTheme = (theme) => {
-        if(!theme)
+        if(allThemes.length === 0) {
+            utils.log.throwError("ThemeProvider", "The app must support at least one theme. Make sure you filled the supportedThemes property in the settings.json file.")
             return
+        }
 
-        setSelectedThemeId(theme.id)
-        document.documentElement.setAttribute('data-theme', theme.id)
-        window.localStorage.setItem(localStorageName, theme.id)
-    }
+        const savedThemeId = utils.storage.getPreferredTheme()
+        const savedTheme = allThemes.find(theme => theme.id === savedThemeId)
+        setSelectedTheme(savedTheme || defaultTheme)
+    }, [])
 
     const getSelectedTheme = () => {
         return allThemes.find(theme => theme.id === selectedThemeId)
     }
 
-    const getAvailableThemes = () => {
+    const setSelectedTheme = (theme) => {
+        setSelectedThemeId(theme.id)
+        utils.storage.setPreferredTheme(theme.id)
+        document.documentElement.setAttribute('data-theme', theme.id)
+        onThemeChanged(theme.id)
+    }
+
+    const getAvailableThemes = (excludeSelected) => {
+        if(!allThemes)
+            return []
+
+        if(!excludeSelected)
+            return allThemes
         return allThemes.filter(theme => theme.id !== selectedThemeId)
     }
 
-    const selectThemeWithId = (themeId) => {
-        const theme = allThemes.find(theme => theme.id === themeId)
-        selectTheme(theme)
+    const toggle = () => {
+        const selectedTheme = getSelectedTheme()
+        const currentIndex = allThemes.indexOf(selectedTheme)
+        const targetIndex = currentIndex + 1
+
+        const targetTheme = targetIndex >= allThemes.length ?
+            allThemes[0] :
+            allThemes[targetIndex]
+
+        setSelectedTheme(targetTheme)
     }
 
     return (
         <ThemeContext.Provider value={{
-            selectTheme,
-            canChangeTheme,
+            setSelectedTheme,
             getSelectedTheme,
+            supportsMultipleThemes,
             getAvailableThemes,
-            selectThemeWithId
+            toggle
         }}>
             {selectedThemeId && (
                 <>{children}</>
@@ -60,3 +79,17 @@ export const ThemeProvider = ({children}) => {
         </ThemeContext.Provider>
     )
 }
+
+const ThemeContext = createContext(null)
+/**
+ * @return {{
+ *   setSelectedTheme: Function,
+ *   getSelectedTheme: Function,
+ *   supportsMultipleThemes: Boolean,
+ *   getAvailableThemes: Function,
+ *   toggle: Function
+ * }}
+ */
+export const useTheme = () => useContext(ThemeContext)
+
+export default ThemeProvider

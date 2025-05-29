@@ -1,287 +1,461 @@
 {
-    "locales": {
-        "en": {
-            "title": "Life recently",
-            "title_menu": "Updates",
-            "title_long_prefix": "Take a look at my",
-            "title_long": "Recent **Updates**"
-        },
-
-        "es": {
-            "title": "Vida Reciente",
-            "title_menu": "Actualizaciones",
-            "title_long_prefix": "Consulta mis",
-            "title_long": "Actualizaciones **Recientes**"
-        },
-
-        "fr": {
-            "title": "Vie Récente",
-            "title_menu": "Mises à Jour",
-            "title_long_prefix": "Découvrez mes",
-            "title_long": "Dernières **Mises à Jour**"
-        },
-
-        "ko": {
-            "title": "최근의 삶",
-            "title_menu": "업데이트",
-            "title_long_prefix": "내 최근",
-            "title_long": "**업데이트**를 확인해 보세요"
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            },
+            "fr": {
+                "title_short": "Vie Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
+            },
+            "ko": {
+                "title_short": "최근의 삶",
+                "title_short_nav": "업데이트",
+                "title_long_prefix": "내 최근",
+                "title_long": "{{업데이트}}를 확인해 보세요"
+            }
         }
     },
 
     "articles": [
         {
-            "id": "fun_facts",
-            "component": "ArticleServices",
-            "config": {},
+            "id": 1,
+            "component": "ArticleFacts",
             "locales": {},
-
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-tablet-screen-button",
-                        "faColors": null
-                    },
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
                             "title": "03",
-                            "info": "Apps published"
+                            "text": "Apps Published"
                         },
                         "es": {
-                            "title": "03",
-                            "info": "Aplicaciones publicadas"
+                            "text": "Aplicaciones Publicadas"
                         },
                         "fr": {
-                            "title": "03",
-                            "info": "Applications publiées"
+                            "text": "Applications Publiées"
                         },
                         "ko": {
-                            "title": "03",
-                            "info": "출시된 앱"
+                            "text": "출시된 앱"
                         }
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-star",
-                        "faColors": null
-                    },
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-star",
+                    "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
                             "title": "100+",
-                            "info": "Stars on GitHub"
+                            "text": "Stars on GitHub"
                         },
                         "es": {
-                            "title": "100+",
-                            "info": "Estrellas en GitHub"
+                            "text": "Estrellas en GitHub"
                         },
                         "fr": {
-                            "title": "100+",
-                            "info": "Étoiles sur GitHub"
+                            "text": "Étoiles sur GitHub"
                         },
                         "ko": {
-                            "title": "100+",
-                            "info": "GitHub 별"
+                            "text": "GitHub의 별"
                         }
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-globe",
-                        "faColors": null
-                    },
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
                             "title": "12",
-                            "info": "Countries visited"
+                            "text": "Countries visited"
                         },
                         "es": {
-                            "title": "12",
-                            "info": "Países visitados"
+                            "text": "Países Visitados"
                         },
                         "fr": {
-                            "title": "12",
-                            "info": "Pays visités"
+                            "text": "Pays Visités"
                         },
                         "ko": {
-                            "title": "12",
-                            "info": "방문한 나라"
+                            "text": "방문한 국가"
                         }
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-diagram-project",
-                        "faColors": null
-                    },
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
                             "title": "07",
-                            "info": "Open-source projects"
+                            "text": "Open-source projects"
                         },
                         "es": {
-                            "title": "07",
-                            "info": "Proyectos de código abierto"
+                            "text": "Proyectos de Código Abierto"
                         },
                         "fr": {
-                            "title": "07",
-                            "info": "Projets open-source"
+                            "text": "Projets Open-source"
                         },
                         "ko": {
-                            "title": "07",
-                            "info": "오픈 소스 프로젝트"
+                            "text": "오픈 소스 프로젝트"
                         }
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-coffee",
-                        "faColors": null
-                    },
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
                             "title": "20,000",
-                            "info": "Coffees consumed"
+                            "text": "Coffees consumed"
                         },
                         "es": {
-                            "title": "20,000",
-                            "info": "Cafés consumidos"
+                            "text": "Cafés Consumidos"
                         },
                         "fr": {
-                            "title": "20,000",
-                            "info": "Cafés consommés"
+                            "text": "Cafés Consommés"
                         },
                         "ko": {
-                            "title": "20,000",
-                            "info": "마신 커피"
+                            "text": "소비된 커피"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        },
+                        "es": {
+                            "text": "Líneas de código"
+                        },
+                        "fr": {
+                            "text": "Lignes de code"
+                        },
+                        "ko": {
+                            "text": "코드 라인 수"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "es": {
+                            "title": "Infinita",
+                            "text": "Pasión por Aprender"
+                        },
+                        "fr": {
+                            "title": "Infinie",
+                            "text": "Passion d'apprendre"
+                        },
+                        "ko": {
+                            "title": "무한대",
+                            "text": "배움에 대한 열정"
                         }
                     }
                 }
-
             ]
         },
 
         {
-            "id": "updates",
+            "id": 2,
             "component": "ArticleThread",
-            "config": {},
             "locales": {
-                "en": { "title": "Quick **Facts**" },
-                "es": { "title": "Feed de **Noticias**" },
-                "fr": { "title": "Fil d'**Actualités**" },
-                "ko": { "title": "**뉴스** 피드" }
+                "en": { "title": "Quick {{Facts}}" },
+                "es": { "title": "Feed de {{Noticias}}" },
+                "fr": { "title": "Fil d'{{Actualités}}" },
+                "ko": { "title": "{{뉴스}} 피드" }
             },
-
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
             "items": [
                 {
-                    "dates": {
-                        "start": "09/01/2022",
-                        "end": null
+                    "id": 1,
+                    "date": {"year": 2022, "month": 9},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
                     },
-                    "links": [],
                     "locales": {
                         "en": {
-                            "title": "Relocated to **California!**",
-                            "text": "Successfully transitioned to California to explore new career opportunities in the tech industry, leveraging the vibrant local ecosystem to enhance my professional growth."
+                            "title": "Relocating to {{California!}}",
+                            "province": "Ontario",
+                            "country": "Canada",
+                            "institution": "",
+                            "text": "I’ve recently made the move to California, USA, to explore new opportunities, both professionally and personally. I’m looking forward to discovering what this vibrant state has to offer and embracing all the challenges and experiences that come with this new chapter in my life. Excited for what’s ahead! Stay tuned for updates on my journey and the adventures that await in the Golden State!"
                         },
                         "es": {
-                            "title": "¡Me mudé a **California!**",
-                            "text": "Transición exitosa a California para explorar nuevas oportunidades profesionales en la industria tecnológica, aprovechando el vibrante ecosistema local para mejorar mi crecimiento profesional."
+                            "title": "Mudándome a {{California!}}",
+                            "province": "Ontario",
+                            "country": "Canadá",
+                            "institution": "",
+                            "text": "Recientemente me he mudado a California, EE.UU., para explorar nuevas oportunidades, tanto profesionales como personales. Estoy deseando descubrir lo que este vibrante estado tiene para ofrecer y abrazar todos los desafíos y experiencias que vienen con este nuevo capítulo de mi vida. ¡Emocionado por lo que está por venir! Mantente atento a las actualizaciones sobre mi viaje y las aventuras que me esperan en el Estado Dorado."
                         },
                         "fr": {
-                            "title": "Déménagement en **Californie !**",
-                            "text": "Transition réussie en Californie pour explorer de nouvelles opportunités de carrière dans l'industrie technologique, tirant parti de l'écosystème local dynamique pour améliorer ma croissance professionnelle."
+                            "title": "Déménagement en {{Californie!}}",
+                            "province": "Ontario",
+                            "country": "Canada",
+                            "institution": "",
+                            "text": "Je viens de déménager en Californie, aux États-Unis, pour explorer de nouvelles opportunités, tant professionnelles que personnelles. J'ai hâte de découvrir ce que cet État dynamique a à offrir et de relever tous les défis et expériences qui accompagnent ce nouveau chapitre de ma vie. Excité pour ce qui m'attend ! Restez à l'écoute pour des mises à jour sur mon parcours et les aventures qui m'attendent dans l'État d'Or !"
                         },
                         "ko": {
-                            "title": "**캘리포니아로 이사했습니다!**",
-                            "text": "기술 산업의 새로운 직업 기회를 탐색하기 위해 캘리포니아로 성공적으로 이주하였으며, 지역 생태계를 활용하여 전문성을 향상시키고 있습니다."
+                            "title": "{{캘리포니아로 이사!}}",
+                            "province": "온타리오",
+                            "country": "캐나다",
+                            "institution": "",
+                            "text": "최근에 미국 캘리포니아로 이사하여 새로운 직업적, 개인적 기회를 탐색하고 있습니다. 이 활기찬 주가 제공하는 것들을 발견하고, 이 새로운 장에서 오는 모든 도전과 경험을 받아들이는 것이 기대됩니다. 앞으로의 여정과 황금 주에서 기다리는 모험에 대한 업데이트를 기대해 주세요!"
                         }
                     }
                 },
-
                 {
-                    "dates": {
-                        "start": "05/12/2023",
-                        "end": null
+                    "id": 2,
+                    "date": {"year": 2023, "month": 6},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=oFCy3vEIAQk"
                     },
-                    "links": [
-                        {"string": "see_more", "href": "https://youtube.com"}
-                    ],
                     "locales": {
                         "en": {
-                            "title": "Started my own **YouTube channel**!",
-                            "text": "Launched a YouTube channel focused on programming tutorials, sharing insights and techniques on various technologies, and engaging with a community of aspiring developers."
+                            "title": "Started my own {{Youtube Channel!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I’m thrilled to announce the launch of my own YouTube channel! 🎥✨ Join me on this exciting journey as I share my passion for technology, coding, and all things digital. From tutorials and tips to project showcases, I can’t wait to connect with you all through this platform. Don’t forget to subscribe and hit the notification bell to stay updated on my latest videos. Let’s embark on this adventure together!"
                         },
                         "es": {
-                            "title": "¡Inicié mi propio **canal de YouTube!**",
-                            "text": "Lancé un canal de YouTube enfocado en tutoriales de programación, compartiendo ideas y técnicas sobre diversas tecnologías, y participando en una comunidad de desarrolladores aspirantes."
+                            "title": "¡Comencé mi propio {{Canal de YouTube!}}",
+                            "province": "California",
+                            "country": "EE.UU.",
+                            "institution": "",
+                            "text": "¡Estoy emocionado de anunciar el lanzamiento de mi propio canal de YouTube! 🎥✨ Únete a mí en este emocionante viaje mientras comparto mi pasión por la tecnología, la programación y todo lo digital. Desde tutoriales y consejos hasta presentaciones de proyectos, no puedo esperar para conectar con todos ustedes a través de esta plataforma. No olvides suscribirte y activar la campana de notificaciones para estar al tanto de mis últimos videos. ¡Embarquémonos juntos en esta aventura!"
                         },
                         "fr": {
-                            "title": "Création de ma propre **chaîne YouTube** !",
-                            "text": "Lancement d'une chaîne YouTube axée sur des tutoriels de programmation, partageant des idées et des techniques sur diverses technologies, et interagissant avec une communauté de développeurs en herbe."
+                            "title": "Lancement de ma propre {{Chaîne YouTube!}}",
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "",
+                            "text": "Je suis ravi d'annoncer le lancement de ma propre chaîne YouTube ! 🎥✨ Rejoignez-moi dans cette aventure passionnante où je partagerai ma passion pour la technologie, la programmation et tout ce qui est numérique. Des tutoriels et astuces aux présentations de projets, j'ai hâte de me connecter avec vous tous à travers cette plateforme. N'oubliez pas de vous abonner et d'activer la cloche de notification pour rester informé de mes dernières vidéos. Embarquons ensemble dans cette aventure !"
                         },
                         "ko": {
-                            "title": "자신의 **유튜브 채널을** 시작했습니다!",
-                            "text": "프로그래밍 튜토리얼에 초점을 맞춘 유튜브 채널을 시작하여 다양한 기술에 대한 통찰력과 기법을 공유하고, 개발자 지망생 커뮤니티와 소통하고 있습니다."
+                            "title": "{{유튜브 채널!}} 시작",
+                            "province": "캘리포니아",
+                            "country": "미국",
+                            "institution": "",
+                            "text": "저의 유튜브 채널을 시작하게 되어 매우 기쁩니다! 🎥✨ 기술, 코딩, 디지털 관련 모든 것에 대한 열정을 공유하는 이 흥미진진한 여정에 여러분을 초대합니다. 튜토리얼과 팁부터 프로젝트 소개까지, 이 플랫폼을 통해 여러분과 소통할 수 있기를 기대합니다. 구독하고 알림 벨을 눌러 최신 동영상을 받아보세요. 함께 이 모험을 시작해 봅시다!"
                         }
                     }
                 },
-
                 {
-                    "dates": {
-                        "start": "11/05/2024",
-                        "end": null
+                    "id": 3,
+                    "date": {"year": 2024, "month": 12},
+                    "preview": {
+                        "links": [
+                            {"href": "https://medium.com", "tooltipString": "open_website", "faIcon": "fa-brands fa-medium"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
                     },
-                    "links": [],
                     "locales": {
                         "en": {
-                            "title": "Working on a new **mobile project**!",
-                            "text": "Currently developing a mobile application that integrates innovative features and user-friendly design, aimed at enhancing user experience and addressing specific market needs."
+                            "title": "Working on a new {{mobile project!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I’m excited to share that I’m currently working on a new mobile project! Some features of this project include:",
+                            "list": [
+                                "Cross-platform compatibility with iOS and Android",
+                                "User-friendly interface with intuitive navigation",
+                                "Integration with popular APIs for enhanced functionality",
+                                "Real-time data synchronization for seamless user experience"
+                            ]
                         },
                         "es": {
-                            "title": "¡Trabajando en un nuevo **proyecto móvil**!",
-                            "text": "Actualmente desarrollando una aplicación móvil que integra características innovadoras y un diseño fácil de usar, con el objetivo de mejorar la experiencia del usuario y atender necesidades específicas del mercado."
+                            "title": "Trabajando en un nuevo {{proyecto móvil!}}",
+                            "province": "California",
+                            "country": "EE.UU.",
+                            "institution": "",
+                            "text": "Estoy emocionado de compartir que actualmente estoy trabajando en un nuevo proyecto móvil! Algunas características de este proyecto incluyen:",
+                            "list": [
+                                "Compatibilidad multiplataforma con iOS y Android",
+                                "Interfaz amigable con navegación intuitiva",
+                                "Integración con APIs populares para funcionalidad mejorada",
+                                "Sincronización de datos en tiempo real para una experiencia de usuario fluida"
+                            ]
                         },
                         "fr": {
-                            "title": "Travail sur un nouveau **projet mobile** !",
-                            "text": "Actuellement en train de développer une application mobile qui intègre des fonctionnalités innovantes et un design convivial, visant à améliorer l'expérience utilisateur et à répondre à des besoins spécifiques du marché."
+                            "title": "Travail sur un nouveau {{projet mobile!}}",
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "",
+                            "text": "Je suis ravi de partager que je travaille actuellement sur un nouveau projet mobile ! Certaines fonctionnalités de ce projet incluent :",
+                            "list": [
+                                "Compatibilité multiplateforme avec iOS et Android",
+                                "Interface conviviale avec une navigation intuitive",
+                                "Intégration avec des API populaires pour une fonctionnalité améliorée",
+                                "Synchronisation des données en temps réel pour une expérience utilisateur fluide"
+                            ]
                         },
                         "ko": {
-                            "title": "새 **모바일 프로젝트** 작업 중!",
-                            "text": "혁신적인 기능과 사용자 친화적인 디자인을 통합한 모바일 애플리케이션을 현재 개발 중이며, 사용자 경험을 향상하고 특정 시장의 요구를 충족하는 것을 목표로 하고 있습니다."
+                            "title": "{{모바일 프로젝트!}} 작업 중",
+                            "province": "캘리포니아",
+                            "country": "미국",
+                            "institution": "",
+                            "text": "현재 새로운 모바일 프로젝트를 작업 중입니다! 이 프로젝트의 몇 가지 기능은 다음과 같습니다:",
+                            "list": [
+                                "iOS 및 Android와의 크로스 플랫폼 호환성",
+                                "직관적인 탐색을 갖춘 사용자 친화적인 인터페이스",
+                                "기능 향상을 위한 인기 API 통합",
+                                "원활한 사용자 경험을 위한 실시간 데이터 동기화"
+                            ]
                         }
                     }
                 },
-
                 {
-                    "dates": {
-                        "start": "12/12/2024",
-                        "end": null
+                    "id": 4,
+                    "date": {"year": 2025, "month": 3},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
                     },
-                    "links": [
-                        { "string": "see_more", "href": "https://ryanbalieiro.github.io/react-portfolio-template/" }
-                    ],
                     "locales": {
                         "en": {
-                            "title": "Launched my **personal website**!",
-                            "text": "Created a personal website to showcase my projects, share my journey in programming, and provide resources for fellow developers."
+                            "title": "Attending the {{Tech Conference 2025!}}",
+                            "province": "Tokyo",
+                            "country": "Japan",
+                            "institution": "Tech Innovators Inc.",
+                            "text": "I’m thrilled to announce that I’ll be attending the [[Tech Conference 2025]] in Tokyo, Japan! This event is a fantastic opportunity to connect with industry leaders, learn about the latest trends in technology, and share insights with fellow tech enthusiasts. I’m looking forward to engaging in discussions, attending workshops, and exploring innovative solutions that are shaping the future of our industry. If you’re attending the conference, let’s connect! I’d love to meet fellow developers and tech lovers. Stay tuned for updates and highlights from the event!"
                         },
                         "es": {
-                            "title": "¡Lancé mi **sitio web personal**!",
-                            "text": "Creé un sitio web personal para mostrar mis proyectos, compartir mi trayectoria en programación y proporcionar recursos para otros desarrolladores."
+                            "title": "Asistiendo a la {{Conferencia de Tecnología 2025!}}",
+                            "province": "Tokio",
+                            "country": "Japón",
+                            "institution": "Tech Innovators Inc.",
+                            "text": "¡Estoy emocionado de anunciar que asistiré a la [[Conferencia de Tecnología 2025]] en Tokio, Japón! Este evento es una oportunidad fantástica para conectar con líderes de la industria, aprender sobre las últimas tendencias en tecnología y compartir ideas con otros entusiastas de la tecnología. Estoy deseando participar en discusiones, asistir a talleres y explorar soluciones innovadoras que están dando forma al futuro de nuestra industria. Si vas a asistir a la conferencia, ¡conectemos! Me encantaría conocer a otros desarrolladores y amantes de la tecnología. ¡Mantente atento a las actualizaciones y momentos destacados del evento!"
                         },
                         "fr": {
-                            "title": "Lancement de mon **site web personnel** !",
-                            "text": "Création d'un site web personnel pour présenter mes projets, partager mon parcours en programmation et fournir des ressources pour d'autres développeurs."
+                            "title": "Participation à la {{Conférence Tech 2025!}}",
+                            "province": "Tokyo",
+                            "country": "Japon",
+                            "institution": "Tech Innovators Inc.",
+                            "text": "Je suis ravi d’annoncer que je participerai à la [[Tech Conference 2025]] à Tokyo, au Japon ! Cet événement est une occasion formidable de rencontrer des leaders du secteur, de découvrir les dernières tendances technologiques et d’échanger avec d’autres passionnés de tech. J’ai hâte de participer aux discussions, d’assister aux ateliers et d’explorer des solutions innovantes qui façonnent l’avenir de notre industrie. Si vous assistez à la conférence, n’hésitez pas à me contacter ! Ce serait un plaisir de rencontrer d’autres développeurs et amateurs de technologie. Restez connectés pour des mises à jour et des moments forts de l’événement !"
                         },
                         "ko": {
-                            "title": "**개인 웹사이트**를 시작했습니다!",
-                            "text": "내 프로젝트를 소개하고 프로그래밍 여정을 공유하며 다른 개발자들을 위한 리소스를 제공하기 위해 개인 웹사이트를 만들었습니다."
+                            "title": "{{기술 컨퍼런스 2025!}} 참석",
+                            "province": "도쿄",
+                            "country": "일본",
+                            "institution": "Tech Innovators Inc.",
+                            "text": "[[2025년 도쿄에서 열리는]] 기술 컨퍼런스에 참석하게 되어 매우 기쁩니다! 이 행사는 업계 리더들과 연결하고 최신 기술 트렌드를 배우며, 다른 기술 애호가들과 통찰력을 공유할 수 있는 환상적인 기회입니다. 토론에 참여하고, 워크숍에 참석하며, 우리 산업의 미래를 형성하는 혁신적인 솔루션을 탐색할 수 있기를 기대합니다. 컨퍼런스에 참석하신다면, 함께 연결해요! 다른 개발자와 기술 애호가들을 만나고 싶습니다. 행사에서의 업데이트와 하이라이트를 기대해 주세요!"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "date": {"year": 2025, "month": 6},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Launched my {{personal website!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
+                            "list": [
+                                "Portfolio showcasing my projects and contributions",
+                                "Blog with articles on technology, coding, and personal experiences",
+                                "Contact form for inquiries and collaborations",
+                                "Links to my social media profiles and GitHub"
+                            ]
+                        },
+                        "es": {
+                            "title": "¡Lanzamiento de mi {{sitio web personal!}}",
+                            "province": "California",
+                            "country": "EE.UU.",
+                            "institution": "",
+                            "text": "Estoy emocionado de anunciar el lanzamiento de mi [[sitio web personal]]! 🎉 Esta plataforma es un espacio donde puedo compartir mis proyectos, publicaciones de blog y reflexiones sobre el mundo de la tecnología y el desarrollo. Ha sido un trabajo de amor, y no puedo esperar a que todos lo exploren. Aquí hay algunos aspectos destacados de lo que puedes encontrar en el sitio:",
+                            "list": [
+                                "Portafolio que muestra mis proyectos y contribuciones",
+                                "Blog con artículos sobre tecnología, codificación y experiencias personales",
+                                "Formulario de contacto para consultas y colaboraciones",
+                                "Enlaces a mis perfiles en redes sociales y GitHub"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Lancement de mon {{site web personnel!}}",
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "",
+                            "text": "Je suis ravi d'annoncer le lancement de mon [[site web personnel]] ! 🎉 Cette plateforme est un espace où je peux partager mes projets, articles de blog et réflexions sur le monde de la technologie et du développement. C'est un travail de passion, et j'ai hâte que vous l'exploriez tous. Voici quelques points forts de ce que vous pouvez trouver sur le site :",
+                            "list": [
+                                "Portfolio présentant mes projets et contributions",
+                                "Blog avec des articles sur la technologie, la programmation et mes expériences personnelles",
+                                "Formulaire de contact pour les demandes et collaborations",
+                                "Liens vers mes profils sur les réseaux sociaux et GitHub"
+                            ]
+                        },
+                        "ko": {
+                            "title": "{{개인 웹사이트!}} 출시",
+                            "province": "캘리포니아",
+                            "country": "미국",
+                            "institution": "",
+                            "text": "개인 웹사이트를 출시하게 되어 매우 기쁩니다! 🎉 이 플랫폼은 제가 프로젝트, 블로그 게시물 및 기술과 개발 세계에 대한 통찰력을 공유할 수 있는 공간입니다. 사랑으로 만든 결과물이며, 여러분이 탐험하기를 기대합니다. 사이트에서 찾을 수 있는 몇 가지 하이라이트는 다음과 같습니다:",
+                            "list": [
+                                "프로젝트와 기여를 보여주는 포트폴리오",
+                                "기술, 코딩 및 개인 경험에 관한 블로그",
+                                "문의 및 협업을 위한 연락처 양식",
+                                "소셜 미디어 프로필 및 GitHub 링크"
+                            ]
                         }
                     }
                 }

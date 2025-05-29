@@ -1,63 +1,50 @@
-import "./Portfolio.scss"
 import React, {useEffect, useState} from 'react'
-import NavSidebar from "/src/components/nav/desktop/NavSidebar.jsx"
-import MainSlider from "/src/components/layout/MainSlider"
-import NavHeaderMobile from "/src/components/nav/mobile/NavHeaderMobile.jsx"
-import NavTabController from "/src/components/nav/mobile/NavTabController.jsx"
-import NavPillsFixed from "/src/components/nav/mobile/NavPillsFixed.jsx"
-import {useGlobalState} from "/src/providers/GlobalStateProvider.jsx"
-import {useUtils} from "/src/helpers/utils.js"
+import Layout from "/src/components/layout/Layout.jsx"
+import {useData} from "/src/providers/DataProvider.jsx"
+import {useLanguage} from "/src/providers/LanguageProvider.jsx"
+import {useLocation} from "/src/providers/LocationProvider.jsx"
+import {useNavigation} from "/src/providers/NavigationProvider.jsx"
+import LayoutNavigation from "/src/components/layout/LayoutNavigation.jsx"
+import LayoutImageCache from "/src/components/layout/LayoutImageCache.jsx"
+import LayoutSlideshow from "/src/components/layout/LayoutSlideshow.jsx"
 
 function Portfolio() {
-    const {getActiveSection, setFixedNavigationEnabled} = useGlobalState()
-    const [isFirstPage, setIsFirstPage] = useState(true)
-    const utils = useUtils()
+    const data = useData()
+    const language = useLanguage()
+    const location = useLocation()
+    const navigation = useNavigation()
 
-    useEffect(() => {
-        if(utils.isTouchDevice() && utils.isAndroid()) {
-            utils.addClassToBody('body-android')
-        }
-    }, [])
+    if(!data || !language || !location || !navigation) {
+        window.location.reload()
+        return
+    }
 
-    /** Force scroll to top every time the active section changes... **/
-    useEffect(() => {
-        const __first = isFirstPage
-        const top = 258
-        const scrollParams = {top: top, behavior: 'instant'}
-        setIsFirstPage(false)
-        if(__first || window.scrollY < top)
-            return
+    const profile = data.getProfile()
+    const settings = data.getSettings()
+    const sections = data.getSections()
 
-        setFixedNavigationEnabled(false)
-        window.scrollTo(scrollParams)
+    const animatedBackgroundEnabled = settings.templateSettings.animatedBackground
 
-        setTimeout(() => {
-            window.scrollTo(scrollParams)
-            setFixedNavigationEnabled(true)
-        }, 100)
-    }, [getActiveSection()])
+    const currentSection = navigation.targetSection
+    const previousSection = navigation.previousSection
+    const sectionLinks = navigation.sectionLinks
+    const categoryLinks = navigation.categoryLinks
 
     return (
-        <div className={`portfolio-wrapper`}>
-            <div className={`portfolio`}  id={`portfolio`}>
-                <div className={`sidebar-wrapper`}>
-                    <NavSidebar/>
-                </div>
+        <Layout id={"react-portfolio"}
+                animatedBackgroundEnabled={animatedBackgroundEnabled}>
+            <LayoutImageCache profile={profile}
+                              settings={settings}
+                              sections={sections}/>
 
-                <div className={`content-wrapper`}>
-                    <div className={`content`}>
-                        <NavHeaderMobile/>
-                        <MainSlider/>
-                    </div>
-                </div>
-
-                <NavPillsFixed/>
-
-                <div className={`nav-tabs-wrapper`}>
-                    <NavTabController/>
-                </div>
-            </div>
-        </div>
+            <LayoutNavigation profile={profile}
+                              sectionLinks={sectionLinks}
+                              categoryLinks={categoryLinks}>
+                <LayoutSlideshow sections={sections}
+                                 currentSection={currentSection}
+                                 previousSection={previousSection}/>
+            </LayoutNavigation>
+        </Layout>
     )
 }
 

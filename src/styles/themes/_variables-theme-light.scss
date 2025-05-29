@@ -1,0 +1,77 @@
+/**
+ * @author Ryan Balieiro
+ * @description Light theme colors.
+ */
+
+@import "theme-variables-builder";
+
+$primary: #269366;
+$secondary: darken(#798287, 10%);
+$dark: #aedab9;
+$danger: #932626;
+$muted: #7c8d7f;
+
+$base-bg: #91d7aa;
+$base-bg-light: #a6e3b8;
+$base-bg-dark: #7ecb94;
+
+$texts: #202521;
+$texts-inverted: #DDDDDD;
+
+$base-container-bg: #caecd5;
+$base-container-bg-accent: #c2e9d0;
+$base-popover-bg: #cae1d4;
+$base-boards: lighten(#b9e1c6, 3%);
+$base-info-badges: lighten(#b9e1c6, 0%);
+$empty: #dff5e7;
+
+$borders: #daf1dd;
+$scrollbar-track: #daf5e1;
+$scrollbar-thumb: #55bd91;
+
+[data-theme="light"] {
+    @include build-theme(
+        // Theme Config...
+        /** DARK MODE: **/                  false,
+
+        // Base Colors...
+        /** PRIMARY: **/                    $primary,
+        /** SECONDARY: **/                  $secondary,
+        /** DARK: **/                       $dark,
+        /** DANGER: **/                     $danger,
+        /** MUTED: **/                      $muted,
+
+        // Main Layout Colors...
+        /** BG: **/                         $base-bg,
+        /** BG CONTRAST: **/                $base-bg-light,
+        /** BG CONTRAST DARKEN:**/          $base-bg-dark,
+        /** TEXTS: **/                      $texts,
+        /** TEXTS (INVERTED): **/           $texts-inverted,
+
+        // Nav
+        /** NAV MOBILE BG: **/              $base-container-bg-accent,
+        /** NAV MOBILE: **/                 $texts,
+        /** NAV MOBILE BORDER: **/          rgba(white, 0.2),
+
+        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
+        /** NAV MOBILE HOVER: **/           $primary,
+
+        /** NAV MOBILE SELECTED BG: **/     $primary,
+        /** NAV MOBILE SELECTED: **/        $texts-inverted,
+        /** NAV MOBILE SELECTED BORDER: **/ rgba(white, 0.15),
+
+        // Main Layout Elements...
+        /** SECTION BG: **/                 $base-container-bg,
+        /** CARD BG: **/                    $base-container-bg,
+        /** POPUPS BG: **/                  $base-popover-bg,
+        /** BOARDS: **/                     $base-boards,
+        /** INFO BADGE BG: **/              $base-info-badges,
+        /** INFO BADGE **/                  $texts,
+        /** EMPTY **/                       $empty,
+
+        // Other Colors...
+        /** DEFAULT BORDERS: **/            $borders,
+        /** SCROLLBAR TRACK: **/            $scrollbar-track,
+        /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
+    );
+}
