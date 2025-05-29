@@ -113,7 +113,11 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
 
         const apiValidation = api.validators.validateEmailRequest(name, email, subject, message)
         if(!apiValidation.success) {
-            setValidationError(apiValidation)
+            feedbacks.setActivitySpinnerVisible(true, dataWrapper.uniqueId, language.getString("sending_message"))
+            setTimeout(() => {
+                setValidationError(apiValidation)
+                feedbacks.setActivitySpinnerVisible(false, dataWrapper.uniqueId)
+            }, 300)
             return
         }
 

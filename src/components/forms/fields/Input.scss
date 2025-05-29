@@ -17,7 +17,7 @@ input.form-input {
         --padding: 0.85rem;
     }
 
-    height: var(--height);
+    min-height: var(--height);
     padding: var(--padding);
 }
 

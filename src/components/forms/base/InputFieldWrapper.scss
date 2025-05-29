@@ -4,6 +4,7 @@ div.input-field-wrapper {
     border: 2px solid var(--form-border-color);
     border-radius: $standard-border-radius;
     overflow: hidden;
+    background-color: var(--theme-empty);
 }
 
 div.input-field-wrapper-focused {
