@@ -1,8 +1,13 @@
 import "./CategoryFilter.scss"
 import React, {useEffect, useState} from 'react'
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
+import {useUtils} from "/src/hooks/utils.js"
 
 function CategoryFilter({ categories, selectedCategoryId, setSelectedCategoryId, className = "" }) {
+    const utils = useUtils()
+
+    const [lastCategorySelectTime, setLastCategorySelectTime] = useState(0)
+
     let minButtonWidthPercentage = categories && categories.length ?
         Math.floor(100 / categories.length)
         : 0
@@ -11,21 +16,36 @@ function CategoryFilter({ categories, selectedCategoryId, setSelectedCategoryId,
     if(hasCategoryWithLongLabel)
         minButtonWidthPercentage *= 0.9
 
+    const hoverClass = utils.device.isTouchDevice() ?
+        `category-filter-no-hover-effects` :
+        ``
+
+    const _select = (categoryId) => {
+        const now = Date.now()
+        if (!categoryId || now - lastCategorySelectTime < 50) {
+            return
+        }
+
+        setLastCategorySelectTime(now)
+        setSelectedCategoryId(categoryId)
+    }
+
     return (
         <div className={`category-filter btn-group ${className}`}
              role={"group"}>
             {categories.map((category, key) => (
                 <CategoryFilterButton key={key}
                                       category={category}
+                                      className={hoverClass}
                                       minButtonWidthPercentage={minButtonWidthPercentage}
-                                      onClick={() => setSelectedCategoryId(category.id)}
+                                      onClick={() => _select(category.id)}
                                       isSelected={category?.id === selectedCategoryId}/>
             ))}
         </div>
     )
 }
 
-function CategoryFilterButton({ category, minButtonWidthPercentage, isSelected, onClick }) {
+function CategoryFilterButton({ category, minButtonWidthPercentage, isSelected, onClick, className = "" }) {
     const language = useLanguage()
 
     const selectedClassName = isSelected ?
@@ -35,7 +55,7 @@ function CategoryFilterButton({ category, minButtonWidthPercentage, isSelected, 
 
     return (
         <button type={"button"}
-                className={`category-filter-button ${selectedClassName} btn text-2`}
+                className={`category-filter-button ${className} ${selectedClassName} btn text-2`}
                 style={{minWidth: `${minButtonWidthPercentage}%`}}
                 onMouseDown={onClick}
                 onTouchStart={onClick}

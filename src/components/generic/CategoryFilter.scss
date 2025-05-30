@@ -36,6 +36,11 @@ button.category-filter-button:hover, button.category-filter-button:focus {
     color: var(--theme-texts-inv);
 }
 
+button.category-filter-no-hover-effects {
+    background-color: var(--theme-boards-background)!important;
+    color: var(--theme-texts-light-1)!important;
+}
+
 button.category-filter-button:active, button.category-filter-button-selected {
     background-color: var(--theme-primary)!important;
     color: var(--theme-texts-inv)!important;
