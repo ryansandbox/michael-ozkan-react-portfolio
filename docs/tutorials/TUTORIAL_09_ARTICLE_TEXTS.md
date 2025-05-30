@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 9: ArticleText
+# <img src="../assets/logo.png"> Tutorial 9 – ArticleText
 
 ## Preview
 

@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 2: Configuring settings.json
+# <img src="../assets/logo.png"> Tutorial 2 – Configuring settings.json
 
 All the app's data is stored in two folders inside the `public` directory:
 - `public/data/` ➔ This is where your portfolio’s content is stored.

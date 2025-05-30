@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 10: ArticleCards
+# <img src="../assets/logo.png"> Tutorial 10 – ArticleCards
 
 ## Preview
 

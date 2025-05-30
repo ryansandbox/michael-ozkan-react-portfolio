@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 15: ArticleTestimonials
+# <img src="../assets/logo.png"> Tutorial 15 – ArticleTestimonials
 
 ## Preview
 

@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 3: Titles and Colors
+# <img src="../assets/logo.png"> Tutorial 3 – Titles and Colors
 
 ## Title and Meta Tags
 

@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 21: Deploying for production
+# <img src="../assets/logo.png"> Tutorial 21 – Deploying for production
 
 ## 1. Vite configuration
 Open `vite.config.js` and set the base directory for your application. This setting defines the main path that your website will be hosted under.

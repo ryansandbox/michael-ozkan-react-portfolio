@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 6: Section Titles
+# <img src="../assets/logo.png"> Tutorial 6 – Section Titles
 
 As you’ve gathered from the previous step, each **section** has its own separate JSON file.  
 Each section JSON file contains **two root fields**: `title` and `articles`.  

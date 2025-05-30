@@ -1,4 +1,4 @@
-name: Deploy the portfolio to GitHub Pages
+name: Deploy portfolio to GitHub Pages
 
 on:
   workflow_dispatch:

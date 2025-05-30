@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 14: ArticlePortfolio
+# <img src="../assets/logo.png"> Tutorial 14 – ArticlePortfolio
 
 ## Preview
 

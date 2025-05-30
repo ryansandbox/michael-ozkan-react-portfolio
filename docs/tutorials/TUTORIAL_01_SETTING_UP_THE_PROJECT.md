@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 1: Setting Up the Project
+# <img src="../assets/logo.png"> Tutorial 1 – Setting Up the Project
 
 Before we dive in, make sure you have the following installed:
 

@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 4: Profile and Strings
+# <img src="../assets/logo.png"> Tutorial 4 – Profile and Strings
 
 Now we're going to configure two other JSON files: `profile.json` and `strings.json`, both located at the root of the `public/data` folder.
 

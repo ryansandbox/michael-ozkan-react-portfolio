@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 5: Categories and Sections
+# <img src="../assets/logo.png"> Tutorial 5 – Categories and Sections
 
 Each page of the resume is called a `section`.  
 Each section belongs to a `category`. Categories are used to group sections into **tabs** in the mobile navigation variant.

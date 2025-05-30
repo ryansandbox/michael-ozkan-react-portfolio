@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 11: ArticleSkills
+# <img src="../assets/logo.png"> Tutorial 11 – ArticleSkills
 
 ## Preview
 

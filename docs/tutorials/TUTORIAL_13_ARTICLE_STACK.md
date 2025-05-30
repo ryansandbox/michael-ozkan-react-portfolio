@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 13: ArticleStack
+# <img src="../assets/logo.png"> Tutorial 13 – ArticleStack
 
 ## Preview
 

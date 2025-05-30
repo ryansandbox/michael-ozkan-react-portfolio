@@ -69,9 +69,7 @@ jsonUtils.overwrite(jSettingsPath, {
             dark: true,
             locales: {
                 en: {"name": "Dark Mode"},
-                es: {"name": "Modo Oscuro"},
-                fr: {"name": "Mode Sombre"},
-                ko: {"name": "다크 모드"}
+                es: {"name": "Modo Oscuro"}
             }
         },
 
@@ -81,9 +79,7 @@ jsonUtils.overwrite(jSettingsPath, {
             dark: false,
             locales: {
                 en: {"name": "Light Mode"},
-                es: {"name": "Modo Claro"},
-                fr: {"name": "Mode Clair"},
-                ko: {"name": "라이트 모드"}
+                es: {"name": "Modo Claro"}
             }
         }
     ],

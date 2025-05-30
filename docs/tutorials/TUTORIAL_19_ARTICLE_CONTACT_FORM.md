@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 19: ArticleContactForm
+# <img src="../assets/logo.png"> Tutorial 19 – ArticleContactForm
 
 ## Preview
 

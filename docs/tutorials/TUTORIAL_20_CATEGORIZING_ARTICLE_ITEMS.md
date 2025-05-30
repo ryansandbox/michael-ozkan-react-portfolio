@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 20: Categorizing Article Items
+# <img src="../assets/logo.png"> Tutorial 20 – Categorizing Article Items
 
 You can organize article items into categories, allowing users to easily filter them — just like in the live demo portfolio, which separates items into "Apps", "Utilities", and "Web".
 

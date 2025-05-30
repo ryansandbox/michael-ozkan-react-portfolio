@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 7: Section Articles
+# <img src="../assets/logo.png"> Tutorial 7 – Section Articles
 
 Each section in the app is made up of a set of **articles**, which are reusable components used to display blocks of content. These components render inside the section you configure and are defined in the `articles` array of each section JSON.
 

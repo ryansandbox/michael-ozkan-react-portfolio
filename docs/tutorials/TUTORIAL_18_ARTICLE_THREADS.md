@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 18: ArticleThreads
+# <img src="../assets/logo.png"> Tutorial 18 – ArticleThreads
 
 ## Preview
 

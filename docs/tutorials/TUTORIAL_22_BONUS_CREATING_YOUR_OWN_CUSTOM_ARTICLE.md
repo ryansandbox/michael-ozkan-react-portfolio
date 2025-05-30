@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 22: Creating your own custom article
+# <img src="../assets/logo.png"> Tutorial 22 – Creating your own custom article
 
 ## 1. Introduction
 

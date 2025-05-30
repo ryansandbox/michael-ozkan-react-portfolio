@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 8: ArticleInlineList
+# <img src="../assets/logo.png"> Tutorial 8 – ArticleInlineList
 
 ## Preview
 

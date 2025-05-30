@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 16: ArticleInfoList
+# <img src="../assets/logo.png"> Tutorial 16 – ArticleInfoList
 
 ## Preview
 

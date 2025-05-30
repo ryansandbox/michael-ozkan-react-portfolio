@@ -1,4 +1,4 @@
-# <img src="../assets/logo.png"> Tutorial 12: ArticleTimeline
+# <img src="../assets/logo.png"> Tutorial 12 – ArticleTimeline
 
 ## Preview
 
