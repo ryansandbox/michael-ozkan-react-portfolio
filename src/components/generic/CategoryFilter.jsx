@@ -3,9 +3,13 @@ import React, {useEffect, useState} from 'react'
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 
 function CategoryFilter({ categories, selectedCategoryId, setSelectedCategoryId, className = "" }) {
-    const minButtonWidthPercentage = categories && categories.length ?
+    let minButtonWidthPercentage = categories && categories.length ?
         Math.floor(100 / categories.length)
         : 0
+
+    const hasCategoryWithLongLabel = categories.find(category => category.label && category.label.length >= 8)
+    if(hasCategoryWithLongLabel)
+        minButtonWidthPercentage *= 0.9
 
     return (
         <div className={`category-filter btn-group ${className}`}

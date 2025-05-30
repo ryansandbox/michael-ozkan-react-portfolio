@@ -13,7 +13,7 @@ div.article-timeline-item-info-for-timelines {
     }
 
     @include media-breakpoint-down(sm) {
-        --content-padding: 22px calc(var(--avatar-size)*0.6) 22px calc(var(--avatar-size)*0.6);
+        --content-padding: 22px 24px 22px 24px;
     }
 }
 
