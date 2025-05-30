@@ -32,20 +32,21 @@ Follow these steps to deploy your portfolio to GitHub Pages:
 - **Make sure the base directory in `vite.config.js` matches your repo name.**
 - **Make sure your repository is public.**
 - **Enable GitHub Actions** in your repository settings:
-    - Go to `Settings > Actions > General`.
+    - Go to `Your Repo > Settings > Actions > General`.
     - Under **Actions permissions**, select **"Allow all actions and reusable workflows"**.
     - Scroll down to **Workflow permissions** and enable **"Read and write permissions"**.  
       ⚠️ *If this step is skipped, the deployment script will fail after the build stage.*
 - Once everything is configured, **push a commit** to your repository to trigger the deployment script automatically.
 - If the deployment doesn't start automatically:
     - Go to the **Actions** tab in your GitHub repo.
-    - Select the **"Deploy portfolio to GitHub Pages"** workflow.
-    - Run it manually.
-    - If it ran before you set the configurations and failed, you can click the **"Re-run jobs"** button to run it again.
+    - If a confirmation message appears, click **"I understand my workflows, go ahead and enable them"**.
+    - Select the **"Deploy portfolio to GitHub Pages"** workflow on the left sidebar.
+    - Run it manually by clicking **"Run workflow"**.
+    - If it already ran and failed, you can click the **"Re-run jobs"** button to run it again.
 - After a successful run, the script will:
     - Build the project
     - Create a new branch called `gh-pages` in your repository with your production-ready files.
-- Now go to `Settings > Pages`, and:
+- Now go to `Your Repo > Settings > Pages`, and:
     - Set the **source branch** to `gh-pages`
     - Save the changes
 - Wait a few seconds for GitHub to process the deployment.  

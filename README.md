@@ -17,9 +17,10 @@ Key features:
 
 Here's a list of live versions of the template:
 
-| #     | Version             | Description                                             | URL                                                                         |
-|-------|---------------------|---------------------------------------------------------|-----------------------------------------------------------------------------|
-| 🟢    | Mark Choi (default) | Latest deployment of the template here on GitHub pages. | [Preview](https://ryanbalieiro.github.io/react-portfolio-template/)         |
+| #     | Version             | Description                                             | URL                                                                    |
+|-------|---------------------|---------------------------------------------------------|------------------------------------------------------------------------|
+| 🟢    | Mark Choi (default) | Latest deployment of the template here on GitHub pages. | [Preview](https://ryanbalieiro.github.io/react-portfolio-template/)    |
+| 🟣    | Emily Park          | An example of how the template can be customized.       | [Preview](https://rbtutorials.github.io/emily-park-react-portfolio/)   |
 
 ## Layout and concept
 
