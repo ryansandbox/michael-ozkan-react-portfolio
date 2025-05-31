@@ -60,37 +60,37 @@ npm run dev
 
 Follow this step-by-step guide to customize the template with your own content and styles. You can either read the documentation or watch the interactive video tutorials:
 
-| #    | Title                       | Docs                                                                    | Watch on YouTube     |
-|------|-----------------------------|-------------------------------------------------------------------------|----------------------|
-| 1    | Setting up the project      | [See Docs](./docs/tutorials/TUTORIAL_01_SETTING_UP_THE_PROJECT.md)      | [Coming Soon...](#)  | 
-| 2    | Configuring settings.json   | [See Docs](./docs/tutorials/TUTORIAL_02_CONFIGURING_SETTINGS_JSON.md)   | [Coming Soon...](#)  |  
-| 3    | Titles and Colors           | [See Docs](./docs/tutorials/TUTORIAL_03_TITLES_AND_COLORS.md)           | [Coming Soon...](#)  |
-| 4    | Profile and Strings         | [See Docs](./docs/tutorials/TUTORIAL_04_PROFILE_AND_STRINGS.md)         | [Coming Soon...](#)  |
-| 5    | Categories and Sections     | [See Docs](./docs/tutorials/TUTORIAL_05_CATEGORIES_AND_SECTIONS.md)     | [Coming Soon...](#)  | 
-| 6    | Section Titles              | [See Docs](./docs/tutorials/TUTORIAL_06_SECTION_TITLES.md)              | [Coming Soon...](#)  |
-| 7    | Section Articles            | [See Docs](./docs/tutorials/TUTORIAL_07_SECTION_ARTICLES.md)            | [Coming Soon...](#)  |
-| 8    | ArticleInlineList           | [See Docs](./docs/tutorials/TUTORIAL_08_ARTICLE_INLINE_LIST.md)         | [Coming Soon...](#)  |
-| 9    | ArticleText                 | [See Docs](./docs/tutorials/TUTORIAL_09_ARTICLE_TEXTS.md)               | [Coming Soon...](#)  |
-| 10   | ArticleCards                | [See Docs](./docs/tutorials/TUTORIAL_10_ARTICLE_CARDS.md)               | [Coming Soon...](#)  |
-| 11   | ArticleSkills               | [See Docs](./docs/tutorials/TUTORIAL_11_ARTICLE_SKILLS.md)              | [Coming Soon...](#)  |
-| 12   | ArticleTimeline             | [See Docs](./docs/tutorials/TUTORIAL_12_ARTICLE_TIMELINE.md)            | [Coming Soon...](#)  |
-| 13   | ArticleStack                | [See Docs](./docs/tutorials/TUTORIAL_13_ARTICLE_STACK.md)               | [Coming Soon...](#)  |
-| 14   | ArticlePortfolio            | [See Docs](./docs/tutorials/TUTORIAL_14_ARTICLE_PORTFOLIO.md)           | [Coming Soon...](#)  |
-| 15   | ArticleTestimonials         | [See Docs](./docs/tutorials/TUTORIAL_15_ARTICLE_TESTIMONIALS.md)        | [Coming Soon...](#)  |
-| 16   | ArticleInfoList             | [See Docs](./docs/tutorials/TUTORIAL_16_ARTICLE_INFO_LIST.md)           | [Coming Soon...](#)  |
-| 17   | ArticleFacts                | [See Docs](./docs/tutorials/TUTORIAL_17_ARTICLE_FACTS.md)               | [Coming Soon...](#)  |
-| 18   | ArticleThreads              | [See Docs](./docs/tutorials/TUTORIAL_18_ARTICLE_THREADS.md)             | [Coming Soon...](#)  |
-| 19   | ArticleContactForm          | [See Docs](./docs/tutorials/TUTORIAL_19_ARTICLE_CONTACT_FORM.md)        | [Coming Soon...](#)  |
-| 20   | Categorizing article items  | [See Docs](./docs/tutorials/TUTORIAL_20_CATEGORIZING_ARTICLE_ITEMS.md)  | [Coming Soon...](#)  |
-| 21   | Deploying for production    | [See Docs](./docs/tutorials/TUTORIAL_21_DEPLOYING_FOR_PRODUCTION.md)    | [Coming Soon...](#)  |
+| #    | Title                       | Docs                                                                    | Video Tutorial                                                           |
+|------|-----------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| 1    | Setting up the project      | [See Docs](./docs/tutorials/TUTORIAL_01_SETTING_UP_THE_PROJECT.md)      | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=0m00s)  | 
+| 2    | Configuring settings.json   | [See Docs](./docs/tutorials/TUTORIAL_02_CONFIGURING_SETTINGS_JSON.md)   | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=1m40s)  |  
+| 3    | Titles and Colors           | [See Docs](./docs/tutorials/TUTORIAL_03_TITLES_AND_COLORS.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=5m09s)  |
+| 4    | Profile and Strings         | [See Docs](./docs/tutorials/TUTORIAL_04_PROFILE_AND_STRINGS.md)         | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=9m11s)  |
+| 5    | Categories and Sections     | [See Docs](./docs/tutorials/TUTORIAL_05_CATEGORIES_AND_SECTIONS.md)     | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=12m57s) | 
+| 6    | Section Titles              | [See Docs](./docs/tutorials/TUTORIAL_06_SECTION_TITLES.md)              | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=15m14s) |
+| 7    | Section Articles            | [See Docs](./docs/tutorials/TUTORIAL_07_SECTION_ARTICLES.md)            | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=17m01s) |
+| 8    | ArticleInlineList           | [See Docs](./docs/tutorials/TUTORIAL_08_ARTICLE_INLINE_LIST.md)         | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=18m24s) |
+| 9    | ArticleText                 | [See Docs](./docs/tutorials/TUTORIAL_09_ARTICLE_TEXTS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=20m48s) |
+| 10   | ArticleCards                | [See Docs](./docs/tutorials/TUTORIAL_10_ARTICLE_CARDS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=23m23s) |
+| 11   | ArticleSkills               | [See Docs](./docs/tutorials/TUTORIAL_11_ARTICLE_SKILLS.md)              | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=25m43s) |
+| 12   | ArticleTimeline             | [See Docs](./docs/tutorials/TUTORIAL_12_ARTICLE_TIMELINE.md)            | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=29m57s) |
+| 13   | ArticleStack                | [See Docs](./docs/tutorials/TUTORIAL_13_ARTICLE_STACK.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=34m40s) |
+| 14   | ArticlePortfolio            | [See Docs](./docs/tutorials/TUTORIAL_14_ARTICLE_PORTFOLIO.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=37m00s) |
+| 15   | ArticleTestimonials         | [See Docs](./docs/tutorials/TUTORIAL_15_ARTICLE_TESTIMONIALS.md)        | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=40m08s) |
+| 16   | ArticleInfoList             | [See Docs](./docs/tutorials/TUTORIAL_16_ARTICLE_INFO_LIST.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=42m05s) |
+| 17   | ArticleFacts                | [See Docs](./docs/tutorials/TUTORIAL_17_ARTICLE_FACTS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=44m04s) |
+| 18   | ArticleThreads              | [See Docs](./docs/tutorials/TUTORIAL_18_ARTICLE_THREADS.md)             | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=45m57s) |
+| 19   | ArticleContactForm          | [See Docs](./docs/tutorials/TUTORIAL_19_ARTICLE_CONTACT_FORM.md)        | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=48m02s) |
+| 20   | Categorizing article items  | [See Docs](./docs/tutorials/TUTORIAL_20_CATEGORIZING_ARTICLE_ITEMS.md)  | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=52m58s) |
+| 21   | Deploying for production    | [See Docs](./docs/tutorials/TUTORIAL_21_DEPLOYING_FOR_PRODUCTION.md)    | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=55m34s) |
 
 ### Bonus Tutorials
 
 Follow these additional tutorials to further enhance your portfolio with advanced features:
 
-| #    | Title                            | Docs                                                                               | Watch                |
-|------|----------------------------------|------------------------------------------------------------------------------------|----------------------|
-| 22   | Creating your own custom article | [See Docs](./docs/tutorials/TUTORIAL_22_BONUS_CREATING_YOUR_OWN_CUSTOM_ARTICLE.md) | [Coming Soon...](#)  |
+| #    | Title                            | Docs                                                                               | Watch                                                                      |
+|------|----------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| 22   | Creating your own custom article | [See Docs](./docs/tutorials/TUTORIAL_22_BONUS_CREATING_YOUR_OWN_CUSTOM_ARTICLE.md) | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=1h00m12s) |
 
 ## About
 
