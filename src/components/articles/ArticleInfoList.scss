@@ -50,7 +50,7 @@ div.article-info-list-item {
 
     &-avatar {
         min-width: calc(var(--avatar-size) * 1.2);
-        font-size: calc(var(--avatar-size) / 1.8)!important;
+        font-size: calc(var(--avatar-size) / 2)!important;
         background-color: var(--theme-dark)!important;
         color: var(--theme-texts)!important;
         height: 100%;

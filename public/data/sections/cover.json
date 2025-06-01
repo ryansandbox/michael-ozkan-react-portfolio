@@ -234,31 +234,6 @@
             "items": [
                 {
                     "id": 1,
-                    "faIcon": "fa-solid fa-guitar",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "locales": {
-                        "en": {
-                            "title": "Playing {{guitar}}",
-                            "text": "Exploring different genres and improving my skills."
-                        },
-                        "es": {
-                            "title": "Tocar la {{guitarra}}",
-                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
-                        },
-                        "fr": {
-                            "title": "Jouer de la {{guitare}}",
-                            "text": "Explorer différents genres et améliorer mes compétences."
-                        },
-                        "ko": {
-                            "title": "{{기타}} 연주하기",
-                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
-                        }
-                    }
-                },
-                {
-                    "id": 2,
                     "faIcon": "fa-solid fa-video",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -283,8 +258,8 @@
                     }
                 },
                 {
-                    "id": 3,
-                    "faIcon": "fa-solid fa-paint-brush",
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
@@ -308,7 +283,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 3,
                     "faIcon": "fa-solid fa-chart-line",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -333,8 +308,8 @@
                     }
                 },
                 {
-                    "id": 5,
-                    "faIcon": "fa-solid fa-pencil-alt",
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
@@ -358,7 +333,7 @@
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 5,
                     "img": "",
                     "faIcon": "fa-solid fa-camera-retro",
                     "faIconColors": {"bg": "", "fill": ""},
@@ -380,6 +355,31 @@
                         "ko": {
                             "title": "{{사진}} 및 포토샵",
                             "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-drum-steelpan",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{drums}}",
+                            "text": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Tocar {{batería}}",
+                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la {{batterie}}",
+                            "text": "Explorer différents genres et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "{{드럼}} 연주",
+                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
                         }
                     }
                 }
