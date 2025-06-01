@@ -46,7 +46,8 @@ const validators = {
                 email: email,
                 from_email: email,
                 custom_subject: subject,
-                message: message
+                message: message,
+                custom_source: utils.url.getAbsoluteLocation()
             }
         }
     }
