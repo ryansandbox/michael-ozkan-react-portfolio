@@ -1,8 +1,7 @@
 {
-    "name": "Mark Choi",
-
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
-    "resumePdfUrl": "",
+    "name": "Michael Özkan",
+    "profilePictureUrl": "images/content/pfp-{theme}.png",
+    "resumePdfUrl": "pdf/resume.pdf",
 
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
@@ -10,44 +9,48 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
+            "localized_name": "Michael Özkan",
+            "localized_name_stylized": "<strong>Michael {{Özkan}}</strong>",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "Backend Developer",
-                "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
+                "I make iOS apps",
+                "I make Android apps",
+                "I make cross-platform apps",
+                "I make Flutter apps"
             ]
         },
-        "es": {
-            "status_message_available_for_freelance": "¡Disponible para freelance!",
+        "tr": {
+            "status_message_available_for_freelance": "Freelance için müsaitim!",
             "roles": [
-                "Desarrollador Backend",
-                "Desarrollador Frontend",
-                "Ingeniero DevOps",
-                "Diseñador UX"
+                "iOS uygulamaları",
+                "Android uygulamaları",
+                "Cross-platform uygulamaları",
+                "Flutter uygulamaları"
             ]
         },
-        "fr": {
-            "status_message_available_for_freelance": "Disponible pour freelance !",
+        "sv": {
+            "status_message_available_for_freelance": "Tillgänglig för frilansarbete!",
             "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
-                "Ingénieur DevOps",
-                "Designer UX"
+                "Jag gör iOS-appar",
+                "Jag gör Android-appar",
+                "Jag gör plattformsoberoende appar",
+                "Jag gör Flutter-appar"
             ]
         },
-        "ko": {
-            "localized_name": "최민석",
-            "localized_name_stylized": "{{최}}민석",
-            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+        "ja": {
+            "localized_name": "マイケル・オズカン",
+            "localized_name_stylized": "<strong>マイケル ・ {{オズカン}}</strong>",
+            "status_message_available_for_freelance": "フリーランスの仕事を受け付けています！",
             "roles": [
-                "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
+                "iOSアプリを作ります",
+                "Androidアプリを作ります",
+                "クロスプラットフォームアプリを作ります",
+                "Flutterアプリを作ります"
             ]
         }
-    }
+    },
+
+    "imagesToCache": [
+        "images/content/pfp-dark.png"
+    ]
 }

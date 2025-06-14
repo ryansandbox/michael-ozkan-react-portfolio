@@ -1,19 +1,19 @@
 {
     "developerSettings": {
-        "debugMode": false,
+        "debugMode": true,
         "fakeEmailRequests": false,
         "stayOnThePreloaderScreen": false,
-        "version": "2.0.0"
+        "version": "1.0.0"
     },
 
     "preloaderSettings": {
         "enabled": true,
-        "title": "React <strong>Portfolio</strong>",
-        "subtitle": "by Ryan Balieiro",
+        "title": "Michael <b>Özkan</b>",
+        "subtitle": "Mobile Developer",
         "logoOffset": {
-            "right": 14,
-            "top": 2,
-            "bottom": 0
+            "right": 12,
+            "top": -1,
+            "bottom": -1
         }
     },
 
@@ -29,35 +29,35 @@
         {
             "name": "English",
             "id": "en",
-            "flagUrl": "images/flags/en-us.png"
+            "flagUrl": "images/flags/en-uk.png"
         },
         {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
+            "name": "Türkçe",
+            "id": "tr",
+            "flagUrl": "images/flags/tr.png"
         },
         {
-            "name": "Français",
-            "id": "fr",
-            "flagUrl": "images/flags/fr.png"
+            "name": "Svenska",
+            "id": "sv",
+            "flagUrl": "images/flags/sv.png"
         },
         {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "name": "日本語",
+            "id": "ja",
+            "flagUrl": "images/flags/ja.png"
         }
     ],
 
     "supportedThemes": [
         {
             "id": "dark",
-            "icon": "fa-solid fa-moon",
+            "icon": "fa-solid fa-bolt-lightning",
             "dark": true,
             "locales": {
-                "en": {"name": "Dark Mode"},
-                "es": {"name": "Modo Oscuro"},
-                "fr": {"name": "Mode Sombre"},
-                "ko": {"name": "다크 모드"}
+                "en": {"name": "Electric Noir Theme"},
+                "tr": {"name": "Elektrik Noir Teması"},
+                "sv": {"name": "Elektrisk Noir Tema"},
+                "ja": {"name": "エレクトリックノワールテーマ"}
             }
         },
         {
@@ -65,10 +65,21 @@
             "icon": "fa-solid fa-sun",
             "dark": false,
             "locales": {
-                "en": {"name": "Light Mode"},
-                "es": {"name": "Modo Claro"},
-                "fr": {"name": "Mode Clair"},
-                "ko": {"name": "라이트 모드"}
+                "en": {"name": "Morning Mist Theme"},
+                "tr": {"name": "Sabah Sis Teması"},
+                "sv": {"name": "Morgon Dimma Tema"},
+                "ja": {"name": "モーニングミステーマ"}
+            }
+        },
+        {
+            "id": "midnight",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Midnight Blue Theme"},
+                "tr": {"name": "Gece Yarısı Mavisi Teması"},
+                "sv": {"name": "Midnattsblå Tema"},
+                "ja": {"name": "ミッドナイトブルーテーマ"}
             }
         }
     ],
