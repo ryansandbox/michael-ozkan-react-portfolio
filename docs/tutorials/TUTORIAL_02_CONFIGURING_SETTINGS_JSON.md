@@ -32,13 +32,14 @@ The `preloaderSettings` section customizes the preloading screen that appears wh
 
 The `templateSettings` section contains various settings that control the overall appearance and behavior of your portfolio. Here’s what you can configure:
 
-| Field                   | Type   | Description                                                                                                                                                   |
-|-------------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `animatedBackground`    | BOOL   | When enabled, the background of the portfolio will have an animated effect.                                                                                   |
-| `animatedCursorEnabled` | BOOL   | When enabled, the mouse cursor will have an animated effect. This setting has no impact on touch devices.                                                     |     
-| `defaultLanguageId`     | STRING | The ID for the language that will be used by default in the portfolio. This should match one of the language IDs defined in the `supportedLanguages` section. |
-| `defaultThemeId`        | STRING | The ID for the theme that will be used by default in the portfolio. This should match one of the theme IDs defined in the `supportedThemes` section.          |
-| `fullscreenEnabled`     | BOOL   | When enabled, a fullscreen button will be displayed in the top right (when available), allowing users to toggle fullscreen mode.                              |
+| Field                      | Type   | Description                                                                                                                                                                                |
+|----------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `animatedBackground`       | BOOL   | When enabled, the background of the portfolio will have an animated effect.                                                                                                                |
+| `animatedCursorEnabled`    | BOOL   | When enabled, the mouse cursor will have an animated effect. This setting has no impact on touch devices.                                                                                  |     
+| `defaultLanguageId`        | STRING | The ID for the language that will be used by default in the portfolio. This should match one of the language IDs defined in the `supportedLanguages` section.                              |
+| `defaultThemeId`           | STRING | The ID for the theme that will be used by default in the portfolio. This should match one of the theme IDs defined in the `supportedThemes` section.                                       |
+| `fullscreenEnabled`        | BOOL   | When enabled, a fullscreen button will be displayed in the top right (when available), allowing users to toggle fullscreen mode.                                                           |
+| `showSpinnerOnThemeChange` | BOOL   | When enabled, a spinner will be displayed when changing themes, providing visual feedback during the transition. This is useful if you have many images that change during a theme switch. |               
 
 ## Supported Languages
 The `supportedLanguages` section lists all the languages your portfolio supports. Each language includes an ID, a name, and a URL for its flag icon. You **need to define at least one** language here. 
