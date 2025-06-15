@@ -31,6 +31,35 @@
     "articles": [
         {
             "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Miami – FL",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "fa-solid fa-map-pin"
+                },
+                {
+                    "id": 2,
+                    "label": "mike.ozkan@gmail.com",
+                    "link": {"href": "mailto:mike.ozkan@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@ryanbalieiro",
+                    "link": {"href": "https://github.com/ryanbalieiro", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
             "component": "ArticleText",
             "locales": {
                 "en": {"title": "{{A tiny bit}} about me..."}
@@ -59,7 +88,7 @@
         },
 
         {
-            "id": 2,
+            "id": 3,
             "component": "ArticleInfoList",
             "locales": {
                 "en": {"title": "What {{I do}}"}
