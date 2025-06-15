@@ -1,39 +1,13 @@
 {
     "categories": [
         {
-            "id": "home",
+            "id": "profile",
             "faIcon": "fa-regular fa-user",
             "locales": {
-                "en": {
-                    "title": "Home"
-                }
-            }
-        },
-        {
-            "id": "background",
-            "faIcon": "fa-regular fa-clock",
-            "locales": {
-                "en": {
-                    "title": "History"
-                }
-            }
-        },
-        {
-            "id": "showcase",
-            "faIcon": "fa-regular fa-folder-open",
-            "locales": {
-                "en": {
-                    "title": "Showcase"
-                }
-            }
-        },
-        {
-            "id": "more",
-            "faIcon": "fa-regular fa-object-ungroup",
-            "locales": {
-                "en": {
-                    "title": "More"
-                }
+                "en": {"title": "Profile"},
+                "tr": {"title": "Profil"},
+                "sv": {"title": "Profil"},
+                "ja": {"title": "プロフィール"}
             }
         }
     ]

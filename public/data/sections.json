@@ -1,28 +1,10 @@
 {
     "sections": [
         {
-            "id": "about",
-            "categoryId": "home",
-            "jsonPath": "/data/sections/cover.json",
-            "faIcon": "fa-solid fa-address-card"
-        },
-        {
-            "id": "skills",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/skills.json",
-            "faIcon": "fa-solid fa-tools"
-        },
-        {
-            "id": "experience",
-            "categoryId": "background",
-            "jsonPath": "/data/sections/experience.json",
-            "faIcon": "fa-solid fa-briefcase"
-        },
-        {
-            "id": "contact",
-            "categoryId": "more",
-            "jsonPath": "/data/sections/contact.json",
-            "faIcon": "fa-solid fa-pen-to-square"
+            "id": "home",
+            "categoryId": "profile",
+            "jsonPath": "/data/sections/home.json",
+            "faIcon": "fa-regular fa-address-card"
         }
     ]
 }
