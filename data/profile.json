@@ -1,0 +1,52 @@
+{
+    "name": "Michael Özkan",
+    "profilePictureUrl": "images/content/pfp-{theme}.png",
+    "resumePdfUrl": "pdf/resume.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Michael Özkan",
+            "localized_name_stylized": "<strong>Michael {{Özkan}}</strong>",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "iOS Developer",
+                "Android Developer",
+                "Flutter Developer",
+                "Cross-Platform Developer"
+            ]
+        },
+        "tr": {
+            "status_message_available_for_freelance": "Freelance için müsaitim!",
+            "roles": [
+                "iOS Geliştirici",
+                "Android Geliştirici",
+                "Flutter Geliştirici",
+                "Cross-Platform Geliştirici"
+            ]
+        },
+        "sv": {
+            "status_message_available_for_freelance": "Tillgänglig för frilansarbete!",
+            "roles": [
+                "iOS-utvecklare",
+                "Android-utvecklare",
+                "Flutter-utvecklare",
+                "Cross-Platform-utvecklare"
+            ]
+        },
+        "ja": {
+            "localized_name": "マイケル・オズカン",
+            "localized_name_stylized": "<strong>マイケル ・ {{オズカン}}</strong>",
+            "status_message_available_for_freelance": "フリーランスの仕事を受け付けています！",
+            "roles": [
+                "iOS開発者",
+                "Android開発者",
+                "Flutter開発者",
+                "クロスプラットフォーム開発者"
+            ]
+        }
+    }
+}

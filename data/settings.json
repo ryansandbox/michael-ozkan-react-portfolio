@@ -1,0 +1,92 @@
+{
+    "developerSettings": {
+        "debugMode": true,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "1.0.0"
+    },
+
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "Michael <b>Özkan</b>",
+        "subtitle": "Mobile Developer",
+        "logoOffset": {
+            "right": 12,
+            "top": -1,
+            "bottom": -1
+        }
+    },
+
+    "templateSettings": {
+        "animatedBackground": true,
+        "animatedCursorEnabled": true,
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true
+    },
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-uk.png"
+        },
+        {
+            "name": "Türkçe",
+            "id": "tr",
+            "flagUrl": "images/flags/tr.png"
+        },
+        {
+            "name": "Svenska",
+            "id": "sv",
+            "flagUrl": "images/flags/sv.png"
+        },
+        {
+            "name": "日本語",
+            "id": "ja",
+            "flagUrl": "images/flags/ja.png"
+        }
+    ],
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-bolt-lightning",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Electric Noir Theme"},
+                "tr": {"name": "Elektrik Noir Teması"},
+                "sv": {"name": "Elektrisk Noir Tema"},
+                "ja": {"name": "エレクトリックノワールテーマ"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Morning Mist Theme"},
+                "tr": {"name": "Sabah Sis Teması"},
+                "sv": {"name": "Morgon Dimma Tema"},
+                "ja": {"name": "モーニングミステーマ"}
+            }
+        },
+        {
+            "id": "midnight",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Midnight Blue Theme"},
+                "tr": {"name": "Gece Yarısı Mavisi Teması"},
+                "sv": {"name": "Midnattsblå Tema"},
+                "ja": {"name": "ミッドナイトブルーテーマ"}
+            }
+        }
+    ],
+
+    "imagesToCache": [
+        "images/content/pfp-dark.png",
+        "images/content/pfp-light.png",
+        "images/content/pfp-midnight.png"
+    ]
+}

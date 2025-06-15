@@ -1,0 +1,14 @@
+{
+    "categories": [
+        {
+            "id": "profile",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {"title": "Profile"},
+                "tr": {"title": "Profil"},
+                "sv": {"title": "Profil"},
+                "ja": {"title": "プロフィール"}
+            }
+        }
+    ]
+}

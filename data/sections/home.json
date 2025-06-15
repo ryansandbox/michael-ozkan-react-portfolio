@@ -1,0 +1,204 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Cheers!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Greetings nerds...",
+                "title_long": "I'm Michael {{Özkan!}}"
+            },
+            "tr": {
+                "title_short": "Selam!",
+                "title_short_nav": "Hakkımda",
+                "title_long_prefix": "Merhaba arkadaşlar...",
+                "title_long": "Ben Michael {{Özkan!}}"
+            },
+            "sv": {
+                "title_short": "Välkommen!",
+                "title_short_nav": "Om mig",
+                "title_long_prefix": "Tjena kompisar...",
+                "title_long": "Jag heter Michael {{Özkan!}}"
+            },
+            "ja": {
+                "title_short": "こんにちは！",
+                "title_short_nav": "私について",
+                "title_long_prefix": "みんな、こんにちは...",
+                "title_long": "マイケル・{{オズカン}}です！"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A tiny bit}} about me..."}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/article-text-image-home.png",
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{Mobile Developer}} with a knack for turning ideas into sleek, responsive, and high-performing apps. I specialize in building with [[Flutter]] and [[React Native]], with solid experience in [[native iOS]] (Swift) and [[Android]] (Kotlin) development when needed.</p><p>I’ve worked on everything from <em>quirky indie apps</em> to enterprise-level mobile solutions, handling UI/UX implementation, API integration, state management, and app store deployment.</p><p>I’m passionate about crafting user-friendly experiences that <strong>fit right in your pocket</strong>, and I can’t wait to help bring your next mobile idea to life!</p>"
+                        },
+                        "tr": {
+                            "text": "<p>Ben, fikirleri şık, duyarlı ve yüksek performanslı uygulamalara dönüştürme konusunda yetenekli bir {{Mobil Geliştirici}}yim. [[Flutter]] ve [[React Native]] ile uygulama geliştirmede uzmanım, gerektiğinde [[native iOS]] (Swift) ve [[Android]] (Kotlin) geliştirme konusunda da sağlam deneyimim var.</p><p>Her şeyden <em>garip bağımsız uygulamalar</em>dan kurumsal düzeyde mobil çözümlere kadar her şeyde çalıştım, UI/UX uygulaması, API entegrasyonu, durum yönetimi ve uygulama mağazası dağıtımı gibi konuları ele aldım.</p><p>Kullanıcı dostu deneyimler oluşturma konusunda tutkuluyum ve <strong>cebinize tam oturan</strong> bir sonraki mobil fikrinizi hayata geçirmeye yardımcı olmak için sabırsızlanıyorum!</p>"
+                        },
+                        "sv": {
+                            "text": "<p>Jag är en {{Mobilutvecklare}} med en talang för att förvandla idéer till eleganta, responsiva och högpresterande appar. Jag specialiserar mig på att bygga med [[Flutter]] och [[React Native]], med gedigen erfarenhet av [[native iOS]] (Swift) och [[Android]] (Kotlin) utveckling när det behövs.</p><p>Jag har arbetat med allt från <em>quirky indie-appar</em> till företagsnivå mobila lösningar, hanterat UI/UX-implementering, API-integration, tillståndshantering och appbutiksdistribution.</p><p>Jag brinner för att skapa användarvänliga upplevelser som <strong>passar perfekt i fickan</strong>, och jag ser fram emot att hjälpa till att förverkliga din nästa mobila idé!</p>"
+                        },
+                        "ja": {
+                            "text": "<p>私は、アイデアを洗練された、レスポンシブで高性能なアプリに変える才能を持つ{{モバイル開発者}}です。[[Flutter]]と[[React Native]]での開発を専門としており、必要に応じて[[native iOS]]（Swift）や[[Android]]（Kotlin）の開発にも豊富な経験があります。</p><p>私は、<em>ユニークなインディアプリ</em>からエンタープライズレベルのモバイルソリューションまで、UI/UXの実装、API統合、状態管理、アプリストアへの配信など、幅広いプロジェクトに取り組んできました。</p><p>私は、ユーザーフレンドリーな体験を作り出すことに情熱を注いでおり、<strong>あなたのポケットにぴったり合う</strong>次のモバイルアイデアを実現するお手伝いができることを楽しみにしています！</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "locales": {
+                "en": {"title": "What {{I do}}"}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-apple",
+                    "locales": {
+                        "en": {
+                            "title": "{{iOS}} Development",
+                            "text": "I can develop native iOS apps using the latest Swift features and UIKit or SwiftUI."
+                        },
+                        "tr": {
+                            "title": "{{iOS}} Geliştirme",
+                            "text": "iOS uygulamalarını en son Swift özelliklerini ve UIKit veya SwiftUI'yi kullanarak geliştirebilirim."
+                        },
+                        "sv": {
+                            "title": "{{iOS}} Utveckling",
+                            "text": "Jag kan utveckla inhemska iOS-appar med de senaste Swift-funktionerna och UIKit eller SwiftUI."
+                        },
+                        "ja": {
+                            "title": "{{iOS}}開発",
+                            "text": "最新のSwift機能とUIKitまたはSwiftUIを使用して、ネイティブiOSアプリを開発できます。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-android",
+                    "locales": {
+                        "en": {
+                            "title": "{{Android}} Development",
+                            "text": "I can develop native Android apps using the most modern Kotlin features and Jetpack Compose."
+                        },
+                        "tr": {
+                            "title": "{{Android}} Geliştirme",
+                            "text": "En modern Kotlin özelliklerini ve Jetpack Compose'u kullanarak yerel Android uygulamaları geliştirebilirim."
+                        },
+                        "sv": {
+                            "title": "{{Android}} Utveckling",
+                            "text": "Jag kan utveckla inhemska Android-appar med de mest moderna Kotlin-funktionerna och Jetpack Compose."
+                        },
+                        "ja": {
+                            "title": "{{Android}}開発",
+                            "text": "最新のKotlin機能とJetpack Composeを使用して、ネイティブAndroidアプリを開発できます。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-react",
+                    "locales": {
+                        "en": {
+                            "title": "{{React Native}} Development",
+                            "text": "I can build cross-platform apps using React Native, especially with TypeScript."
+                        },
+                        "tr": {
+                            "title": "{{React Native}} Geliştirme",
+                            "text": "React Native kullanarak, özellikle TypeScript ile, çapraz platform uygulamaları geliştirebilirim."
+                        },
+                        "sv": {
+                            "title": "{{React Native}} Utveckling",
+                            "text": "Jag kan bygga plattformsoberoende appar med React Native, särskilt med TypeScript."
+                        },
+                        "ja": {
+                            "title": "{{React Native}}開発",
+                            "text": "React Nativeを使用して、特にTypeScriptを使用してクロスプラットフォームアプリを構築できます。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-flutter",
+                    "locales": {
+                        "en": {
+                            "title": "{{Flutter}} Development",
+                            "text": "I can build cross-platform apps using Flutter. I'm a huge devotee of Dart and Flutter's ecosystem."
+                        },
+                        "tr": {
+                            "title": "{{Flutter}} Geliştirme",
+                            "text": "Flutter kullanarak çapraz platform uygulamaları geliştirebilirim."
+                        },
+                        "sv": {
+                            "title": "{{Flutter}} Utveckling",
+                            "text": "Jag kan bygga plattformsoberoende appar med Flutter. Jag är en stor beundrare av Dart och Flutters ekosystem."
+                        },
+                        "ja": {
+                            "title": "{{Flutter}}開発",
+                            "text": "Flutterを使用してクロスプラットフォームアプリを構築できます。DartとFlutterのエコシステムの大ファンです。"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-code",
+                    "locales": {
+                        "en": {
+                            "title": "{{API}} Integration",
+                            "text": "I can integrate your app with RESTful APIs, Firebase or GraphQL."
+                        },
+                        "tr": {
+                            "title": "{{API}} Entegrasyonu",
+                            "text": "Uygulamanızı RESTful API'ler, Firebase veya GraphQL ile entegre edebilirim."
+                        },
+                        "sv": {
+                            "title": "{{API}} Integration",
+                            "text": "Jag kan integrera din app med RESTful API:er, Firebase eller GraphQL."
+                        },
+                        "ja": {
+                            "title": "{{API}}統合",
+                            "text": "アプリをRESTful API、Firebase、またはGraphQLと統合できます。"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-cogs",
+                    "locales": {
+                        "en": {
+                            "title": "{{State}} Management",
+                            "text": "I can implement state management solutions like Redux, MobX, or Provider."
+                        },
+                        "tr": {
+                            "title": "{{State}} Yönetimi",
+                            "text": "Durum yönetimi çözümlerini Redux, MobX veya Provider gibi uygulayabilirim."
+                        },
+                        "sv": {
+                            "title": "{{State}} Management",
+                            "text": "Jag kan implementera tillståndshanteringslösningar som Redux, MobX eller Provider."
+                        },
+                        "ja": {
+                            "title": "{{状態}}管理",
+                            "text": "状態管理ソリューションをRedux、MobX、またはProviderのように実装できます。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

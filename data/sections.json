@@ -1,0 +1,10 @@
+{
+    "sections": [
+        {
+            "id": "home",
+            "categoryId": "profile",
+            "jsonPath": "/data/sections/home.json",
+            "faIcon": "fa-regular fa-address-card"
+        }
+    ]
+}
