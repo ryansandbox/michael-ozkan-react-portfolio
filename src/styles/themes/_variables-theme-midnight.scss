@@ -50,16 +50,16 @@ $scrollbar-thumb: #212e3b;
         /** TEXTS (INVERTED): **/           $texts-inverted,
 
         // Nav
-        /** NAV MOBILE BG: **/              $base-container-bg-accent,
+        /** NAV MOBILE BG: **/              #0a1120,
         /** NAV MOBILE: **/                 $texts,
-        /** NAV MOBILE BORDER: **/          rgba(white, 0.05),
+        /** NAV MOBILE BORDER: **/          $borders,
 
-        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
+        /** NAV MOBILE HOVER BG: **/        #0a1120,
         /** NAV MOBILE HOVER: **/           $primary,
 
-        /** NAV MOBILE SELECTED BG: **/     $primary,
-        /** NAV MOBILE SELECTED: **/        $texts-inverted,
-        /** NAV MOBILE SELECTED BORDER: **/ rgba(white, 0.15),
+        /** NAV MOBILE SELECTED BG: **/     $borders,
+        /** NAV MOBILE SELECTED: **/        $primary,
+        /** NAV MOBILE SELECTED BORDER: **/ $primary,
 
         // Main Layout Elements...
         /** SECTION BG: **/                 $base-container-bg,

@@ -13,28 +13,28 @@
             "localized_name_stylized": "<strong>Michael {{Özkan}}</strong>",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "I make iOS apps",
-                "I make Android apps",
-                "I make cross-platform apps",
-                "I make Flutter apps"
+                "iOS Developer",
+                "Android Developer",
+                "Flutter Developer",
+                "Cross-Platform Developer"
             ]
         },
         "tr": {
             "status_message_available_for_freelance": "Freelance için müsaitim!",
             "roles": [
-                "iOS uygulamaları",
-                "Android uygulamaları",
-                "Cross-platform uygulamaları",
-                "Flutter uygulamaları"
+                "iOS Geliştirici",
+                "Android Geliştirici",
+                "Flutter Geliştirici",
+                "Cross-Platform Geliştirici"
             ]
         },
         "sv": {
             "status_message_available_for_freelance": "Tillgänglig för frilansarbete!",
             "roles": [
-                "Jag gör iOS-appar",
-                "Jag gör Android-appar",
-                "Jag gör plattformsoberoende appar",
-                "Jag gör Flutter-appar"
+                "iOS-utvecklare",
+                "Android-utvecklare",
+                "Flutter-utvecklare",
+                "Cross-Platform-utvecklare"
             ]
         },
         "ja": {
@@ -42,15 +42,11 @@
             "localized_name_stylized": "<strong>マイケル ・ {{オズカン}}</strong>",
             "status_message_available_for_freelance": "フリーランスの仕事を受け付けています！",
             "roles": [
-                "iOSアプリを作ります",
-                "Androidアプリを作ります",
-                "クロスプラットフォームアプリを作ります",
-                "Flutterアプリを作ります"
+                "iOS開発者",
+                "Android開発者",
+                "Flutter開発者",
+                "クロスプラットフォーム開発者"
             ]
         }
-    },
-
-    "imagesToCache": [
-        "images/content/pfp-dark.png"
-    ]
+    }
 }

@@ -1,6 +1,6 @@
 {
     "developerSettings": {
-        "debugMode": true,
+        "debugMode": false,
         "fakeEmailRequests": false,
         "stayOnThePreloaderScreen": false,
         "version": "1.0.0"
@@ -84,5 +84,9 @@
         }
     ],
 
-    "imagesToCache": []
+    "imagesToCache": [
+        "images/content/pfp-dark.png",
+        "images/content/pfp-light.png",
+        "images/content/pfp-midnight.png"
+    ]
 }
