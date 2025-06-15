@@ -91,17 +91,17 @@ Each item of the `ArticleTimeline` article represents a single event or mileston
 
 ### ⚡ Item Static Fields
 
-| Property               | Type               | Required? | Description                                                                                                                    |
-|------------------------|--------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------|
-| `id`                   | NUMBER             | REQUIRED  | A unique ID for the item within the article.                                                                                   |
-| `img`                  | STRING (URL)       | OPTIONAL  | Path to the image shown in the avatar. Must be relative to `public/`. If not provided, the article falls back to the `faIcon`. |
-| `faIcon`               | STRING             | OPTIONAL  | A [Font Awesome](https://fontawesome.com/search?ic=free) icon used as a fallback if no image is specified.                     |
-| `faIcon.bg`            | STRING (HEX COLOR) | OPTIONAL  | Custom background color for the `faIcon`. Defaults to the theme dark color.                                                    |
-| `faIcon.bgLight`       | STRING (HEX COLOR) | OPTIONAL  | Custom background color for the `faIcon` in light themes. Defaults to theme dark color.                                        |
-| `faIcon.fill`          | STRING (HEX COLOR) | OPTIONAL  | Custom `faIcon` fill color for dark themes. Defaults to the current theme's text color.                                        |
-| `faIcon.fillLight`     | STRING (HEX COLOR) | OPTIONAL  | Custom `faIcon` fill color for light themes. Defaults to the current theme's text color.                                       |
-| `dateStart`            | OBJECT             | REQUIRED  | Start date of the item. Must contain `year` and `month`.                                                                       |
-| `dateEnd`              | OBJECT             | REQUIRED  | End date of the item. Must contain `year` and `month`. You can also use `{ "now": true }` for ongoing items.                   |
+| Property               | Type               | Required? | Description                                                                                                                                                                                      |
+|------------------------|--------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `id`                   | NUMBER             | REQUIRED  | A unique ID for the item within the article.                                                                                                                                                     |
+| `img`                  | STRING (URL)       | OPTIONAL  | Path to the image shown in the avatar. Must be relative to `public/`. If not provided, the article falls back to the `faIcon`.                                                                   |
+| `faIcon`               | STRING             | OPTIONAL  | A [Font Awesome](https://fontawesome.com/search?ic=free) icon used as a fallback if no image is specified (now supporting [PrimeIcons](https://www.primefaces.org/diamond/icons.xhtml) as well!) |
+| `faIcon.bg`            | STRING (HEX COLOR) | OPTIONAL  | Custom background color for the `faIcon`. Defaults to the theme dark color.                                                                                                                      |
+| `faIcon.bgLight`       | STRING (HEX COLOR) | OPTIONAL  | Custom background color for the `faIcon` in light themes. Defaults to theme dark color.                                                                                                          |
+| `faIcon.fill`          | STRING (HEX COLOR) | OPTIONAL  | Custom `faIcon` fill color for dark themes. Defaults to the current theme's text color.                                                                                                          |
+| `faIcon.fillLight`     | STRING (HEX COLOR) | OPTIONAL  | Custom `faIcon` fill color for light themes. Defaults to the current theme's text color.                                                                                                         |
+| `dateStart`            | OBJECT             | REQUIRED  | Start date of the item. Must contain `year` and `month`.                                                                                                                                         |
+| `dateEnd`              | OBJECT             | REQUIRED  | End date of the item. Must contain `year` and `month`. You can also use `{ "now": true }` for ongoing items.                                                                                     |
 
 ### 🌐 Item Locales Fields
 

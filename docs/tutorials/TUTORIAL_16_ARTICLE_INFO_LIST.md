@@ -82,17 +82,17 @@ Each item of the `ArticleInfoList` article represents a piece of information tha
 
 ### ⚡ Item Static Fields
 
-| Property                | Type               | Required?   | Description                                                                              |
-|-------------------------|--------------------|-------------|------------------------------------------------------------------------------------------|
-| `id`                    | NUMBER             | REQUIRED    | A unique ID for the item within the article.                                             |
-| `faIcon`                | STRING             | RECOMMENDED | A [Font Awesome](https://fontawesome.com/search?ic=free) icon.                           |
-| `faIcon.bg`             | STRING (HEX COLOR) | OPTIONAL    | Custom background color for the `faIcon`. Defaults to the theme dark color.              |
-| `faIcon.bgLight`        | STRING (HEX COLOR) | OPTIONAL    | Custom background color for the `faIcon` in light themes. Defaults to theme dark color.  |
-| `faIcon.fill`           | STRING (HEX COLOR) | OPTIONAL    | Custom `faIcon` fill color for dark themes. Defaults to the current theme's text color.  |
-| `faIcon.fillLight`      | STRING (HEX COLOR) | OPTIONAL    | Custom `faIcon` fill color for light themes. Defaults to the current theme's text color. |
-| `label`                 | STRING             | OPTIONAL    | The label for the item link (if provided).                                               | 
-| `link.href`             | STRING             | OPTIONAL    | The destination URL if the item is clickable.                                            |
-| `link.tooltipString`    | STRING             | OPTIONAL    | A key from `strings.json` to show as a tooltip when hovering the item.                   |
+| Property                | Type               | Required?   | Description                                                                                                                                          |
+|-------------------------|--------------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `id`                    | NUMBER             | REQUIRED    | A unique ID for the item within the article.                                                                                                         |
+| `faIcon`                | STRING             | RECOMMENDED | A [Font Awesome](https://fontawesome.com/search?ic=free) icon (now supporting [PrimeIcons](https://www.primefaces.org/diamond/icons.xhtml) as well!) |
+| `faIcon.bg`             | STRING (HEX COLOR) | OPTIONAL    | Custom background color for the `faIcon`. Defaults to the theme dark color.                                                                          |
+| `faIcon.bgLight`        | STRING (HEX COLOR) | OPTIONAL    | Custom background color for the `faIcon` in light themes. Defaults to theme dark color.                                                              |
+| `faIcon.fill`           | STRING (HEX COLOR) | OPTIONAL    | Custom `faIcon` fill color for dark themes. Defaults to the current theme's text color.                                                              |
+| `faIcon.fillLight`      | STRING (HEX COLOR) | OPTIONAL    | Custom `faIcon` fill color for light themes. Defaults to the current theme's text color.                                                             |
+| `label`                 | STRING             | OPTIONAL    | The label for the item link (if provided).                                                                                                           | 
+| `link.href`             | STRING             | OPTIONAL    | The destination URL if the item is clickable.                                                                                                        |
+| `link.tooltipString`    | STRING             | OPTIONAL    | A key from `strings.json` to show as a tooltip when hovering the item.                                                                               |
 
 ### 🌐 Item Locales Fields
 

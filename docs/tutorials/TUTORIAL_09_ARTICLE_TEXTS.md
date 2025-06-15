@@ -65,14 +65,14 @@ Each item of the `ArticleText` article represents a block of text that can have 
 
 ### ⚡ Item Static Fields
 
-| Property           | Type                 | Required?     | Description                                                                                                                                                        |
-|--------------------|----------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `id`               | NUMBER               | REQUIRED      | A unique ID for the item within the article.                                                                                                                       |
-| `img`              | STRING (URL)         | RECOMMENDED   | Path to the image shown next to the text. Must be relative to `public/`. If not provided, the article falls back to the `faIcon`. Recommended size: 800px x 660px. |
-| `faIcon`           | STRING               | OPTIONAL      | A [Font Awesome](https://fontawesome.com/search?ic=free) icon used as a fallback if no image is specified.                                                         |
-| `faIcon.bg`        | STRING (HEX COLOR)   | OPTIONAL      | Custom background color for the `faIcon`. Defaults to transparent.                                                                                                 |
-| `faIcon.fill`      | STRING (HEX COLOR)   | OPTIONAL      | Custom `faIcon` fill color for dark themes. Defaults to the current theme's text color.                                                                            |
-| `faIcon.fillLight` | STRING (HEX COLOR)   | OPTIONAL      | Custom `faIcon` fill color for light themes. Defaults to the current theme's text color.                                                                           |
+| Property           | Type                 | Required?     | Description                                                                                                                                                                                       |
+|--------------------|----------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `id`               | NUMBER               | REQUIRED      | A unique ID for the item within the article.                                                                                                                                                      |
+| `img`              | STRING (URL)         | RECOMMENDED   | Path to the image shown next to the text. Must be relative to `public/`. If not provided, the article falls back to the `faIcon`. Recommended size: 800px x 660px.                                |
+| `faIcon`           | STRING               | OPTIONAL      | A [Font Awesome](https://fontawesome.com/search?ic=free) icon used as a fallback if no image is specified (now supporting [PrimeIcons](https://www.primefaces.org/diamond/icons.xhtml) as well!)  |
+| `faIcon.bg`        | STRING (HEX COLOR)   | OPTIONAL      | Custom background color for the `faIcon`. Defaults to transparent.                                                                                                                                |
+| `faIcon.fill`      | STRING (HEX COLOR)   | OPTIONAL      | Custom `faIcon` fill color for dark themes. Defaults to the current theme's text color.                                                                                                           |
+| `faIcon.fillLight` | STRING (HEX COLOR)   | OPTIONAL      | Custom `faIcon` fill color for light themes. Defaults to the current theme's text color.                                                                                                          |
 
 
 ### 🌐 Item Locales Fields

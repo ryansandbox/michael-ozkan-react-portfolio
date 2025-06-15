@@ -61,13 +61,13 @@ Each item of the `ArticleInlineList` article represents a list item that can be 
 
 ### ⚡ Item Static Fields
 
-| Property             | Type   | Required?   | Description                                                                                                                                              |
-|----------------------|--------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `id`                 | NUMBER | REQUIRED    | A unique ID for the item within the article.                                                                                                             |
-| `label`              | STRING | REQUIRED    | The value shown for the item (e.g. "email@email.com"). If you need to localize this value, you can also place the label field inside the locales object. |
-| `link.href`          | STRING | OPTIONAL    | The destination URL if the item is clickable.                                                                                                            |
-| `link.tooltipString` | STRING | OPTIONAL    | A key from `strings.json` to show as a tooltip when hovering the item.                                                                                   |
-| `faIcon`             | STRING | OPTIONAL    | A [Font Awesome](https://fontawesome.com/search?ic=free) icon code to display before the label.                                                          |
+| Property             | Type   | Required?   | Description                                                                                                                                                                           |
+|----------------------|--------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `id`                 | NUMBER | REQUIRED    | A unique ID for the item within the article.                                                                                                                                          |
+| `label`              | STRING | REQUIRED    | The value shown for the item (e.g. "email@email.com"). If you need to localize this value, you can also place the label field inside the locales object.                              |
+| `link.href`          | STRING | OPTIONAL    | The destination URL if the item is clickable.                                                                                                                                         |
+| `link.tooltipString` | STRING | OPTIONAL    | A key from `strings.json` to show as a tooltip when hovering the item.                                                                                                                |
+| `faIcon`             | STRING | OPTIONAL    | A [Font Awesome](https://fontawesome.com/search?ic=free) icon code to display before the label (now supporting [PrimeIcons](https://www.primefaces.org/diamond/icons.xhtml) as well!) |
 
 
 ## Next Steps
