@@ -51,35 +51,35 @@
     "supportedThemes": [
         {
             "id": "dark",
-            "icon": "fa-solid fa-bolt-lightning",
+            "icon": "fa-solid fa-moon",
             "dark": true,
             "locales": {
-                "en": {"name": "Electric Noir Theme"},
-                "tr": {"name": "Elektrik Noir Teması"},
-                "sv": {"name": "Elektrisk Noir Tema"},
-                "ja": {"name": "エレクトリックノワールテーマ"}
+                "en": {"name": "Dark Theme"},
+                "tr": {"name": "Karanlık Tema"},
+                "sv": {"name": "Mörkt Tema"},
+                "ja": {"name": "ダークテーマ"}
             }
         },
         {
             "id": "light",
-            "icon": "fa-solid fa-sun",
+            "icon": "fa-solid fa-snowflake",
             "dark": false,
             "locales": {
-                "en": {"name": "Morning Mist Theme"},
-                "tr": {"name": "Sabah Sis Teması"},
-                "sv": {"name": "Morgon Dimma Tema"},
-                "ja": {"name": "モーニングミステーマ"}
+                "en": {"name": "Light Theme"},
+                "tr": {"name": "Aydınlık Tema"},
+                "sv": {"name": "Ljust Tema"},
+                "ja": {"name": "ライトテーマ"}
             }
         },
         {
             "id": "midnight",
-            "icon": "fa-solid fa-moon",
+            "icon": "fa-solid fa-meteor",
             "dark": true,
             "locales": {
-                "en": {"name": "Midnight Blue Theme"},
-                "tr": {"name": "Gece Yarısı Mavisi Teması"},
-                "sv": {"name": "Midnattsblå Tema"},
-                "ja": {"name": "ミッドナイトブルーテーマ"}
+                "en": {"name": "Midnight Theme"},
+                "tr": {"name": "Gece Teması"},
+                "sv": {"name": "Midnattstema"},
+                "ja": {"name": "ミッドナイト"}
             }
         }
     ],

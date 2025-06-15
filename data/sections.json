@@ -5,6 +5,13 @@
             "categoryId": "profile",
             "jsonPath": "/data/sections/home.json",
             "faIcon": "fa-regular fa-address-card"
+        },
+
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/experience.json",
+            "faIcon": "fa-regular fa-paste"
         }
     ]
 }

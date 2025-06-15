@@ -1,0 +1,34 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "tr": {
+                "title_short": "Deneyim",
+                "title_short_nav": "Deneyim",
+                "title_long_prefix": "Benim",
+                "title_long": "{{İş Deneyimimin}} Özeti"
+            },
+            "sv": {
+                "title_short": "Erfarenhet",
+                "title_short_nav": "Erfarenhet",
+                "title_long_prefix": "Sammanfattning av min",
+                "title_long": "{{Arbetslivs}}erfarenhet"
+            },
+            "ja": {
+                "title_short": "経験",
+                "title_short_nav": "経験",
+                "title_long_prefix": "私の",
+                "title_long": "{{職務}}経験のまとめ"
+            }
+        }
+    },
+
+    "articles": [
+
+    ]
+}

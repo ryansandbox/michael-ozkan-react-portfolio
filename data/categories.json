@@ -9,6 +9,16 @@
                 "sv": {"title": "Profil"},
                 "ja": {"title": "プロフィール"}
             }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {"title": "History"},
+                "tr": {"title": "Geçmiş"},
+                "sv": {"title": "Historik"},
+                "ja": {"title": "履歴"}
+            }
         }
     ]
 }
