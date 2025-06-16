@@ -1,0 +1,311 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "tr": {
+                "title_short": "Eğitim",
+                "title_short_nav": "Eğitim",
+                "title_long_prefix": "Bu benim",
+                "title_long": "{{Eğitim}} Geçmişim"
+            },
+            "sv": {
+                "title_short": "Utbildning",
+                "title_short_nav": "Utbildning",
+                "title_long_prefix": "Det här är min",
+                "title_long": "{{Utbildnings}}bakgrund"
+            },
+            "ja": {
+                "title_short": "学歴",
+                "title_short_nav": "学歴",
+                "title_long_prefix": "私の",
+                "title_long": "{{学歴}}の概要"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_academic": "Academic",
+                    "category_courses": "Courses"
+                },
+                "tr": {
+                    "category_all": "Hepsi",
+                    "category_academic": "Akademik",
+                    "category_courses": "Kurslar"
+                },
+                "sv": {
+                    "category_all": "Alla",
+                    "category_academic": "Akademisk",
+                    "category_courses": "Kurser"
+                },
+                "ja": {
+                    "category_all": "すべて",
+                    "category_academic": "学術",
+                    "category_courses": "コース"
+                }
+            },
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc",
+                "categorize_by": ["category_academic", "category_courses"],
+                "max_rows_collapse_threshold": 9
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_academic",
+                    "date": {"year": 2015, "month": 6},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=Kp6QpPA_usM"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor in {{Computer Science}}",
+                            "province": "",
+                            "country": "US",
+                            "institution": "University of San Francisco",
+                            "text": "Earned a Bachelor of Science in Computer Science, specializing in [[Software Engineering]] and [[Data Science]]. Gained hands-on experience through multiple projects and internships, strengthening my programming skills and deepening my understanding of computer systems. In 2015, I was awarded [[Best Graduation Project]] for my research on UI/UX design for mobile devices."
+                        },
+                        "tr": {
+                            "title": "{{Bilgisayar Bilimleri}} Lisans",
+                            "province": "",
+                            "country": "ABD",
+                            "institution": "San Francisco Üniversitesi",
+                            "text": "Bilgisayar Bilimleri alanında Lisans Diploması aldım, [[Yazılım Mühendisliği]] ve [[Veri Bilimi]] üzerine uzmanlaştım. Birçok proje ve staj aracılığıyla pratik deneyim kazandım, programlama becerilerimi güçlendirdim ve bilgisayar sistemleri konusundaki anlayışımı derinleştirdim. 2015 yılında, mobil cihazlar için UI/UX tasarımı üzerine yaptığım araştırma ile [[En İyi Mezuniyet Projesi]] ödülünü kazandım."
+                        },
+                        "sv": {
+                            "title": "Kandidatexamen i {{Datavetenskap}}",
+                            "province": "",
+                            "country": "USA",
+                            "institution": "University of San Francisco",
+                            "text": "Avlade en kandidatexamen i datavetenskap med inriktning mot [[Programvaruteknik]] och [[Datavetenskap]]. Fick praktisk erfarenhet genom flera projekt och praktikplatser, vilket stärkte mina programmeringskunskaper och fördjupade min förståelse för datorsystem. År 2015 tilldelades jag [[Bästa examensarbete]] för min forskning om UI/UX-design för mobila enheter."
+                        },
+                        "ja": {
+                            "title": "{{コンピュータサイエンス}}の学士号",
+                            "province": "",
+                            "country": "アメリカ",
+                            "institution": "サンフランシスコ大学",
+                            "text": "コンピュータサイエンスの学士号を取得し、[[ソフトウェア工学]]と[[データサイエンス]]を専門としました。複数のプロジェクトとインターンシップを通じて実践的な経験を積み、プログラミングスキルを強化し、コンピュータシステムの理解を深めました。2015年には、モバイルデバイスのUI/UXデザインに関する研究で[[最優秀卒業プロジェクト]]賞を受賞しました。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_academic",
+                    "date": {"year": 2021, "month": 5},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "pdf/master-thesis.pdf",
+                                "tooltipString": "see_final_thesis",
+                                "faIcon": "fa-solid fa-file-pdf"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=l3SZUOuHptw"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Master in {{Mobile Computing}}",
+                            "province": "Stockholm",
+                            "country": "Sweden",
+                            "institution": "KTH Royal Institute of Technology",
+                            "text": "Earned an Associate Degree with a concentration in [[Mobile App Development]]. Focused on [[Android]] and [[iOS]] programming, learning the foundations of mobile UI design and cross-platform development. My final thesis involved creating a food delivery cross-platform mobile application using [[React Native]] using advanced features like [[Redux]] for state management and [[Firebase]] for backend services. This project was recognized as one of the top 5 in my class."
+                        },
+                        "tr": {
+                            "title": "{{Mobil Bilişim}} Yüksek Lisans",
+                            "province": "Stockholm",
+                            "country": "İsveç",
+                            "institution": "KTH Kraliyet Teknoloji Enstitüsü",
+                            "text": "Mobil Uygulama Geliştirme üzerine yoğunlaşarak [[Mobil Bilişim]] alanında Yüksek Lisans Diploması aldım. [[Android]] ve [[iOS]] programlamaya odaklandım, mobil UI tasarımının temellerini ve çapraz platform geliştirmeyi öğrendim. Final tez projem, [[React Native]] kullanarak bir gıda teslimat çapraz platform mobil uygulaması geliştirmeyi içeriyordu, gelişmiş özellikler olarak [[Redux]] ile durum yönetimi ve [[Firebase]] ile arka uç hizmetleri kullandım. Bu proje sınıfımdaki en iyi 5 projeden biri olarak tanındı."
+                        },
+                        "sv": {
+                            "title": "Master i {{Mobil databehandling}}",
+                            "province": "Stockholm",
+                            "country": "Sverige",
+                            "institution": "KTH Kungliga Tekniska Högskolan",
+                            "text": "Avlade en masterexamen med inriktning mot [[Mobil apputveckling]]. Fokuserade på [[Android]] och [[iOS]] programmering, lärde mig grunderna i mobil UI-design och plattformsoberoende utveckling. Mitt examensarbete involverade att skapa en plattformsoberoende mobilapplikation för matleverans med [[React Native]], där jag använde avancerade funktioner som [[Redux]] för tillståndshantering och [[Firebase]] för backend-tjänster. Detta projekt erkändes som ett av de 5 bästa i min klass."
+                        },
+                        "ja": {
+                            "title": "{{モバイルコンピューティング}}の修士号",
+                            "province": "ストックホルム",
+                            "country": "スウェーデン",
+                            "institution": "KTH王立工科大学",
+                            "text": "モバイルアプリ開発に焦点を当てた[[モバイルコンピューティング]]の修士号を取得しました。[[Android]]と[[iOS]]プログラミングに集中し、モバイルUIデザインとクロスプラットフォーム開発の基礎を学びました。最終論文では、[[React Native]]を使用して食品配達のクロスプラットフォームモバイルアプリケーションを作成し、状態管理には[[Redux]]、バックエンドサービスには[[Firebase]]を使用しました。このプロジェクトはクラスでトップ5に選ばれました。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_courses",
+                    "date": {"year": 2016, "month": 9},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.coursera.org/",
+                                "tooltipString": "see_course_details",
+                                "faIcon": "fa-solid fa-clipboard-list"
+                            },
+                            {
+                                "href": "https://res.cloudinary.com/certifier/image/upload/v1718876081/completion_certificate_templates_Certifier_blog_stylish_758c35f7ac.jpg",
+                                "tooltipString": "see_certification",
+                                "faIcon": "fa-solid fa-print"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Android App Development}} Specialization",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "Harvard University",
+                            "text": "Completed a specialization covering [[Android development]] using Java and Kotlin via Coursera. Learned to build responsive and performant apps following [[Material Design]] guidelines. Developed several projects, including a weather app and a task manager, to apply the concepts learned."
+                        },
+                        "tr": {
+                            "title": "{{Android Uygulama}} Geliştirme Uzmanlığı",
+                            "province": "",
+                            "country": "Çevrimiçi",
+                            "institution": "Harvard Üniversitesi",
+                            "text": "Coursera aracılığıyla Java ve Kotlin kullanarak [[Android geliştirme]] üzerine bir uzmanlık programını tamamladım. [[Material Design]] yönergelerini takip ederek duyarlı ve performanslı uygulamalar geliştirmeyi öğrendim. Öğrenilen kavramları uygulamak için hava durumu uygulaması ve görev yöneticisi gibi birkaç proje geliştirdim."
+                        },
+                        "sv": {
+                            "title": "Specialisering i {{Android apputveckling}}",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "Harvard University",
+                            "text": "Genomförde en specialisering som täcker [[Android-utveckling]] med Java och Kotlin via Coursera. Lärde mig att bygga responsiva och prestandaoptimerade appar enligt [[Material Design]]-riktlinjerna. Utvecklade flera projekt, inklusive en väderapp och en uppgiftshanterare, för att tillämpa de lärda koncepten."
+                        },
+                        "ja": {
+                            "title": "{{Androidアプリ開発}}の専門化",
+                            "province": "",
+                            "country": "オンライン",
+                            "institution": "ハーバード大学",
+                            "text": "Courseraを通じてJavaとKotlinを使用した[[Android開発]]の専門化を修了しました。[[Material Design]]ガイドラインに従って、応答性が高くパフォーマンスの良いアプリを構築する方法を学びました。学んだ概念を適用するために、天気アプリやタスクマネージャーなどのプロジェクトをいくつか開発しました。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_courses",
+                    "date": {"year": 2022, "month": 3},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.udemy.com/",
+                                "tooltipString": "see_course_details",
+                                "faIcon": "fa-solid fa-clipboard-list"
+                            },
+                            {
+                                "href": "https://res.cloudinary.com/certifier/image/upload/v1718876081/completion_certificate_templates_Certifier_blog_stylish_758c35f7ac.jpg",
+                                "tooltipString": "see_certification",
+                                "faIcon": "fa-solid fa-print"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{iOS App Development}} with Swift",
+                            "province": "",
+                            "country": "US",
+                            "institution": "University of Pittsburgh",
+                            "text": "Learned how to develop native [[iOS apps]] from scratch using Swift and Xcode. Covered topics like [[Core Data]], [[REST APIs]], and [[App Store deployment]]. Made a clone of the popular app [[Instagram]] as a final project."
+                        },
+                        "tr": {
+                            "title": "Swift ile {{iOS Uygulama Geliştirme}}",
+                            "province": "",
+                            "country": "ABD",
+                            "institution": "Pittsburgh Üniversitesi",
+                            "text": "Swift ve Xcode kullanarak sıfırdan yerel [[iOS uygulamaları]] geliştirmeyi öğrendim. [[Core Data]], [[REST API'ler]] ve [[App Store dağıtımı]] gibi konuları kapsadım. Final projesi olarak popüler [[Instagram]] uygulamasının bir klonunu yaptım."
+                        },
+                        "sv": {
+                            "title": "{{iOS Apputveckling}} med Swift",
+                            "province": "",
+                            "country": "USA",
+                            "institution": "University of Pittsburgh",
+                            "text": "Lärde mig att utveckla inhemska [[iOS-appar]] från grunden med Swift och Xcode. Behandlade ämnen som [[Core Data]], [[REST API:er]] och [[App Store-distribution]]. Gjorde en klon av den populära appen [[Instagram]] som ett slutprojekt."
+                        },
+                        "ja": {
+                            "title": "Swiftを使用した{{iOSアプリ開発}}",
+                            "province": "",
+                            "country": "アメリカ",
+                            "institution": "ピッツバーグ大学",
+                            "text": "SwiftとXcodeを使用して、ゼロからネイティブ[[iOSアプリ]]を開発する方法を学びました。[[Core Data]]、[[REST API]]、および[[App Storeの配布]]などのトピックをカバーしました。最終プロジェクトとして人気のアプリ[[Instagram]]のクローンを作成しました。"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_courses",
+                    "date": {"year": 2024, "month": 5},
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.coursera.org/",
+                                "tooltipString": "see_course_details",
+                                "faIcon": "fa-solid fa-clipboard-list"
+                            },
+                            {
+                                "href": "https://res.cloudinary.com/certifier/image/upload/v1718876081/completion_certificate_templates_Certifier_blog_stylish_758c35f7ac.jpg",
+                                "tooltipString": "see_certification",
+                                "faIcon": "fa-solid fa-print"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=a2g7Q8n9Li8"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Flutter & Dart}} – The Complete Guide",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "Udemy",
+                            "text": "Gained expertise in building cross-platform mobile apps using [[Flutter]] and [[Dart]]. Worked on several hands-on projects covering state management, animations, and performance optimization. Developed a complete [[e-commerce app]] as a capstone project (see video below), integrating payment gateways and real-time data synchronization."
+                        },
+                        "tr": {
+                            "title": "{{Flutter & Dart}} – Tam Kılavuz",
+                            "province": "",
+                            "country": "Çevrimiçi",
+                            "institution": "Udemy",
+                            "text": "[[Flutter]] ve [[Dart]] kullanarak çapraz platform mobil uygulamalar geliştirme konusunda uzmanlık kazandım. Durum yönetimi, animasyonlar ve performans optimizasyonunu kapsayan birkaç uygulamalı proje üzerinde çalıştım. Bir ödeme geçidi ve gerçek zamanlı veri senkronizasyonu entegre ederek tam bir [[e-ticaret uygulaması]] geliştirdim (aşağıdaki videoya bakın)."
+                        },
+                        "sv": {
+                            "title": "{{Flutter & Dart}} – Den kompletta guiden",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "Udemy",
+                            "text": "Fick expertis i att bygga plattformsoberoende mobilappar med [[Flutter]] och [[Dart]]. Arbetade med flera praktiska projekt som täcker tillståndshantering, animationer och prestandaoptimering. Utvecklade en komplett [[e-handelsapp]] som ett avslutande projekt (se videon nedan), där jag integrerade betalningsportaler och realtidsdatasynkronisering."
+                        },
+                        "ja": {
+                            "title": "{{Flutter & Dart}} – 完全ガイド",
+                            "province": "",
+                            "country": "オンライン",
+                            "institution": "Udemy",
+                            "text": "[[Flutter]]と[[Dart]]を使用してクロスプラットフォームのモバイルアプリを構築する専門知識を得ました。状態管理、アニメーション、パフォーマンス最適化をカバーするいくつかの実践的なプロジェクトに取り組みました。決済ゲートウェイとリアルタイムデータ同期を統合した完全な[[eコマースアプリ]]をキャップストーンプロジェクトとして開発しました（以下のビデオを参照）。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
