@@ -23,7 +23,7 @@
         "defaultLanguageId": "en",
         "defaultThemeId": "dark",
         "fullscreenEnabled": true,
-        "showSpinnerOnThemeChange": false
+        "showSpinnerOnThemeChange": true
     },
 
     "supportedLanguages": [

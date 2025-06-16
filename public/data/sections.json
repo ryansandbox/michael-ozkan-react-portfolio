@@ -11,7 +11,14 @@
             "id": "experience",
             "categoryId": "background",
             "jsonPath": "/data/sections/experience.json",
-            "faIcon": "fa-regular fa-paste"
+            "faIcon": "pi pi-briefcase"
+        },
+
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/education.json",
+            "faIcon": "pi pi-graduation-cap"
         }
     ]
 }
