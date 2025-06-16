@@ -250,7 +250,11 @@
                     "id": 2,
                     "date": {"year": 2023, "month": 6},
                     "preview": {
-                        "links": [],
+                        "links": [{
+                            "href": "https://www.youtube.com/@jomakaze",
+                            "tooltipString": "open_website",
+                            "faIcon": "fa-solid fa-eye"
+                        }],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": "https://www.youtube.com/watch?v=oFCy3vEIAQk"
