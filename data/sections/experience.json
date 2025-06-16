@@ -29,6 +29,271 @@
     },
 
     "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-twitch",
+                    "faIconColors": {"bgLight":"#1b506e", "fill": "white"},
+                    "dateStart": {"year": 2013, "month": 3},
+                    "dateEnd": {"year": 2017, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "{{Mobile}} Junior Developer",
+                            "province": "San Francisco",
+                            "country": "California",
+                            "institution": "Twitch",
+                            "text": "As a Mobile Developer at Twitch, I was responsible for [[developing and maintaining]] the Twitch mobile application. My role involved:",
+                            "list": [
+                                "Developing new features for the Twitch mobile app.",
+                                "Collaborating with designers and product managers to create user-friendly interfaces.",
+                                "Optimizing app performance and ensuring a smooth user experience."
+                            ],
+                            "tags": ["Flutter", "Swift", "Kotlin", "JavaScript", "Webview"]
+                        },
+                        "tr": {
+                            "title": "{{Mobil}} Genç Geliştirici",
+                            "province": "San Francisco",
+                            "country": "Kaliforniya",
+                            "institution": "Twitch",
+                            "text": "Twitch'te Mobil Geliştirici olarak, Twitch mobil uygulamasının [[geliştirilmesi ve bakımı]] ile sorumluydum. Rolüm şunları içeriyordu:",
+                            "list": [
+                                "Twitch mobil uygulaması için yeni özellikler geliştirmek.",
+                                "Kullanıcı dostu arayüzler oluşturmak için tasarımcılar ve ürün yöneticileriyle işbirliği yapmak.",
+                                "Uygulama performansını optimize etmek ve sorunsuz bir kullanıcı deneyimi sağlamak."
+                            ],
+                            "tags": ["Flutter", "Swift", "Kotlin", "JavaScript", "Webview"]
+                        },
+                        "sv": {
+                            "title": "{{Mobil}} Junior Utvecklare",
+                            "province": "San Francisco",
+                            "country": "Kalifornien",
+                            "institution": "Twitch",
+                            "text": "Som Mobil Utvecklare på Twitch var jag ansvarig för [[utveckling och underhåll]] av Twitch mobilapplikationen. Min roll involverade:",
+                            "list": [
+                                "Utveckla nya funktioner för Twitch mobilapp.",
+                                "Samarbeta med designers och produktchefer för att skapa användarvänliga gränssnitt.",
+                                "Optimera appens prestanda och säkerställa en smidig användarupplevelse."
+                            ],
+                            "tags": ["Flutter", "Swift", "Kotlin", "JavaScript", "Webview"]
+                        },
+                        "ja": {
+                            "title": "{{モバイル}} ジュニア開発者",
+                            "province": "サンフランシスコ",
+                            "country": "カリフォルニア州",
+                            "institution": "Twitch",
+                            "text": "Twitchのモバイル開発者として、Twitchモバイルアプリケーションの[[開発と保守]]を担当していました。私の役割は以下を含んでいました:",
+                            "list": [
+                                "Twitchモバイルアプリの新機能の開発。",
+                                "デザイナーやプロダクトマネージャーと協力してユーザーフレンドリーなインターフェースを作成。",
+                                "アプリのパフォーマンスを最適化し、スムーズなユーザー体験を確保。"
+                            ],
+                            "tags": ["Flutter", "Swift", "Kotlin", "JavaScript", "Webview"]
+                        }
+                    }
+                },
 
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-spotify",
+                    "faIconColors": {"bgLight":"#1b506e", "fill": "white"},
+                    "dateStart": {"year": 2017, "month": 7},
+                    "dateEnd": {"year": 2020, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "{{Mobile}} Engineer",
+                            "province": "Stockholm",
+                            "country": "Sweden",
+                            "institution": "Spotify",
+                            "text": "At Spotify, I worked as a Mobile Engineer, focusing on [[enhancing the mobile streaming experience]]. Key responsibilities included:",
+                            "list": [
+                                "Building and optimizing music playback features for Android and iOS.",
+                                "Working closely with backend teams to integrate APIs efficiently.",
+                                "Improving offline listening performance and app stability."
+                            ],
+                            "tags": ["Swift", "Kotlin", "React Native"]
+                        },
+                        "tr": {
+                            "title": "{{Mobil}} Mühendis",
+                            "province": "Stockholm",
+                            "country": "İsveç",
+                            "institution": "Spotify",
+                            "text": "Spotify'da Mobil Mühendis olarak, [[mobil akış deneyimini geliştirmeye]] odaklandım. Ana sorumluluklar şunlardı:",
+                            "list": [
+                                "Android ve iOS için müzik oynatma özelliklerini oluşturmak ve optimize etmek.",
+                                "API'leri verimli bir şekilde entegre etmek için arka uç ekipleriyle yakın çalışmak.",
+                                "Çevrimdışı dinleme performansını ve uygulama kararlılığını artırmak."
+                            ],
+                            "tags": ["Swift", "Kotlin", "React Native"]
+                        },
+                        "sv": {
+                            "title": "{{Mobil}} Ingenjör",
+                            "province": "Stockholm",
+                            "country": "Sverige",
+                            "institution": "Spotify",
+                            "text": "På Spotify arbetade jag som Mobil Ingenjör, med fokus på [[att förbättra mobilströmningserfarenheten]]. Huvudsakliga ansvarsområden inkluderade:",
+                            "list": [
+                                "Bygga och optimera musikuppspelningsfunktioner för Android och iOS.",
+                                "Arbeta nära backend-team för att effektivt integrera API:er.",
+                                "Förbättra offline-lyssningsprestanda och app-stabilitet."
+                            ],
+                            "tags": ["Swift", "Kotlin", "React Native"]
+                        },
+                        "ja": {
+                            "title": "{{モバイル}} エンジニア",
+                            "province": "ストックホルム",
+                            "country": "スウェーデン",
+                            "institution": "Spotify",
+                            "text": "Spotifyでは、モバイルエンジニアとして、[[モバイルストリーミング体験の向上]]に焦点を当てていました。主な責任は以下の通りです:",
+                            "list": [
+                                "AndroidおよびiOS向けの音楽再生機能の構築と最適化。",
+                                "バックエンドチームと密接に連携してAPIを効率的に統合。",
+                                "オフラインリスニングのパフォーマンスとアプリの安定性を向上。"
+                            ],
+                            "tags": ["Swift", "Kotlin", "React Native"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-airbnb",
+                    "faIconColors": {"bgLight":"#1b506e", "fill": "white"},
+                    "dateStart": {"year": 2020, "month": 2},
+                    "dateEnd": {"year": 2025, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "{{iOS}} Engineer",
+                            "province": "San Francisco",
+                            "country": "California",
+                            "institution": "Airbnb",
+                            "text": "As an iOS Engineer at Airbnb, I contributed to [[developing mobile features for travelers and hosts]]. My work focused on:",
+                            "list": [
+                                "Implementing booking flows and in-app messaging.",
+                                "Improving app performance and load times/",
+                                "Conducting A/B testing to optimize mobile UI/UX/",
+                                "Porting Objective-C code to Swift."
+                            ],
+                            "tags": ["Swift", "Objective-C", "SwiftUI", "Combine"]
+                        },
+                        "tr": {
+                            "title": "{{iOS}} Mühendis",
+                            "province": "San Francisco",
+                            "country": "Kaliforniya",
+                            "institution": "Airbnb",
+                            "text": "Airbnb'de iOS Mühendisi olarak, [[seyahat edenler ve ev sahipleri için mobil özelliklerin geliştirilmesine]] katkıda bulundum. Çalışmam şunlara odaklandı:",
+                            "list": [
+                                "Rezervasyon akışlarını ve uygulama içi mesajlaşmayı uygulamak.",
+                                "Uygulama performansını ve yükleme sürelerini iyileştirmek.",
+                                "Mobil UI/UX'i optimize etmek için A/B testleri yapmak.",
+                                "Objective-C kodunu Swift'e taşımak."
+                            ],
+                            "tags": ["Swift", "Objective-C", "SwiftUI", "Combine"]
+                        },
+                        "sv": {
+                            "title": "{{iOS}} Ingenjör",
+                            "province": "San Francisco",
+                            "country": "Kalifornien",
+                            "institution": "Airbnb",
+                            "text": "Som iOS Ingenjör på Airbnb bidrog jag till [[utveckling av mobila funktioner för resenärer och värdar]]. Mitt arbete fokuserade på:",
+                            "list": [
+                                "Implementera bokningsflöden och in-app-meddelanden.",
+                                "Förbättra appens prestanda och laddningstider.",
+                                "Genomföra A/B-testning för att optimera mobil UI/UX.",
+                                "Portera Objective-C-kod till Swift."
+                            ],
+                            "tags": ["Swift", "Objective-C", "SwiftUI", "Combine"]
+                        },
+                        "ja": {
+                            "title": "{{iOS}} エンジニア",
+                            "province": "サンフランシスコ",
+                            "country": "カリフォルニア州",
+                            "institution": "Airbnb",
+                            "text": "AirbnbのiOSエンジニアとして、[[旅行者とホスト向けのモバイル機能の開発]]に貢献しました。私の仕事は以下に焦点を当てていました:",
+                            "list": [
+                                "予約フローとアプリ内メッセージングの実装。",
+                                "アプリのパフォーマンスと読み込み時間の改善。",
+                                "モバイルUI/UXを最適化するためのA/Bテストの実施。",
+                                "Objective-CコードをSwiftに移植。"
+                            ],
+                            "tags": ["Swift", "Objective-C", "SwiftUI", "Combine"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-discord",
+                    "faIconColors": {"bgLight": "#1b506e", "fill": "white"},
+                    "dateStart": {"year": 2025, "month": 5},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Senior Mobile}} Developer",
+                            "province": "Pittsburgh",
+                            "country": "Pennsylvania",
+                            "institution": "Discord",
+                            "text": "At Discord, I currently serve as a Senior Mobile Developer, leading efforts to [[improve the language learning experience on mobile devices]]. My main contributions include:",
+                            "list": [
+                                "Developing new learning modules and gamified features.",
+                                "Leading mobile performance optimization initiatives.",
+                                "Mentoring junior developers and conducting code reviews.",
+                                "Enhancing the app's accessibility features to reach a wider audience."
+                            ],
+                            "tags": ["Flutter", "SwiftUI", "Kotlin", "Flutter"]
+                        },
+                        "tr": {
+                            "title": "{{Kıdemli Mobil}} Geliştirici",
+                            "province": "Pittsburgh",
+                            "country": "Pennsylvania",
+                            "institution": "Discord",
+                            "text": "Discord'da şu anda Kıdemli Mobil Geliştirici olarak görev yapıyorum, [[mobil cihazlarda dil öğrenme deneyimini geliştirmeye]] yönelik çabalara liderlik ediyorum. Ana katkılarım şunları içeriyor:",
+                            "list": [
+                                "Yeni öğrenme modülleri ve oyunlaştırılmış özellikler geliştirmek.",
+                                "Mobil performans optimizasyonu girişimlerine liderlik etmek.",
+                                "Genç geliştiricileri mentorluk yapmak ve kod incelemeleri yapmak.",
+                                "Uygulamanın erişilebilirlik özelliklerini genişleterek daha geniş bir kitleye ulaşmak."
+                            ],
+                            "tags": ["Flutter", "SwiftUI", "Kotlin", "Flutter"]
+                        },
+                        "sv": {
+                            "title": "{{Senior Mobile}} Utvecklare",
+                            "province": "Pittsburgh",
+                            "country": "Pennsylvania",
+                            "institution": "Discord",
+                            "text": "På Discord arbetar jag för närvarande som Senior Mobile Utvecklare, där jag leder insatser för att [[förbättra språkinlärningsupplevelsen på mobila enheter]]. Mina huvudsakliga bidrag inkluderar:",
+                            "list": [
+                                "Utveckla nya inlärningsmoduler och spelifierade funktioner.",
+                                "Leda initiativ för mobil prestandaoptimering.",
+                                "Mentorera juniora utvecklare och genomföra kodgranskningar.",
+                                "Förbättra appens tillgänglighetsfunktioner för att nå en bredare publik."
+                            ],
+                            "tags": ["Flutter", "SwiftUI", "Kotlin", "Flutter"]
+                        },
+                        "ja": {
+                            "title": "{{シニアモバイル}}開発者",
+                            "province": "ピッツバーグ",
+                            "country": "ペンシルベニア州",
+                            "institution": "Discord",
+                            "text": "Discordでは、現在シニアモバイル開発者として、[[モバイルデバイスでの言語学習体験の向上]]に取り組んでいます。私の主な貢献は以下を含んでいます:",
+                            "list": [
+                                "新しい学習モジュールとゲーム化された機能の開発。",
+                                "モバイルパフォーマンス最適化のイニシアチブをリード。",
+                                "ジュニア開発者のメンタリングとコードレビューの実施。",
+                                "アプリのアクセシビリティ機能を強化し、より広いオーディエンスにリーチ。"
+                            ],
+                            "tags": ["Flutter", "SwiftUI", "Kotlin", "Flutter"]
+                        }
+                    }
+                }
+            ]
+        }
     ]
 }

@@ -39,9 +39,14 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Miami – FL",
+                    "label": "",
                     "link": {"href": "", "tooltipString": ""},
-                    "faIcon": "fa-solid fa-map-pin"
+                    "faIcon": "pi pi-map-marker",
+                    "locales": {
+                        "en": {
+                            "label": "Pittsburg – PA"
+                        }
+                    }
                 },
                 {
                     "id": 2,
@@ -62,7 +67,10 @@
             "id": 2,
             "component": "ArticleText",
             "locales": {
-                "en": {"title": "{{A tiny bit}} about me..."}
+                "en": {"title": "{{A tiny bit}} about me..."},
+                "tr": {"title": "{{Bana dair}} kısaca..."},
+                "sv": {"title": "{{Lite om}} mig..."},
+                "ja": {"title": "{{私について}}少し..."}
             },
             "settings": {},
             "items": [
@@ -91,7 +99,10 @@
             "id": 3,
             "component": "ArticleInfoList",
             "locales": {
-                "en": {"title": "What {{I do}}"}
+                "en": {"title": "What {{I do}}"},
+                "tr": {"title": "Neler {{yapıyorum}}"},
+                "sv": {"title": "Vad {{jag gör}}"},
+                "ja": {"title": "私が{{すること}}"}
             },
             "settings": {},
             "items": [
@@ -123,7 +134,7 @@
                     "locales": {
                         "en": {
                             "title": "{{Android}} Development",
-                            "text": "I can develop native Android apps using the most modern Kotlin features and Jetpack Compose."
+                            "text": "I can develop native Android apps using modern Kotlin features and Jetpack Compose."
                         },
                         "tr": {
                             "title": "{{Android}} Geliştirme",
