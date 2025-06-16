@@ -239,6 +239,131 @@
                     }
                 }
             ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "{{Languages}} I Speak"},
+                "tr": {"title": "{{Konuştuğum}} Diller"},
+                "sv": {"title": "{{Språk}} Jag Talar"},
+                "ja": {"title": "{{私が話す}}言語"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-uk.png",
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Native speaker with a strong command of technical vocabulary.",
+                            "level": "Native"
+                        },
+                        "tr": {
+                            "title": "Türkçe",
+                            "text": "İleri düzeyde dil bilgisi ve teknik kelime dağarcığına hakimiyet.",
+                            "level": "İleri"
+                        },
+                        "sv": {
+                            "title": "Svenska",
+                            "text": "Mellannivå i språkfärdighet med god förståelse för vardagliga och tekniska ämnen.",
+                            "level": "Mellannivå"
+                        },
+                        "ja": {
+                            "title": "日本語",
+                            "text": "初級レベルで基本的な会話と読み書きができます。",
+                            "level": "初級"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/tr.png",
+                    "locales": {
+                        "en": {
+                            "title": "Turkish",
+                            "text": "Advanced language skills with a strong grasp of grammar and technical vocabulary.",
+                            "level": "Advanced"
+                        },
+                        "tr": {
+                            "title": "Türkçe",
+                            "text": "İleri düzeyde dil bilgisi ve teknik kelime dağarcığına hakimiyet.",
+                            "level": "İleri"
+                        },
+                        "sv": {
+                            "title": "Turkiska",
+                            "text": "Avancerad språkkunskap med god förståelse för grammatik och tekniska termer.",
+                            "level": "Avancerad"
+                        },
+                        "ja": {
+                            "title": "トルコ語",
+                            "text": "高度な文法と専門用語の理解力があります。",
+                            "level": "上級"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/flags/sv.png",
+                    "locales": {
+                        "en": {
+                            "title": "Swedish",
+                            "text": "Intermediate proficiency with good understanding of everyday and technical topics.",
+                            "level": "Intermediate"
+                        },
+                        "tr": {
+                            "title": "İsveççe",
+                            "text": "Günlük ve teknik konulara iyi derecede hakim orta seviye dil bilgisi.",
+                            "level": "Orta"
+                        },
+                        "sv": {
+                            "title": "Svenska",
+                            "text": "Mellannivå i språkfärdighet med god förståelse för vardagliga och tekniska ämnen.",
+                            "level": "Mellannivå"
+                        },
+                        "ja": {
+                            "title": "スウェーデン語",
+                            "text": "日常会話や技術的なトピックにある程度対応できる中級レベルです。",
+                            "level": "中級"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/flags/ja.png",
+                    "locales": {
+                        "en": {
+                            "title": "Japanese",
+                            "text": "Beginner level with basic conversation and reading skills.",
+                            "level": "Beginner"
+                        },
+                        "tr": {
+                            "title": "Japonca",
+                            "text": "Temel konuşma ve okuma becerilerine sahip başlangıç seviyesi.",
+                            "level": "Başlangıç"
+                        },
+                        "sv": {
+                            "title": "Japanska",
+                            "text": "Grundläggande samtals- och läsförmåga på nybörjarnivå.",
+                            "level": "Nybörjare"
+                        },
+                        "ja": {
+                            "title": "日本語",
+                            "text": "初級レベルで基本的な会話と読み書きができます。",
+                            "level": "初級"
+                        }
+                    }
+                }
+            ]
+
         }
     ]
 }

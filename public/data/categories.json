@@ -19,6 +19,26 @@
                 "sv": {"title": "Historik"},
                 "ja": {"title": "履歴"}
             }
+        },
+        {
+            "id": "showcase",
+            "faIcon": "pi pi-images",
+            "locales": {
+                "en": {"title": "Showcase"},
+                "tr": {"title": "Vitrin"},
+                "sv": {"title": "Utställning"},
+                "ja": {"title": "ショーケース"}
+            }
+        },
+        {
+            "id": "contact",
+            "faIcon": "fa-regular fa-envelope",
+            "locales": {
+                "en": {"title": "Contact"},
+                "tr": {"title": "İletişim"},
+                "sv": {"title": "Kontakt"},
+                "ja": {"title": "連絡先"}
+            }
         }
     ]
 }
