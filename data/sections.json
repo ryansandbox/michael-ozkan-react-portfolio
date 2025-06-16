@@ -6,19 +6,29 @@
             "jsonPath": "/data/sections/home.json",
             "faIcon": "fa-regular fa-address-card"
         },
-
         {
             "id": "experience",
             "categoryId": "background",
             "jsonPath": "/data/sections/experience.json",
             "faIcon": "pi pi-briefcase"
         },
-
         {
             "id": "education",
             "categoryId": "background",
             "jsonPath": "/data/sections/education.json",
             "faIcon": "pi pi-graduation-cap"
+        },
+        {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/skills.json",
+            "faIcon": "pi pi-wrench"
+        },
+        {
+            "id": "contact",
+            "categoryId": "contact",
+            "jsonPath": "/data/sections/contact.json",
+            "faIcon": "fa-regular fa-envelope"
         }
     ]
 }

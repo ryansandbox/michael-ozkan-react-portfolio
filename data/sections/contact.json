@@ -1,0 +1,163 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "Send me {{a Message}}"
+            },
+            "tr": {
+                "title_short": "İletişim",
+                "title_short_nav": "İletişim",
+                "title_long_prefix": "Lütfen çekinmeyin",
+                "title_long": "{{Contact}} Olun"
+            },
+            "sv": {
+                "title_short": "Kontakt",
+                "title_short_nav": "Kontakt",
+                "title_long_prefix": "Tveka inte att",
+                "title_long": "{{Contact}} mig"
+            },
+            "ja": {
+                "title_short": "お問い合わせ",
+                "title_short_nav": "お問い合わせ",
+                "title_long_prefix": "お気軽に",
+                "title_long": "{{メッセージ}}を送ってください"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "settings": {
+                "email_js_public_key": "tzObcsmOwHvPy6Rhp",
+                "email_js_service_id": "service_4h8g7vb",
+                "email_js_template_id": "template_react"
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+                    "title": "Send me a {{message}}"
+                },
+                "tr": {
+                    "contact_thank_you_title": "{{İletişim}} için teşekkürler!",
+                    "contact_thank_you_body": "Mesajınız alınmıştır, en kısa sürede sizinle iletişime geçeceğim. Zaman ayırdığınız için teşekkür ederim!",
+                    "contact_thank_you_footer": "Cevap, e-posta adresinize gönderilecektir: {{$email}}",
+                    "title": "{{Bir Mesaj}} Gönderin"
+                },
+                "sv": {
+                    "contact_thank_you_title": "{{Tack}} för kontakten!",
+                    "contact_thank_you_body": "Ditt meddelande har mottagits, och jag kommer att kontakta dig snart. Jag uppskattar din tid och ser fram emot att höra från dig!",
+                    "contact_thank_you_footer": "Svaret kommer att skickas till din e-postadress: {{$email}}",
+                    "title": "Skicka mig ett {{meddelande}}"
+                },
+                "ja": {
+                    "contact_thank_you_title": "{{お問い合わせ}}ありがとうございます！",
+                    "contact_thank_you_body": "あなたのメッセージは受け取られました。すぐにご連絡いたします。お時間をいただき、ありがとうございます！",
+                    "contact_thank_you_footer": "返信はあなたのメールアドレスに送信されます: {{$email}}",
+                    "title": "{{メッセージ}}を送ってください"
+                }
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {},
+            "locales": {
+                "en": {"title": "Or if you {{prefer}}..."},
+                "tr": {"title": "Ya da {{tercih}} ederseniz..."},
+                "sv": {"title": "Eller om du {{föredrar}}..."},
+                "ja": {"title": "{{好み}}なら..."}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "label": "+1 (123) 456-7890",
+                    "link": {
+                        "href": "tel:+1234567890",
+                        "tooltipString": "call_me"
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "tr": {"title": "Telefon"},
+                        "sv": {"title": "Telefon"},
+                        "ja": {"title": "電話"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "label": "mike.ozkan@live.com",
+                    "link": {
+                        "href": "mailto:mike.ozkan@live.com",
+                        "tooltipString": "email_me"
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "ja": {"title": "メール"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-discord",
+                    "label": "@mikeozkan",
+                    "link": {
+                        "href": "https://discord.com/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {"title": "Discord"},
+                        "ja": {"title": "ディスコード"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-medium",
+                    "label": "@mikeozdev",
+                    "link": {
+                        "href": "https://medium.com/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": { "title": "Medium" },
+                        "ja": { "title": "ミディアム" }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "label": "Mike Özkan",
+                    "link": {
+                        "href": "https://www.linkedin.com/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": { "title": "LinkedIn" },
+                        "ja": { "title": "リンクトイン" }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-github",
+                    "label": "@ryanbalieiro",
+                    "link": {
+                        "href": "https://github.com/ryanbalieiro",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": { "title": "GitHub" },
+                        "ja": { "title": "ギットハブ" }
+                    }
+                }
+            ]
+        }
+    ]
+}

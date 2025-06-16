@@ -1,0 +1,244 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Tech Stack",
+                "title_short_nav": "Tech Stack",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Tech Stack}}"
+            },
+            "tr": {
+                "title_short": "Teknoloji Yığını",
+                "title_short_nav": "Teknoloji Yığını",
+                "title_long_prefix": "Keşfet",
+                "title_long": "Benim {{Teknoloji Yığını}}"
+            },
+            "sv": {
+                "title_short": "Teknikstack",
+                "title_short_nav": "Teknikstack",
+                "title_long_prefix": "Utforska",
+                "title_long": "Min {{Teknikstack}}"
+            },
+            "ja": {
+                "title_short": "技術スタック",
+                "title_short_nav": "技術スタック",
+                "title_long_prefix": "探索",
+                "title_long": "私の{{技術スタック}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {"title": "{{Cross-Platform}} Stack"},
+                "tr": {"title": "{{Çapraz Platform}} Yığını"},
+                "sv": {"title": "{{Cross-Platform}} Stack"},
+                "ja": {"title": "{{クロスプラットフォーム}}スタック"}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": { "fill": "#61DBFB", "fillLight": "#357c8f" },
+                    "locales": { "en": { "title": "React Native" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-flutter",
+                    "faIconColors": { "fill": "#02569B" },
+                    "locales": { "en": { "title": "Flutter" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-js-square",
+                    "faIconColors": { "fill": "#f7df1e", "fillLight": "#a68732" },
+                    "locales": { "en": { "title": "JavaScript" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-dart-lang",
+                    "faIconColors": { "fill": "#0175C2" },
+                    "locales": { "en": { "title": "Dart" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-unity",
+                    "faIconColors": { "fill": "#999", "fillLight": "#000" },
+                    "locales": { "en": { "title": "Unity" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-microsoft",
+                    "faIconColors": { "fill": "#00A4EF" },
+                    "locales": { "en": { "title": "Xamarin" } }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-layer-group",
+                    "faIconColors": { "fill": "#512BD4" },
+                    "locales": { "en": { "title": "Maui" } }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-atom",
+                    "faIconColors": { "fill": "#6ca2cc", "fillLight": "#4581b0" },
+                    "locales": { "en": { "title": "Ionic" } }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {"title": "{{iOS}} Stack"},
+                "tr": {"title": "{{iOS}} Yığını"},
+                "sv": {"title": "{{iOS}} Stack"},
+                "ja": {"title": "{{iOS}}スタック"}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-swift",
+                    "faIconColors": { "fill": "#bf2232" },
+                    "locales": { "en": { "title": "Swift" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-mobile-screen-button",
+                    "faIconColors": { "fill": "#5856D6" },
+                    "locales": { "en": { "title": "UIKit" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-swift",
+                    "faIconColors": { "fill": "#007AFF" },
+                    "locales": { "en": { "title": "SwiftUI" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": { "fill": "#34C759" },
+                    "locales": { "en": { "title": "Combine" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": { "fill": "#FF9500" },
+                    "locales": { "en": { "title": "Core Data" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "pi pi-lock fw-bold",
+                    "faIconColors": { "fill": "#999", "fillLight": "#333" },
+                    "locales": { "en": { "title": "Keychain Services" } }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {"title": "{{Android}} Stack"},
+                "tr": {"title": "{{Android}} Yığını"},
+                "sv": {"title": "{{Android}} Stack"},
+                "ja": {"title": "{{Android}}スタック"}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": { "fill": "#007396" },
+                    "locales": { "en": { "title": "Java" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-korvue",
+                    "faIconColors": { "fill": "#A97BFF" },
+                    "locales": { "en": { "title": "Kotlin" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-layer-group",
+                    "faIconColors": { "fill": "#FF9500" },
+                    "locales": { "en": { "title": "Jetpack Compose" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-android",
+                    "faIconColors": { "fill": "#3DDC84" },
+                    "locales": { "en": { "title": "Android SDK" } }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {"title": "{{Additional}} Skills"},
+                "tr": {"title": "{{Ekstra}} Beceriler"},
+                "sv": {"title": "{{Yardımcı}} Beceriler"},
+                "ja": {"title": "{{追加}}スキル"}
+            },
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": { "fill": "#F05032" },
+                    "locales": { "en": { "title": "Git" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": { "fill": "#2496ED" },
+                    "locales": { "en": { "title": "Docker" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-php",
+                    "faIconColors": { "fill": "#8892BF", "fillLight": "#5f6687" },
+                    "locales": { "en": { "title": "PHP" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": { "fill": "#FF9900" },
+                    "locales": { "en": { "title": "AWS" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": { "fill": "#61DBFB", "fillLight": "#357c8f" },
+                    "locales": { "en": { "title": "React" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": { "fill": "#42B883" },
+                    "locales": { "en": { "title": "Vue" } }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-s",
+                    "faIconColors": { "fill": "#FF3E00" },
+                    "locales": { "en": { "title": "Svelte" } }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-wind",
+                    "faIconColors": { "fill": "#38BDF8" },
+                    "locales": { "en": { "title": "Tailwind" } }
+                }
+            ]
+        }
+    ]
+}
