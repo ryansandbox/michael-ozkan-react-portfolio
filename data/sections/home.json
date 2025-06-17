@@ -50,8 +50,8 @@
                 },
                 {
                     "id": 2,
-                    "label": "mike.ozkan@gmail.com",
-                    "link": {"href": "mailto:mike.ozkan@gmail.com", "tooltipString": "email_me"},
+                    "label": "mike.ozkan@msn.com",
+                    "link": {"href": "mailto:mike.ozkan@msn.com", "tooltipString": "email_me"},
                     "faIcon": "fa-regular fa-envelope"
                 },
                 {

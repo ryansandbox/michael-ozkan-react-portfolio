@@ -13,16 +13,22 @@
             "faIcon": "pi pi-briefcase"
         },
         {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/skills.json",
+            "faIcon": "pi pi-wrench"
+        },
+        {
             "id": "education",
             "categoryId": "background",
             "jsonPath": "/data/sections/education.json",
             "faIcon": "pi pi-graduation-cap"
         },
         {
-            "id": "skills",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/skills.json",
-            "faIcon": "pi pi-wrench"
+            "id": "achievements",
+            "categoryId": "profile",
+            "jsonPath": "/data/sections/achievements.json",
+            "faIcon": "pi pi-trophy"
         },
         {
             "id": "contact",
