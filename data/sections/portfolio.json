@@ -142,6 +142,15 @@
                             "title": "Swiggy",
                             "text": "A cross-platform [[food delivery app]] that allows users to order food from local restaurants and have it delivered to their doorstep, making it easy to enjoy meals at home or on the go.",
                             "tags": ["flutter", "dart", "firebase"]
+                        },
+                        "tr": {
+                            "text": "Yerel restoranlardan yemek siparişi verip kapınıza kadar teslim almanızı sağlayan bir [[yemek siparişi uygulaması]]. Evde veya hareket halindeyken yemeklerin tadını çıkarmanızı kolaylaştırır."
+                        },
+                        "sv": {
+                            "text": "En [[matleveransapp]] som låter användare beställa mat från lokala restauranger och få den levererad till dörren, vilket gör det enkelt att njuta av måltider hemma eller på språng."
+                        },
+                        "ja": {
+                            "text": "地元のレストランから食事を注文し、玄関先まで配達してもらうことができる[[フードデリバリーアプリ]]。自宅や外出先での食事を簡単に楽しむことができます。"
                         }
                     }
                 },
@@ -170,6 +179,15 @@
                             "title": "EtherWallet",
                             "text": "A secure [[Ethereum wallet app]] that allows users to manage their Ether and ERC-20 tokens, send and receive transactions, and view their transaction history.",
                             "tags": ["blockchain", "swift", "kotlin"]
+                        },
+                        "tr": {
+                            "text": "Kullanıcıların Ether ve ERC-20 token'larını yönetmelerini, işlemler göndermelerini ve almalarını, işlem geçmişlerini görüntülemelerini sağlayan güvenli bir [[Ethereum cüzdan uygulaması]]."
+                        },
+                        "sv": {
+                            "text": "En säker [[Ethereum plånboksapp]] som gör det möjligt för användare att hantera sina Ether och ERC-20-tokens, skicka och ta emot transaktioner samt visa sin transaktionshistorik."
+                        },
+                        "ja": {
+                            "text": "ユーザーがEtherやERC-20トークンを管理し、取引の送受信や取引履歴の確認ができる安全な[[イーサリアムウォレットアプリ]]です。"
                         }
                     }
                 },
@@ -188,6 +206,15 @@
                             "title": "iScan",
                             "text": "A powerful iOS [[barcode scanning app]] that allows users to scan barcodes and QR codes, retrieve product information, and manage their inventory.",
                             "tags": ["ios", "swift", "swiftui"]
+                        },
+                        "tr": {
+                            "text": "Kullanıcıların barkodları ve QR kodlarını taramalarına, ürün bilgilerini almalarına ve envanterlerini yönetmelerine olanak tanıyan güçlü bir iOS [[barkod tarama uygulaması]]."
+                        },
+                        "sv": {
+                            "text": "En kraftfull iOS [[streckkodsskanningsapp]] som gör det möjligt för användare att skanna streckkoder och QR-koder, hämta produktinformation och hantera sitt lager."
+                        },
+                        "ja": {
+                            "text": "ユーザーがバーコードやQRコードをスキャンし、製品情報を取得し、在庫を管理できる強力なiOS向け[[バーコードスキャンアプリ]]です。"
                         }
                     }
                 },
@@ -206,6 +233,15 @@
                             "title": "AndroidTracker",
                             "text": "An Android [[device tracking app]] that helps users locate their lost or stolen devices, remotely lock them, and erase sensitive data. It uses Firebase for real-time tracking and notifications.",
                             "tags": ["android", "kotlin", "firebase"]
+                        },
+                        "tr": {
+                            "text": "Kullanıcıların kaybolan veya çalınan cihazlarını bulmalarına, uzaktan kilitlemelerine ve hassas verileri silmelerine yardımcı olan bir Android [[cihaz takip uygulaması]]. Gerçek zamanlı takip ve bildirimler için Firebase kullanır."
+                        },
+                        "sv": {
+                            "text": "En Android [[enhetsspårningsapp]] som hjälper användare att lokalisera sina förlorade eller stulna enheter, låsa dem på distans och radera känslig data. Använder Firebase för spårning och aviseringar i realtid."
+                        },
+                        "ja": {
+                            "text": "ユーザーが紛失または盗難されたデバイスを見つけたり、リモートでロックしたり、機密データを消去したりできるAndroid向け[[デバイス追跡アプリ]]です。リアルタイム追跡と通知にはFirebaseを使用しています。"
                         }
                     }
                 },
@@ -224,6 +260,15 @@
                             "title": "SVM Predictor",
                             "text": "A machine learning [[SVM predictor app]] that uses support vector machines to predict outcomes based on user input data. It uses TensorFlow Lite for on-device inference and provides real-time predictions.",
                             "tags": ["ai", "flutter", "dart"]
+                        },
+                        "tr": {
+                            "text": "Kullanıcı giriş verilerine dayanarak sonuçları tahmin etmek için destek vektör makineleri kullanan bir makine öğrenimi [[SVM tahmin uygulaması]]. Cihaz üzerinde çıkarım için TensorFlow Lite kullanır ve gerçek zamanlı tahminler sunar."
+                        },
+                        "sv": {
+                            "text": "En [[SVM-förutsägelseapp]] för maskininlärning som använder supportvektormaskiner för att förutsäga resultat baserat på användardata. Använder TensorFlow Lite för lokal inferens och ger realtidsprognoser."
+                        },
+                        "ja": {
+                            "text": "ユーザーの入力データに基づいて結果を予測するためにサポートベクターマシンを使用する機械学習用の[[SVM予測アプリ]]です。オンデバイス推論にはTensorFlow Liteを使用し、リアルタイム予測を提供します。"
                         }
                     }
                 }
