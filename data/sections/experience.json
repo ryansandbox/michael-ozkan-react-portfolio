@@ -99,7 +99,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 2,
                     "faIcon": "fa-brands fa-spotify",
@@ -161,7 +160,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 3,
                     "faIcon": "fa-brands fa-airbnb",
@@ -227,7 +225,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 4,
                     "faIcon": "fa-brands fa-discord",

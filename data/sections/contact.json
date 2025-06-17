@@ -62,10 +62,8 @@
                     "contact_thank_you_footer": "返信はあなたのメールアドレスに送信されます: {{$email}}",
                     "title": "{{メッセージ}}を送ってください"
                 }
-            },
-            "items": null
+            }
         },
-
         {
             "id": 2,
             "component": "ArticleInfoList",
