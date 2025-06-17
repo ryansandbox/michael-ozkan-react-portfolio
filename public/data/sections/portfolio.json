@@ -1,0 +1,209 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "tr": {
+                "title_short": "Portföy",
+                "title_short_nav": "Portföy",
+                "title_long_prefix": "Göz atın",
+                "title_long": "Benim {{Portföyüm}}"
+            },
+            "sv": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Ta en titt på",
+                "title_long": "Min {{Portfolio}}"
+            },
+            "ja": {
+                "title_short": "ポートフォリオ",
+                "title_short_nav": "ポートフォリオ",
+                "title_long_prefix": "ぜひご覧ください",
+                "title_long": "私の{{ポートフォリオ}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "locales": {
+                        "en": { "title": "08", "text": "Apps Developed" },
+                        "tr": { "text": "Geliştirilen Uygulamalar" },
+                        "sv": { "text": "Utvecklade Appar" },
+                        "ja": { "text": "開発されたアプリ" }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "locales": {
+                        "en": { "title": "250,000", "text": "Lines of Code" },
+                        "tr": { "text": "Kod Satırı" },
+                        "sv": { "text": "Kodrader" },
+                        "ja": { "text": "コード行数" }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-cloud-arrow-down",
+                    "locales": {
+                        "en": { "title": "1,500,000", "text": "App Downloads" },
+                        "tr": { "text": "Uygulama İndirmeleri" },
+                        "sv": { "text": "Appnedladdningar" },
+                        "ja": { "text": "アプリダウンロード数" }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-star",
+                    "locales": {
+                        "en": { "title": "4.76", "text": "Average App Rating" },
+                        "tr": { "text": "Ortalama Uygulama Puanı" },
+                        "sv": { "text": "Genomsnittligt Betyg" },
+                        "ja": { "text": "平均アプリ評価" }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-bug-slash",
+                    "locales": {
+                        "en": { "title": "500+", "text": "Bugs Squashed" },
+                        "tr": { "text": "Çözülen Hatalar" },
+                        "sv": { "text": "Fixade Buggar" },
+                        "ja": { "text": "修正済みバグ数" }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-heart",
+                    "locales": {
+                        "en": { "title": "35", "text": "Happy Clients" },
+                        "tr": { "text": "Mutlu Müşteriler" },
+                        "sv": { "text": "Nöjda Kunder" },
+                        "ja": { "text": "満足したクライアント数" }
+                    }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-mug-hot",
+                    "locales": {
+                        "en": { "title": "100+", "text": "Cups of Coffee" },
+                        "tr": { "text": "İçilen Kahveler" },
+                        "sv": { "text": "Koppar Kaffe" },
+                        "ja": { "text": "飲んだコーヒー数" }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticlePortfolio",
+            "settings": {},
+            "locales": {
+                "en": {"title":  "{{Apps}} I developed"},
+                "tr": {"title":  "Geliştirdiğim {{Uygulamalar}}"},
+                "sv": {"title":  "Utvecklade {{Appar}}"},
+                "ja": {"title":  "私が開発した{{アプリ}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "", "tooltipString": "", "faIcon": ""}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "",
+                            "text": "",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "", "tooltipString": "", "faIcon": ""}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "",
+                            "text": "",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "", "tooltipString": "", "faIcon": ""}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "",
+                            "text": "",
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{Feedbacks}}"},
+                "tr": {"title": "Müşteri {{Geri Bildirimleri}}"},
+                "sv": {"title": "Kund {{Feedbacks}}"},
+                "ja": {"title": "クライアントの{{フィードバック}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                
+            ]
+        }
+    ]
+}

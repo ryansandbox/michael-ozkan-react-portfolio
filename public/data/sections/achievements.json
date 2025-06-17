@@ -6,7 +6,287 @@
                 "title_short_nav": "Achievements",
                 "title_long_prefix": "Here are my",
                 "title_long": "Career {{Achievements}}"
+            },
+            "tr": {
+                "title_short": "Başarılar",
+                "title_short_nav": "Başarılar",
+                "title_long_prefix": "İşte benim",
+                "title_long": "Kariyer {{Başarılarım}}"
+            },
+            "sv": {
+                "title_short": "Prestationer",
+                "title_short_nav": "Prestationer",
+                "title_long_prefix": "Här är mina",
+                "title_long": "Karriär{{prestationer}}"
+            },
+            "ja": {
+                "title_short": "実績",
+                "title_short_nav": "実績",
+                "title_long_prefix": "こちらが私の",
+                "title_long": "キャリアの{{実績}}"
             }
         }
-    }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "settings": {
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "locales": {
+                "en": {"title": "Certifications"},
+                "tr": {"title": "Sertifikalar"},
+                "sv": {"title": "Certifieringar"},
+                "ja": {"title": "認定"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-apple",
+                    "faIconColors": {"bgLight":"#1b506e", "fillLight": "white"},
+                    "date": {"month": 6, "year":  2020},
+                    "link": {"href": "https://certiport.pearsonvue.com/Certifications/Apple/App-Dev-With-Swift/Overview.aspx", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "App Development with {{Swift}}",
+                            "text": "Certified by [[Certiport]] as an Apple Certified Associate in App Development with Swift."
+                        },
+                        "tr": {
+                            "title": "{{Swift}} ile Uygulama Geliştirme",
+                            "text": "Apple tarafından [[Certiport]] aracılığıyla Swift ile Uygulama Geliştirme konusunda sertifikalandırıldım."
+                        },
+                        "sv": {
+                            "title": "{{Swift}} Apputveckling",
+                            "text": "Certifierad av [[Certiport]] som Apple Certified Associate i Apputveckling med Swift."
+                        },
+                        "ja": {
+                            "title": "{{Swift}}アプリ開発",
+                            "text": "Apple Certified Associateとして、[[Certiport]]を通じてSwiftによるアプリ開発の認定を受けました。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-android",
+                    "faIconColors": {"bgLight":"#1b506e", "fillLight": "white"},
+                    "date": {"month": 9, "year": 2021},
+                    "link": {"href": "https://developer.android.com/courses/pathways/android-basics-compose", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Jetpack Compose}} Certification",
+                            "text": "Completed [[Google's]] official course on building modern Android apps using [[Jetpack Compose]]."
+                        },
+                        "tr": {
+                            "title": "{{Jetpack Compose}} Sertifikası",
+                            "text": "Modern Android uygulamaları geliştirmek için [[Jetpack Compose]] kullanarak [[Google'ın]] resmi kursunu tamamladım."
+                        },
+                        "sv": {
+                            "title": "{{Jetpack Compose}} Certifiering",
+                            "text": "Genomfört [[Googles]] officiella kurs om att bygga moderna Android-appar med [[Jetpack Compose]]."
+                        },
+                        "ja": {
+                            "title": "{{Jetpack Compose}}認定",
+                            "text": "[[Jetpack Compose]]を使用して最新のAndroidアプリを構築するための[[Googleの]]公式コースを修了しました。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bgLight":"#1b506e", "fillLight": "white"},
+                    "date": {"month": 3, "year": 2022},
+                    "link": {"href": "https://reactnative.dev/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{React Native}} Nanodegree",
+                            "text": "Awarded by Coursera for completing the [[React Native]] Nanodegree program."
+                        },
+                        "tr": {
+                            "title": "{{React Native}} Nanodegree",
+                            "text": "Coursera tarafından [[React Native]] Nanodegree programını tamamladığım için ödüllendirildim."
+                        },
+                        "sv": {
+                            "title": "{{React Native}} Nanodegree",
+                            "text": "Tilldelad av Coursera för att ha slutfört [[React Native]] Nanodegree-programmet."
+                        },
+                        "ja": {
+                            "title": "{{React Native}}ナノ学位",
+                            "text": "Courseraによって、[[React Native]]ナノ学位プログラムを修了したことに対して授与されました。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-flutter",
+                    "faIconColors": {"bgLight":"#1b506e", "fillLight": "white"},
+                    "date": {"month": 11, "year": 2023},
+                    "link": {"href": "https://flutter.dev/docs", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "Mobile UIs with {{Flutter}}",
+                            "text": "Completed the official [[Flutter]] course, mastering cross-platform mobile UI development."
+                        },
+                        "tr": {
+                            "title": "{{Flutter}} ile Mobil Arayüzler",
+                            "text": "[[Flutter]] resmi kursunu tamamlayarak, çapraz platform mobil arayüz geliştirmede ustalaştım."
+                        },
+                        "sv": {
+                            "title": "{{Flutter}} Mobil UIs",
+                            "text": "Genomfört den officiella [[Flutter]]-kursen och bemästrat utveckling av plattformsoberoende mobilanvändargränssnitt."
+                        },
+                        "ja": {
+                            "title": "{{Flutter}}を使用したモバイルUI",
+                            "text": "[[Flutter]]の公式コースを修了し、クロスプラットフォームのモバイルUI開発を習得しました。"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {"bgLight":"#1b506e", "fillLight": "white"},
+                    "date": {"month": 5, "year": 2025},
+                    "link": {"href": "https://firebase.google.com/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Firebase}} Backend Development",
+                            "text": "Completed [[Google's]] official program on using [[Firebase]] for backend development."
+                        },
+                        "tr": {
+                            "title": "{{Firebase}} Arka Uç Geliştirme",
+                            "text": "[[Google'ın]] [[Firebase]] kullanarak arka uç geliştirme konusundaki resmi programını tamamladım."
+                        },
+                        "sv": {
+                            "title": "{{Firebase}} Backendutveckling",
+                            "text": "Genomfört [[Googles]] officiella program om att använda [[Firebase]] för backendutveckling."
+                        },
+                        "ja": {
+                            "title": "{{Firebase}}バックエンド開発",
+                            "text": "[[Googleの]]公式プログラムを修了し、[[Firebase]]を使用したバックエンド開発を学びました。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "locales": {
+                "en": {"title": "Awards"},
+                "tr": {"title": "Ödüller"},
+                "sv": {"title": "Utmärkelser"},
+                "ja": {"title": "受賞歴"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2015, "month": 5},
+                    "preview": {
+                        "links": [
+                            {"href": "pdf/graduation-final-project.pdf", "tooltipString": "read_more", "faIcon": "fa-solid fa-file-pdf"}
+                        ]
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Best Graduation Project}} – Mobile Optimization",
+                            "country": "US",
+                            "institution": "University of San Francisco",
+                            "text": "Awarded for the best graduation project in the Computer Science department, focusing on mobile optimization techniques. The project was recognized for its innovative approach to enhancing mobile application performance and user experience."
+                        },
+                        "tr": {
+                            "title": "{{En İyi Mezuniyet Projesi}} – Mobil Optimizasyon",
+                            "country": "ABD",
+                            "institution": "San Francisco Üniversitesi",
+                            "text": "Bilgisayar Bilimleri bölümünde en iyi mezuniyet projesi ödülünü aldım. Proje, mobil uygulama performansını ve kullanıcı deneyimini artırmaya yönelik yenilikçi yaklaşımlarıyla tanındı."
+                        },
+                        "sv": {
+                            "title": "{{Bästa Examensprojekt}} – Mobiloptimering",
+                            "country": "USA",
+                            "institution": "University of San Francisco",
+                            "text": "Utmärkt för det bästa examensprojektet inom datavetenskap, med fokus på mobiloptimeringstekniker. Projektet erkändes för sitt innovativa tillvägagångssätt för att förbättra mobilapplikationers prestanda och användarupplevelse."
+                        },
+                        "ja": {
+                            "title": "{{最優秀卒業プロジェクト}} – モバイル最適化",
+                            "country": "アメリカ",
+                            "institution": "サンフランシスコ大学",
+                            "text": "コンピュータサイエンス学部での最優秀卒業プロジェクトとして表彰され、モバイル最適化技術に焦点を当てました。このプロジェクトは、モバイルアプリケーションのパフォーマンスとユーザーエクスペリエンスを向上させる革新的なアプローチが評価されました。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2020, "month": 10},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
+                            {"href": "https://www.github.com/", "tooltipString": "open_website", "faIcon": "fa-solid fa-globe"}
+                        ]
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Top Contributor}} – Open Source Project",
+                            "institution": "Cool.io Labs",
+                            "text": "Recognized as a top contributor for the open-source project [[React Portfolio Template]] by [[Cool.io Labs]]. This recognition highlights my significant contributions to the project, including code improvements, feature enhancements, and community support."
+                        },
+                        "tr": {
+                            "title": "{{En İyi Katkıda Bulunan}} – Açık Kaynak Proje",
+                            "institution": "Cool.io Labs",
+                            "text": "[[Cool.io Labs]] tarafından geliştirilen [[React Portfolio Template]] açık kaynak projesine yaptığım önemli katkılardan dolayı en iyi katkıda bulunan olarak tanındım. Bu tanıma, kod iyileştirmeleri, özellik geliştirmeleri ve topluluk desteği gibi projeye olan katkılarım dahil."
+                        },
+                        "sv": {
+                            "title": "{{Top Contributor}} – Open Source Project",
+                            "institution": "Cool.io Labs",
+                            "text": "Uppmärksammad som en toppbidragsgivare för det öppna källkodsprojektet [[React Portfolio Template]] av [[Cool.io Labs]]. Denna erkännande framhäver mina betydande bidrag till projektet, inklusive kodförbättringar, funktionsförbättringar och samhällsstöd."
+                        },
+                        "ja": {
+                            "title": "{{トップ貢献者}} – オープンソースプロジェクト",
+                            "institution": "Cool.io Labs",
+                            "text": "[[Cool.io Labs]]によるオープンソースプロジェクト[[React Portfolio Template]]への重要な貢献により、トップ貢献者として認識されました。この認識は、コードの改善、機能の強化、コミュニティサポートなど、プロジェクトへの私の重要な貢献を強調しています。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2023, "month": 8},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_the_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-android"}
+                        ],
+                        "youtubeVideo": "https://www.youtube.com/watch?v=l3SZUOuHptw"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Swiggy}} – 1 million downloads! \uD83C\uDF89",
+                            "country": "Global",
+                            "text": "My mobile application [[Swiggy]] reached a significant milestone of 1 million downloads across both the [[Apple App Store]] and [[Google Play Store]]. This achievement reflects the app's popularity and user satisfaction, showcasing its impact in the food delivery industry. The app has been praised for its user-friendly interface, efficient delivery system, and innovative features that enhance the overall customer experience."
+                        },
+                        "tr": {
+                            "title": "{{Swiggy}} – 1 milyon indirme! \uD83C\uDF89",
+                            "country": "Global",
+                            "text": "Mobil uygulamam [[Swiggy]], [[Apple App Store]] ve [[Google Play Store]]'da toplam 1 milyon indirme sayısına ulaştı. Bu başarı, uygulamanın popülaritesini ve kullanıcı memnuniyetini yansıtıyor, gıda teslimat endüstrisindeki etkisini gösteriyor. Uygulama, kullanıcı dostu arayüzü, verimli teslimat sistemi ve genel müşteri deneyimini artıran yenilikçi özellikleriyle övgü aldı."
+                        },
+                        "sv": {
+                            "title": "{{Swiggy}} – 1 miljon nedladdningar! \uD83C\uDF89",
+                            "country": "Global",
+                            "text": "Min mobilapplikation [[Swiggy]] nådde en betydande milstolpe med 1 miljon nedladdningar på både [[Apple App Store]] och [[Google Play Store]]. Denna prestation speglar appens popularitet och användarnöjdhet, och visar dess påverkan inom matleveransindustrin. Appen har berömts för sitt användarvänliga gränssnitt, effektiva leveranssystem och innovativa funktioner som förbättrar den övergripande kundupplevelsen."
+                        },
+                        "ja": {
+                            "title": "{{Swiggy}} – 100万ダウンロード！ \uD83C\uDF89",
+                            "country": "グローバル",
+                            "text": "私のモバイルアプリケーション[[Swiggy]]は、[[Apple App Store]]と[[Google Play Store]]で合計100万ダウンロードを達成しました。この成果は、アプリの人気とユーザー満足度を反映しており、フードデリバリー業界におけるその影響力を示しています。アプリは、ユーザーフレンドリーなインターフェース、効率的な配達システム、および全体的な顧客体験を向上させる革新的な機能で高く評価されています。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
 }
