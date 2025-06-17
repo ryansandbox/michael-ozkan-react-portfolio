@@ -17,10 +17,11 @@ Key features:
 
 Here's a list of live versions of the template:
 
-| #     | Version             | Description                                             | URL                                                                  |
-|-------|---------------------|---------------------------------------------------------|----------------------------------------------------------------------|
-| 🟢    | Mark Choi (default) | Latest deployment of the template here on GitHub pages. | [Preview](https://ryanbalieiro.github.io/react-portfolio-template/)  |
-| 🟣    | Emily Park          | An example of how the template can be customized.       | [Preview](https://ryansandbox.github.io/emily-park-react-portfolio/) |
+| #     | Version             | Description                                             | URL                                                                     |
+|-------|---------------------|---------------------------------------------------------|-------------------------------------------------------------------------|
+| 🟢    | Mark Choi (default) | Latest deployment of the template here on GitHub pages. | [Preview](https://ryanbalieiro.github.io/react-portfolio-template/)     |
+| 🟣    | Emily Park          | An example of how the template can be customized.       | [Preview](https://ryansandbox.github.io/emily-park-react-portfolio/)    |
+| 🔵    | Michael Özkan       | Another example of how the template can be customized.  | [Preview](https://ryansandbox.github.io/michael-ozkan-react-portfolio/) |
 
 ## Layout and concept
 
@@ -103,6 +104,7 @@ Additional frameworks and plugins used include:
 - **Swiper**: A powerful library for creating touch sliders.
 - **EmailJS**: A free service that allows you to send emails using JavaScript.
 - **Font Awesome**: A library of free vector icons.
+- **PrimeIcons**: A collection of premium line icons.
 
 ## Copyright and License
 
