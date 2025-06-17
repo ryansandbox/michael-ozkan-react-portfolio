@@ -266,17 +266,17 @@
                             "level": "Native"
                         },
                         "tr": {
-                            "title": "Türkçe",
+                            "title": "İngilizce",
                             "text": "İleri düzeyde dil bilgisi ve teknik kelime dağarcığına hakimiyet.",
                             "level": "İleri"
                         },
                         "sv": {
-                            "title": "Svenska",
+                            "title": "English",
                             "text": "Mellannivå i språkfärdighet med god förståelse för vardagliga och tekniska ämnen.",
                             "level": "Mellannivå"
                         },
                         "ja": {
-                            "title": "日本語",
+                            "title": "英語",
                             "text": "初級レベルで基本的な会話と読み書きができます。",
                             "level": "初級"
                         }

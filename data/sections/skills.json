@@ -208,7 +208,7 @@
             "locales": {
                 "en": {"title": "{{Additional}} Skills"},
                 "tr": {"title": "{{Ekstra}} Beceriler"},
-                "sv": {"title": "{{Yardımcı}} Beceriler"},
+                "sv": {"title": "{{Ytterligare}} Färdigheter"},
                 "ja": {"title": "{{追加}}スキル"}
             },
             "settings": {},
