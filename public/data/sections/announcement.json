@@ -55,7 +55,6 @@
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleTestimonials",
@@ -164,7 +163,6 @@
                 }
             ]
         },
-
         {
             "id": 3,
             "component": "ArticleSkills",

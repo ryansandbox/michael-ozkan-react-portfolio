@@ -39,8 +39,6 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "",
-                    "link": {"href": "", "tooltipString": ""},
                     "faIcon": "pi pi-map-marker",
                     "locales": {
                         "en": {
