@@ -39,7 +39,7 @@
                     "id": 1,
                     "faIcon": "fa-solid fa-tablet-screen-button",
                     "locales": {
-                        "en": { "title": "08", "text": "Apps Developed" },
+                        "en": { "title": "05", "text": "Apps Developed" },
                         "tr": { "text": "Geliştirilen Uygulamalar" },
                         "sv": { "text": "Utvecklade Appar" },
                         "ja": { "text": "開発されたアプリ" }
@@ -121,88 +121,113 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "faIcon": "pi pi-truck",
+                    "faIconColors": {"bg": "#ad183e", "fill": "white"},
                     "preview": {
                         "links": [
-                            {"href": "", "tooltipString": "", "faIcon": ""}
+                            {"href": "https://apple.com", "tooltipString": "see_on_the_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
                         ],
                         "screenshots": [
+                            "images/content/screenshot-food-app-1-min.jpg",
+                            "images/content/screenshot-food-app-2-min.jpg",
+                            "images/content/screenshot-food-app-3-min.jpg",
+                            "images/content/screenshot-food-app-4-min.jpg",
+                            "images/content/screenshot-food-app-5-min.jpg"
                         ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=l3SZUOuHptw"
                     },
                     "locales": {
                         "en": {
-                            "title": "",
-                            "text": "",
-                            "tags": []
+                            "title": "Swiggy",
+                            "text": "A cross-platform [[food delivery app]] that allows users to order food from local restaurants and have it delivered to their doorstep, making it easy to enjoy meals at home or on the go.",
+                            "tags": ["flutter", "dart", "firebase"]
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "img": "",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "faIcon": "pi pi-ethereum",
+                    "faIconColors": {"bg": "#2b0d8f", "fill": "white"},
                     "preview": {
                         "links": [
-                            {"href": "", "tooltipString": "", "faIcon": ""}
+                            {"href": "https://apple.com", "tooltipString": "see_on_the_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
                         ],
                         "screenshots": [
+                            "images/content/screenshot-demo-portrait-1.png",
+                            "images/content/screenshot-demo-portrait-2.png",
+                            "images/content/screenshot-demo-portrait-3.png",
+                            "images/content/screenshot-demo-portrait-4.png",
+                            "images/content/screenshot-demo-portrait-5.png",
+                            "images/content/screenshot-demo-portrait-6.png"
                         ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=A7TtvOYBrgk"
                     },
                     "locales": {
                         "en": {
-                            "title": "",
-                            "text": "",
-                            "tags": []
+                            "title": "EtherWallet",
+                            "text": "A secure [[Ethereum wallet app]] that allows users to manage their Ether and ERC-20 tokens, send and receive transactions, and view their transaction history.",
+                            "tags": ["blockchain", "swift", "kotlin"]
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "img": "",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "faIcon": "pi pi-barcode",
+                    "faIconColors": {"bg": "#1ba69f", "fill": "white"},
                     "preview": {
                         "links": [
-                            {"href": "", "tooltipString": "", "faIcon": ""}
+                            {"href": "https://apple.com", "tooltipString": "see_on_the_app_store", "faIcon": "fa-brands fa-apple"}
                         ],
-                        "screenshots": [
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
+                        "youtubeVideo": "https://www.youtube.com/watch?v=41gW3YhFKyM"
                     },
                     "locales": {
                         "en": {
-                            "title": "",
-                            "text": "",
-                            "tags": []
+                            "title": "iScan",
+                            "text": "A powerful iOS [[barcode scanning app]] that allows users to scan barcodes and QR codes, retrieve product information, and manage their inventory.",
+                            "tags": ["ios", "swift", "swiftui"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "pi pi-microchip",
+                    "faIconColors": {"bg": "#0d8f3d", "fill": "white"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "youtubeVideo": "https://www.youtube.com/watch?v=HB7JWlH5tNE"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AndroidTracker",
+                            "text": "An Android [[device tracking app]] that helps users locate their lost or stolen devices, remotely lock them, and erase sensitive data. It uses Firebase for real-time tracking and notifications.",
+                            "tags": ["android", "kotlin", "firebase"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "pi pi-chart-scatter",
+                    "faIconColors": {"bg": "#cc722d", "fill": "white"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_the_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ]
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SVM Predictor",
+                            "text": "A machine learning [[SVM predictor app]] that uses support vector machines to predict outcomes based on user input data. It uses TensorFlow Lite for on-device inference and provides real-time predictions.",
+                            "tags": ["ai", "flutter", "dart"]
                         }
                     }
                 }
-            ]
-        },
-
-        {
-            "id": 3,
-            "component": "ArticleTestimonials",
-            "locales": {
-                "en": {"title": "Client {{Feedbacks}}"},
-                "tr": {"title": "Müşteri {{Geri Bildirimleri}}"},
-                "sv": {"title": "Kund {{Feedbacks}}"},
-                "ja": {"title": "クライアントの{{フィードバック}}"}
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc"
-            },
-            "items": [
-                
             ]
         }
     ]

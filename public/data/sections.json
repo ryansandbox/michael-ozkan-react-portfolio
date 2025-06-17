@@ -14,7 +14,7 @@
         },
         {
             "id": "skills",
-            "categoryId": "showcase",
+            "categoryId": "profile",
             "jsonPath": "/data/sections/skills.json",
             "faIcon": "pi pi-wrench"
         },
@@ -31,8 +31,14 @@
             "faIcon": "pi pi-folder-open"
         },
         {
+            "id": "announcement",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/announcement.json",
+            "faIcon": "pi pi-megaphone"
+        },
+        {
             "id": "achievements",
-            "categoryId": "profile",
+            "categoryId": "background",
             "jsonPath": "/data/sections/achievements.json",
             "faIcon": "pi pi-trophy"
         },

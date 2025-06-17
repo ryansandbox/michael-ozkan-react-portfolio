@@ -1,0 +1,326 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Dreamify",
+                "title_short_nav": "Dreamify",
+                "title_long_prefix": "Get to know the",
+                "title_long": "{{Dreamify}} Project"
+            },
+            "tr": {
+                "title_short": "Dreamify",
+                "title_short_nav": "Dreamify",
+                "title_long_prefix": "Hayal Etmeye Başla",
+                "title_long": "{{Dreamify}} Projesi"
+            },
+            "sv": {
+                "title_short": "Dreamify",
+                "title_short_nav": "Dreamify",
+                "title_long_prefix": "Lär känna",
+                "title_long": "{{Dreamify}} Projektet"
+            },
+            "ja": {
+                "title_short": "Dreamify",
+                "title_short_nav": "Dreamify",
+                "title_long_prefix": "このプロジェクトについて知る",
+                "title_long": "{{Dreamify}}プロジェクト"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {},
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/article-text-image-dreamify.png",
+                    "locales": {
+                        "en": {
+                            "text": "<p>{{Dreamify}} is my brand new exciting project with one big goal: to [[change the way we connect with technology]]. Using the power of AI, Dreamify lets you create, explore, and share your dreams in a fun and immersive virtual space—right from your phone.</p><p>I’m currently <u>crowdfunding</u> Dreamify to turn this vision into reality. The app is being built with [[accessibility]] and [[creativity]] in mind, making it easy for anyone to get involved and help shape the future of this platform.</p>"
+                        },
+                        "tr": {
+                            "text": "<p>{{Dreamify}}, teknolojilerle bağlantı kurma şeklimizi değiştirmeyi hedefleyen yeni ve heyecan verici bir proje. AI gücünü kullanarak, Dreamify hayallerinizi eğlenceli ve sürükleyici bir sanal ortamda oluşturmanıza, keşfetmenize ve paylaşmanıza olanak tanır—hepsi telefonunuzdan.</p><p>Şu anda bu vizyonu gerçeğe dönüştürmek için Dreamify'yi [[crowdfunding]] ile destekliyorum. Uygulama, [[erişilebilirlik]] ve [[yaratıcılık]] odaklı olarak geliştiriliyor, böylece herkesin katılmasını ve bu platformun geleceğini şekillendirmesine yardımcı olmasını kolaylaştırıyor.</p>"
+                        },
+                        "sv": {
+                            "text": "<p>{{Dreamify}} är mitt nya spännande projekt med ett stort mål: att [[förändra sättet vi kopplar upp oss mot teknologin]]. Med kraften av AI låter Dreamify dig skapa, utforska och dela dina drömmar i en rolig och uppslukande virtuell miljö—direkt från din telefon.</p><p>Jag crowdfunding Dreamify för att förverkliga denna vision. Appen byggs med fokus på [[tillgänglighet]] och [[kreativitet]], vilket gör det enkelt för alla att delta och hjälpa till att forma framtiden för denna plattform.</p>"
+                        },
+                        "ja": {
+                            "text": "<p>{{Dreamify}}は、テクノロジーとのつながり方を[[変える]]ことを目指した新しいエキサイティングなプロジェクトです。AIの力を利用して、Dreamifyはあなたの夢を楽しく没入型の仮想空間で作成、探索、共有できるようにします—すべてスマートフォンから。</p><p>現在、このビジョンを実現するためにDreamifyを[[クラウドファンディング]]しています。アプリは[[アクセシビリティ]]と[[クリエイティビティ]]を念頭に置いて構築されており、誰でも参加し、このプラットフォームの未来を形作る手助けができるようになっています。</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "What People {{Are Saying}}"},
+                "tr": { "title": "İnsanlar {{Ne Diyor}}" },
+                "sv": { "title": "Vad {{Folk Säger}}" },
+                "ja": { "title": "皆さんの{{声}}" }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Lauren Sanchez",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/content/testimonial-person-1.png",
+                    "locales": {
+                        "en": {
+                            "title": "CEO of Blue Origin",
+                            "text": "I've tested the beta of [[Dreamify]] and it's truly revolutionary. It's a game-changer for creativity and innovation."
+                        },
+                        "tr": {
+                            "title": "Blue Origin CEO",
+                            "text": "[[Dreamify]]'nin beta sürümünü test ettim ve gerçekten devrim niteliğinde. Yaratıcılık ve yenilik için bir oyun değiştirici."
+                        },
+                        "sv": {
+                            "title": "Blue Origin VD",
+                            "text": "[[Dreamify]]'s beta-version är verkligen revolutionerande. Det är en spelväxlare för kreativitet och innovation."
+                        },
+                        "ja": {
+                            "title": "Blue OriginのCEO",
+                            "text": "[[Dreamify]]のベータ版をテストしましたが、 本当に革命的です。クリエイティビティとイノベーション のゲームチェンジャーです。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Elon Musk",
+                    "link": {"href": "https://x.com", "tooltipString": "open_website"},
+                    "img": "images/content/testimonial-person-2.png",
+                    "locales": {
+                        "en": {
+                            "title": "CEO of SpaceX",
+                            "text": "[[Dreamify]] is the future of how we interact with technology. It's like nothing I've seen before. And that's all I have to say about it!"
+                        },
+                        "tr": {
+                            "title": "SpaceX CEO",
+                            "text": "[[Dreamify]], teknolojilerle etkileşim kurma şeklimizin geleceği. Daha önce gördüğüm hiçbir şeye benzemiyor. Ve bu konuda söyleyeceklerim bu kadar!"
+                        },
+                        "sv": {
+                            "title": "SpaceX VD",
+                            "text": "[[Dreamify]] är framtiden för hur vi interagerar med teknologin. Det är som inget jag sett tidigare. Och det är allt jag har att säga om det!"
+                        },
+                        "ja": {
+                            "title": "SpaceXのCEO",
+                            "text": "[[Dreamify]]は、 テクノロジーとのインタラクションの未来です。 これまで見たことのないものです。 そして、それについて言えることは これだけです！"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Berk Özdemir",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/content/testimonial-person-3.png",
+                    "locales": {
+                        "en": {
+                            "title": "CFO of Loadstar Tech.",
+                            "text": "[[Dreamify]] is a fantastic platform that will empower people to dream bigger and achieve more."
+                        },
+                        "tr": {
+                            "title": "Loadstar Tech. CFO",
+                            "text": "[[Dreamify]], insanların daha büyük hayaller kurmasını ve daha fazlasını başarmasını sağlayacak harika bir platform."
+                        },
+                        "sv": {
+                            "title": "Loadstar Tech. CFO",
+                            "text": "[[Dreamify]] är en fantastisk plattform som kommer att ge människor möjlighet att drömma större och uppnå mer."
+                        },
+                        "ja": {
+                            "title": "Loadstar Tech. CFO",
+                            "text": "[[Dreamify]]は、 人々がより大きな夢を抱き、 より多くを達成することを可能にする素晴 らしいプラットフォームです。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Caroline Johnson",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/content/testimonial-person-4.png",
+                    "locales": {
+                        "en": {
+                            "title": "Tech Enthusiast",
+                            "text": "[[Dreamify]] is a game-changer for the tech industry. It's innovative, creative, and inspiring."
+                        },
+                        "tr": {
+                            "title": "Teknoloji Meraklısı",
+                            "text": "[[Dreamify]], teknoloji endüstrisi için bir oyun değiştirici. Yenilikçi, yaratıcı ve ilham verici."
+                        },
+                        "sv": {
+                            "title": "Teknikentusiast",
+                            "text": "[[Dreamify]] är en spelväxlare för teknikindustrin. Det är innovativt, kreativt och inspirerande."
+                        },
+                        "ja": {
+                            "title": "テクノロジー愛好家",
+                            "text": "[[Dreamify]]は、 テクノロジー業界のゲームチェンジャーです。 革新的で、クリエイティブで、 インスピレーションを与えてくれます。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Project {{Status}}"},
+                "tr": {"title": "Proje {{Durumu}}"},
+                "sv": {"title": "Projektets {{Status}}"},
+                "ja": {"title": "プロジェクトの{{ステータス}}"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-kickstarter",
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Funding",
+                            "text": "The project is almost fully funded and ready to launch! :)"
+                        },
+                        "tr": {
+                            "title": "Finansman",
+                            "text": "Proje neredeyse tamamen finanse edildi ve lansmana hazır! :)"
+                        },
+                        "sv": {
+                            "title": "Finansiering",
+                            "text": "Projektet är nästan helt finansierat och redo att lanseras! :)"
+                        },
+                        "ja": {
+                            "title": "資金調達",
+                            "text": "プロジェクトはほぼ完全に資金調達され、ローンチの準備が整いました！ :)"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-brain",
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Brand Design",
+                            "text": "Core functionalities are defined and we're prototyping ideas."
+                        },
+                        "tr": {
+                            "title": "Marka Tasarımı",
+                            "text": "Temel işlevler tanımlandı ve prototip fikirler üzerinde çalışıyoruz."
+                        },
+                        "sv": {
+                            "title": "Varumärkesdesign",
+                            "text": "Kärnfunktioner är definierade och vi prototypar idéer."
+                        },
+                        "ja": {
+                            "title": "ブランドデザイン",
+                            "text": "コア機能が定義され、アイデアのプロトタイピングを行っています。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-palette",
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Art Style",
+                            "text": "The visual style is taking shape with a focus on futuristic and cozy vibes."
+                        },
+                        "tr": {
+                            "title": "Sanat Tarzı",
+                            "text": "Görsel stil, geleceğe yönelik ve samimi bir atmosfer odaklı olarak şekilleniyor."
+                        },
+                        "sv": {
+                            "title": "Konststil",
+                            "text": "Den visuella stilen tar form med fokus på futuristiska och mysiga vibbar."
+                        },
+                        "ja": {
+                            "title": "アートスタイル",
+                            "text": "視覚スタイルは、未来的で居心地の良い雰囲気に焦点を当てて形作られています。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-users",
+                    "percentage": 40,
+                    "locales": {
+                        "en": {
+                            "title": "Team Building",
+                            "text": "We're starting to bring creative folks together to build the dream team."
+                        },
+                        "tr": {
+                            "title": "Takım Oluşturma",
+                            "text": "Hayal gücünü bir araya getirmek için yaratıcı insanları bir araya getirmeye başlıyoruz."
+                        },
+                        "sv": {
+                            "title": "Team Building",
+                            "text": "Vi börjar samla kreativa människor för att bygga drömteamet."
+                        },
+                        "ja": {
+                            "title": "チームビルディング",
+                            "text": "夢のチームを作るために、クリエイティブな人々を集め始めています。"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-bug-slash",
+                    "percentage": 30,
+                    "locales": {
+                        "en": {
+                            "title": "Prototype Testing",
+                            "text": "Initial builds are being tested to squash bugs and refine the feel."
+                        },
+                        "tr": {
+                            "title": "Prototip Testi",
+                            "text": "İlk sürümler, hataları düzeltmek ve hissi iyileştirmek için test ediliyor."
+                        },
+                        "sv": {
+                            "title": "Prototyptestning",
+                            "text": "Initiala versioner testas för att fixa buggar och förbättra känslan."
+                        },
+                        "ja": {
+                            "title": "プロトタイプテスト",
+                            "text": "初期ビルドがテストされ、バグを修正し、感触を洗練しています。"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-magnifying-glass-chart",
+                    "percentage": 20,
+                    "locales": {
+                        "en": {
+                            "title": "Market Research",
+                            "text": "We're exploring the market to understand what users want most."
+                        },
+                        "tr": {
+                            "title": "Pazar Araştırması",
+                            "text": "Kullanıcıların en çok ne istediğini anlamak için pazarı araştırıyoruz."
+                        },
+                        "sv": {
+                            "title": "Marknadsundersökning",
+                            "text": "Vi utforskar marknaden för att förstå vad användarna vill ha mest."
+                        },
+                        "ja": {
+                            "title": "市場調査",
+                            "text": "ユーザーが最も望んでいるものを理解するために、市場を調査しています。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
