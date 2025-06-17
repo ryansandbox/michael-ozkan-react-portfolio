@@ -25,6 +25,12 @@
             "faIcon": "pi pi-graduation-cap"
         },
         {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "pi pi-folder-open"
+        },
+        {
             "id": "achievements",
             "categoryId": "profile",
             "jsonPath": "/data/sections/achievements.json",
