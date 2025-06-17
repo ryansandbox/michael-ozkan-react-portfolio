@@ -31,6 +31,33 @@
     "articles": [
         {
             "id": 1,
+            "component": "ArticleText",
+            "locales": {},
+            "settings": {},
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/content/article-text-image-skills.png",
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a front-end developer with a strong focus on {{mobile app development}}. My expertise lies in creating native and cross-platform applications that deliver a seamless user experience across both [[iOS]] and [[Android]] platforms.</p><p>With a solid foundation in web technologies, I leverage frameworks like [[React Native]] and [[Flutter]] to build high-performance mobile applications. [[Check out below]] a list of my tech stacks that I am familiar with and have worked with.</p>"
+                        },
+                        "tr": {
+                            "text": "<p>Ben, hem iOS hem de Android platformlarında sorunsuz bir kullanıcı deneyimi sunan yerel ve çapraz platform uygulamaları oluşturma konusunda uzmanlaşmış bir ön uç geliştiricisiyim.</p><p>Web teknolojilerinde sağlam bir temele sahip olarak, yüksek performanslı mobil uygulamalar oluşturmak için [[React Native]] ve [[Flutter]] gibi framework'leri kullanıyorum. Aşağıda, aşina olduğum ve üzerinde çalıştığım teknoloji yığınlarının bir listesini [[kontrol edin]].</p>"
+                        },
+                        "sv": {
+                            "text": "<p>Jag är en front-end utvecklare med starkt fokus på {{mobilapputveckling}}. Min expertis ligger i att skapa inbyggda och plattformsoberoende applikationer som levererar en sömlös användarupplevelse på både [[iOS]] och [[Android]] plattformar.</p><p>Med en solid grund i webbteknologier använder jag ramverk som [[React Native]] och [[Flutter]] för att bygga högpresterande mobilapplikationer. [[Kolla in nedan]] en lista över mina teknikstackar som jag är bekant med och har arbetat med.</p>"
+                        },
+                        "ja": {
+                            "text": "<p>私は、[[iOS]]と[[Android]]の両方のプラットフォームでシームレスなユーザーエクスペリエンスを提供するネイティブおよびクロスプラットフォームアプリケーションの作成に重点を置いたフロントエンド開発者です。</p><p>Webテクノロジーの確固たる基盤を持ち、[[React Native]]や[[Flutter]]などのフレームワークを活用して、高性能なモバイルアプリケーションを構築しています。私が精通し、取り組んできた技術スタックのリストを[[以下で確認してください]]。</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
             "component": "ArticleStack",
             "locales": {
                 "en": {"title": "{{Cross-Platform}} Stack"},
@@ -92,7 +119,7 @@
         },
 
         {
-            "id": 2,
+            "id": 3,
             "component": "ArticleStack",
             "locales": {
                 "en": {"title": "{{iOS}} Stack"},
@@ -142,7 +169,7 @@
         },
 
         {
-            "id": 3,
+            "id": 4,
             "component": "ArticleStack",
             "locales": {
                 "en": {"title": "{{Android}} Stack"},
@@ -180,7 +207,7 @@
         },
 
         {
-            "id": 4,
+            "id": 5,
             "component": "ArticleStack",
             "locales": {
                 "en": {"title": "{{Additional}} Skills"},

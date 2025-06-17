@@ -5,7 +5,7 @@
                 "title_short": "Contact",
                 "title_short_nav": "Contact",
                 "title_long_prefix": "Don't hesitate to",
-                "title_long": "Send me {{a Message}}"
+                "title_long": "Get {{In Touch}}"
             },
             "tr": {
                 "title_short": "İletişim",
@@ -71,9 +71,9 @@
             "component": "ArticleInfoList",
             "settings": {},
             "locales": {
-                "en": {"title": "Or if you {{prefer}}..."},
+                "en": {"title": "Or if you {{prefer...}}"},
                 "tr": {"title": "Ya da {{tercih}} ederseniz..."},
-                "sv": {"title": "Eller om du {{föredrar}}..."},
+                "sv": {"title": "Eller om du {{föredrar...}}"},
                 "ja": {"title": "{{好み}}なら..."}
             },
             "items": [

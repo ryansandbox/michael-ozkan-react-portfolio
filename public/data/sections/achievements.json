@@ -1,0 +1,12 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Achievements",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            }
+        }
+    }
+}
