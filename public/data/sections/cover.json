@@ -43,7 +43,7 @@
                     "id": 1,
                     "label": "Cupertino – CA",
                     "link": {"href": "", "tooltipString": ""},
-                    "faIcon": "fa-regular fa-address-book"
+                    "faIcon": "pi pi-map-marker"
                 },
                 {
                     "id": 2,
