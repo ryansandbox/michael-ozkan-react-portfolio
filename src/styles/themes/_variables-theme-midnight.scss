@@ -1,6 +1,6 @@
 /**
  * @author Ryan Balieiro
- * @description Light theme colors.
+ * @description Midnight theme colors.
  */
 
 @import "theme-variables-builder";
@@ -28,7 +28,6 @@ $empty: darken($base-container-bg, 5%);
 $borders: lighten(#0a1120, 4%);
 $scrollbar-track: #0a0f1a;
 $scrollbar-thumb: #212e3b;
-
 
 [data-theme="midnight"] {
     @include build-theme(
