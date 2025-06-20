@@ -23,6 +23,7 @@ $loader-background: #1b2226; // making the loader background dark blue
 $loader-contrast: #FFFFFF; // text and pacman animation color
 $primary: #51a0c2; // the base primary color (used to color the pacman beans)
 ```
+
 For a smoother visual transition, you can also match the splash screen background in `index.html` by setting the same background color:
 
 
@@ -46,7 +47,7 @@ Each theme has its own separate color schema file. The two default themes (dark 
 If you'd like the dark theme to use black and **blue** instead of black and **green**, open `_variables-theme-dark.scss` and update the following variable:
 
 ```scss
-$primary: #8eccff; // making the dark theme primary color blue!
+$primary: #8bdbf8; // making the dark theme primary color blue!
 ```
 
 It's simple like that! You can also play around with other colors in the dark theme file to create a unique look.
@@ -56,28 +57,30 @@ It's simple like that! You can also play around with other colors in the dark th
 To switch the light theme from green-based to **blue-based**, you can replace the green shades with blue ones like this:
 
 ```scss
-$primary: #266b93;
-$secondary: darken(#798287, 10%);
-$dark: #aec6da;
+$primary: #266c93;
+$secondary: darken(#798ca0, 10%);
+$dark: #bfd2e0;
 $danger: #932626;
-$muted: #7c858d;
+$muted: #7c879d;
 
 $base-bg: #91b7d7;
-$base-bg-light: #a6c7e3;
+$base-bg-light: #a6c9e3;
 $base-bg-dark: #7ea6cb;
 
-$texts: #202521;
-$texts-inverted: #DDDDDD;
+$texts: #20242a;
+$texts-inverted: #EEE;
 
-$base-container-bg: #cadbed;
-$base-container-bg-accent: #c2d6e9;
-$base-popover-bg: #cad6e1;
-$base-boards: lighten(#b9cee1, 3%);
-$base-info-badges: lighten(#b9cee1, 0%);
-$empty: #dfebf5;
+$base-container-bg: #d9e7f5;
+$base-container-bg-accent: #c2d8e9;
+$base-popover-bg: #cad4e1;
+$base-boards: #d2dfee;
+$base-info-badges: #c3d5e3;
+$empty: #e8f1f8;
 
-$borders: #dae7f1;
-$scrollbar-track: #daeef5;
+$borders: #d9e0ef;
+$borders-nav-mobile: rgba(white, 0.15);
+$borders-nav-mobile-accent: rgba(white, 0.2);
+$scrollbar-track: #dae4f5;
 $scrollbar-thumb: #5591bd;
 ```
 
