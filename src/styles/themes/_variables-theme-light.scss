@@ -26,6 +26,8 @@ $base-info-badges: #c3d5e3;
 $empty: #e8f1f8;
 
 $borders: #d9e0ef;
+$borders-nav-mobile: rgba(white, 0.15);
+$borders-nav-mobile-accent: rgba(white, 0.2);
 $scrollbar-track: #dae4f5;
 $scrollbar-thumb: #5591bd;
 
@@ -51,14 +53,14 @@ $scrollbar-thumb: #5591bd;
         // Nav
         /** NAV MOBILE BG: **/              $base-container-bg-accent,
         /** NAV MOBILE: **/                 $texts,
-        /** NAV MOBILE BORDER: **/          rgba(white, 0.2),
+        /** NAV MOBILE BORDER: **/          $borders-nav-mobile-accent,
 
         /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
         /** NAV MOBILE HOVER: **/           $primary,
 
         /** NAV MOBILE SELECTED BG: **/     $primary,
         /** NAV MOBILE SELECTED: **/        $texts-inverted,
-        /** NAV MOBILE SELECTED BORDER: **/ rgba(white, 0.15),
+        /** NAV MOBILE SELECTED BORDER: **/ $borders-nav-mobile,
 
         // Main Layout Elements...
         /** SECTION BG: **/                 $base-container-bg,

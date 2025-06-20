@@ -24,6 +24,7 @@ $base-popover-bg: #050a12;
 $base-boards: lighten($base-container-bg, 3%);
 $base-info-badges: lighten($dark, 3%);
 $empty: darken($base-container-bg, 5%);
+$empty-accent: #0a1120;
 
 $borders: lighten(#0a1120, 4%);
 $scrollbar-track: #0a0f1a;
@@ -49,11 +50,11 @@ $scrollbar-thumb: #212e3b;
         /** TEXTS (INVERTED): **/           $texts-inverted,
 
         // Nav
-        /** NAV MOBILE BG: **/              #0a1120,
+        /** NAV MOBILE BG: **/              $empty-accent,
         /** NAV MOBILE: **/                 $texts,
         /** NAV MOBILE BORDER: **/          $borders,
 
-        /** NAV MOBILE HOVER BG: **/        #0a1120,
+        /** NAV MOBILE HOVER BG: **/        $empty-accent,
         /** NAV MOBILE HOVER: **/           $primary,
 
         /** NAV MOBILE SELECTED BG: **/     $borders,
