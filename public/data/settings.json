@@ -74,5 +74,43 @@
         }
     ],
 
+    "consoleMessageForDevelopers": {
+        "title": "\uD83D\uDDA5️ Hey there, fellow developer!",
+        "items": [
+            {
+                "description": "This is an open-source template based on the React framework.",
+                "list": [],
+                "listStyle": "none"
+            },
+            {
+                "description": "Other frameworks and plugins used in the project include:",
+                "list": [
+                    "Bootstrap 5: https://getbootstrap.com/",
+                    "Smooth Scrollbar: https://tinyurl.com/4yhm4n4a",
+                    "Swiper: https://swiperjs.com/",
+                    "EmailJS: https://www.emailjs.com/",
+                    "Font Awesome: https://fontawesome.com/",
+                    "PrimeIcons: https://primeicons.org/"
+                ],
+                "listStyle": "bulleted"
+            },
+            {
+                "description": "Clone it and customize it for your own portfolio:",
+                "list": [
+                    "https://github.com/ryanbalieiro/react-portfolio-template"
+                ],
+                "listStyle": "none"
+            },
+            {
+                "description": "Developer Info:",
+                "list": [
+                    "GitHub: https://github.com/ryanbalieiro",
+                    "Website: https://ryanbalieiro.com"
+                ],
+                "listStyle": "bulleted"
+            }
+        ]
+    },
+
     "imagesToCache": []
 }

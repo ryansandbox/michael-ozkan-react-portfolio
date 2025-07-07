@@ -18,20 +18,6 @@ import Portfolio from "/src/components/Portfolio.jsx"
 /** Initialization Script... **/
 let container = null
 
-// Console message for fellow developers
-if (typeof console !== 'undefined' && console.log) {
-    console.log(
-        '%c🚀 Hey there, fellow developer!',
-        'color: #36ad59; font-size: 16px; font-weight: bold;'
-    );
-    console.log(
-        '%cLike what you see? Let\'s connect!\n' +
-        'GitHub: https://github.com/ryanbalieiro\n' +
-        'Portfolio: https://ryanbalieiro.github.io/',
-        'color: #888; font-size: 12px;'
-    );
-}
-
 document.addEventListener('DOMContentLoaded', function(event) {
     if(container)
         return
@@ -75,6 +61,12 @@ const AppEssentialsWrapper = ({children}) => {
         utils.file.loadJSON("/data/settings.json").then(response => {
             _applyDeveloperSettings(response)
             setSettings(response)
+
+            const consoleMessageForDevelopers = response?.consoleMessageForDevelopers
+            if(consoleMessageForDevelopers) {
+                const primaryColor = utils.css.getRootSCSSVariable('--bs-primary')
+                utils.log.info(consoleMessageForDevelopers.title, consoleMessageForDevelopers.items, primaryColor)
+            }
         })
 
         api.analytics.reportVisit().then(() => {})
