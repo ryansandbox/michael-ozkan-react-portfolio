@@ -26,13 +26,13 @@ $z-index-section-active: 20;
 $z-index-section-floating-items: 30;
 $z-index-sidebar: 40;
 $z-index-nav-tabs: 50;
-$z-index-pop-over: 90;
-$z-index-modal: 100;
-$z-index-notifications: 110;
-$z-index-dialogs: 120;
-$z-index-activity-spinner: 130;
-$z-index-animated-cursor: 140;
-$z-index-loader: 150;
+$z-index-pop-over: 1200;
+$z-index-modal: 1210;
+$z-index-notifications: 1220;
+$z-index-dialogs: 1230;
+$z-index-activity-spinner: 1240;
+$z-index-animated-cursor: 1250;
+$z-index-loader: 1260;
 
 /** Layout Constraints - General **/
 $max-breakpoint-for-tabbed-interface: md;
