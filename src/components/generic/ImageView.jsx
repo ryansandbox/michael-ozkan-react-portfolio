@@ -1,15 +1,13 @@
 import "./ImageView.scss"
-import React, {useEffect, useState, useRef} from 'react'
+import React, {useEffect, useState} from 'react'
 import {useConstants} from "/src/hooks/constants.js"
 import {Spinner} from "react-bootstrap"
 import {useUtils} from "/src/hooks/utils.js"
 
-function ImageView({ src, alt = "", className = "", id= null, hideSpinner = false, style = null, onStatus = null, lazy = true }) {
+function ImageView({ src, alt = "", className = "", id= null, hideSpinner = false, style = null, onStatus = null }) {
     const [loadStatus, setLoadStatus] = useState(ImageView.LoadStatus.LOADING)
     const [loadedSrc, setLoadedSrc] = useState(null)
     const [errorSrc, setErrorSrc] = useState(null)
-    const [isIntersecting, setIsIntersecting] = useState(!lazy)
-    const imgRef = useRef(null)
 
     /** @listens src **/
     useEffect(() => {
@@ -46,50 +44,16 @@ function ImageView({ src, alt = "", className = "", id= null, hideSpinner = fals
         setErrorSrc(src)
     }
 
-    /** @listens lazy **/
-    useEffect(() => {
-        if (!lazy || !imgRef.current) return;
-
-        // Check if IntersectionObserver is supported
-        if (!('IntersectionObserver' in window)) {
-            // Fallback: load image immediately
-            setIsIntersecting(true);
-            return;
-        }
-
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    setIsIntersecting(true);
-                    observer.disconnect();
-                }
-            },
-            {
-                rootMargin: '50px',
-                threshold: 0.01
-            }
-        );
-
-        observer.observe(imgRef.current);
-
-        return () => {
-            observer.disconnect();
-        };
-    }, [lazy])
-
     return (
         <div className={`image-view ${className}`}
              id={id}
-             style={style}
-             ref={imgRef}>
+             style={style}>
             <ImageViewContainer src={src}
                                 alt={alt}
                                 visible={containerVisible}
                                 loadStatus={loadStatus}
                                 onLoad={_onLoad}
-                                onError={_onError}
-                                isIntersecting={isIntersecting}
-                                lazy={lazy}/>
+                                onError={_onError}/>
 
             <ImageViewSpinner visible={spinnerVisible}/>
             <ImageViewError visible={errorVisible}
@@ -104,7 +68,7 @@ ImageView.LoadStatus = {
     ERROR: "error"
 }
 
-function ImageViewContainer({ src, alt, visible, loadStatus, onLoad, onError, isIntersecting, lazy }) {
+function ImageViewContainer({ src, alt, visible, loadStatus, onLoad, onError }) {
     const constants = useConstants()
     const utils = useUtils()
 
@@ -113,11 +77,10 @@ function ImageViewContainer({ src, alt, visible, loadStatus, onLoad, onError, is
 
     return (
         <img className={`image-view-img ${visibleClass} ${constants.HTML_CLASSES.imageView} ${constants.HTML_CLASSES.imageView}-${loadStatus}`}
-             src={isIntersecting ? resolvedSrc : undefined}
+             src={resolvedSrc}
              alt={alt}
              onLoad={onLoad}
-             onError={onError}
-             loading={lazy ? 'lazy' : 'eager'}/>
+             onError={onError}/>
     )
 }
 
