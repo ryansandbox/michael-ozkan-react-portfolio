@@ -59,6 +59,15 @@ The `supportedThemes` section defines the themes your portfolio can use. Each th
 
 **Note**: You must also define at least one theme here. If you want to use only one theme, keep only that theme in the array, and the theme picker will be automatically hidden.
 
+## Console Message for Developers
+
+The `consoleMessageForDevelopers` object allows you to set a message that will be displayed in the browser console when the portfolio is loaded. This can be useful for providing information or instructions to developers who visit your portfolio.
+
+The object should contain a `title` field containing a static string, and an `items` array containing objects with the following fields: 
+- `description`: A string containing the description of the item.
+- `list`: An array of strings, each representing an item in the list.
+- `listStyle`: A string indicating the style of the list (`none` or `bulleted`).
+
 ## Next Steps
 Ready to keep going? Check out the next tutorial or revisit the previous one if you need a refresher:
 
