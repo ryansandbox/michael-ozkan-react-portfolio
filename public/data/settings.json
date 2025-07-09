@@ -3,7 +3,7 @@
         "debugMode": false,
         "fakeEmailRequests": false,
         "stayOnThePreloaderScreen": false,
-        "version": "2.0.0"
+        "version": "2.0.3"
     },
 
     "preloaderSettings": {
@@ -18,8 +18,8 @@
     },
 
     "templateSettings": {
-        "animatedBackground": true,
         "animatedCursorEnabled": true,
+        "backgroundStyle": "static",
         "defaultLanguageId": "en",
         "defaultThemeId": "dark",
         "fullscreenEnabled": true,

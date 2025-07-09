@@ -34,8 +34,8 @@ The `templateSettings` section contains various settings that control the overal
 
 | Field                      | Type   | Description                                                                                                                                                                                |
 |----------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `animatedBackground`       | BOOL   | When enabled, the background of the portfolio will have an animated effect.                                                                                                                |
 | `animatedCursorEnabled`    | BOOL   | When enabled, the mouse cursor will have an animated effect. This setting has no impact on touch devices.                                                                                  |     
+| `backgroundStyle`          | STRING | Sets the portfolio background style: `animated` (moving circles), `static` (shape mosaic), or `plain` (solid color)                                                                        |
 | `defaultLanguageId`        | STRING | The ID for the language that will be used by default in the portfolio. This should match one of the language IDs defined in the `supportedLanguages` section.                              |
 | `defaultThemeId`           | STRING | The ID for the theme that will be used by default in the portfolio. This should match one of the theme IDs defined in the `supportedThemes` section.                                       |
 | `fullscreenEnabled`        | BOOL   | When enabled, a fullscreen button will be displayed in the top right (when available), allowing users to toggle fullscreen mode.                                                           |
@@ -67,6 +67,8 @@ The object should contain a `title` field containing a static string, and an `it
 - `description`: A string containing the description of the item.
 - `list`: An array of strings, each representing an item in the list.
 - `listStyle`: A string indicating the style of the list (`none` or `bulleted`).
+
+If you don't want to display a console message, you can simply remove the `consoleMessageForDevelopers` object from the `settings.json` file or leave it empty.
 
 ## Next Steps
 Ready to keep going? Check out the next tutorial or revisit the previous one if you need a refresher:
