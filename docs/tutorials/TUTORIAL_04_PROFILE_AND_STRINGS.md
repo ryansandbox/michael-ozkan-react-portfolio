@@ -47,6 +47,35 @@ The profile locales properties are:
 > **Note:** Required fields must be present **at least** in the default language.  
 > If a field is missing in a specific language, the app will automatically fall back to the default language set in `settings.json`.
 
+### 📌 Tip: Having a different picture for each theme
+
+You can make your profile picture change based on the active theme using a built-in feature of this template.
+Instead of using a static URL, you can set your `profilePictureUrl` like this:
+
+
+```json
+{
+    "profilePictureUrl": "images/pictures/pfp-{theme}.png"
+}
+```
+
+The `{theme}` placeholder will be dynamically replaced with the current theme ID (dark, light, etc.). Then, you need to add the corresponding image variants to your project:
+- `images/pictures/pfp-dark.png`
+- `images/pictures/pfp-light.png`
+
+Also, to ensure these images are loaded in advance, it's recommended to add them to the `imagesToCache` array in your `settings.json` file:
+
+```json
+{
+    "imagesToCache": [
+        "images/pictures/pfp-dark.png",
+        "images/pictures/pfp-light.png"
+    ]
+}
+```
+
+This `{theme}` placeholder works pretty much with any image URL in the project, not just the profile picture.
+
 ## Strings
 
 The `strings.json` file contains **global strings** used across various components in your app.

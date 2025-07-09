@@ -19,7 +19,7 @@
 
     "templateSettings": {
         "animatedCursorEnabled": true,
-        "backgroundStyle": "static",
+        "backgroundStyle": "animated",
         "defaultLanguageId": "en",
         "defaultThemeId": "dark",
         "fullscreenEnabled": true,
@@ -90,7 +90,7 @@
                     "Swiper: https://swiperjs.com/",
                     "EmailJS: https://www.emailjs.com/",
                     "Font Awesome: https://fontawesome.com/",
-                    "PrimeIcons: https://primeicons.org/"
+                    "PrimeIcons: https://primefaces.org/"
                 ],
                 "listStyle": "bulleted"
             },
