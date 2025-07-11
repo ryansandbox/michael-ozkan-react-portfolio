@@ -4,11 +4,13 @@ import Tooltip from "/src/components/generic/Tooltip.jsx"
 import {useViewport} from "/src/providers/ViewportProvider.jsx"
 import {useUtils} from "/src/hooks/utils.js"
 import {useInput} from "/src/providers/InputProvider.jsx"
+import {useNavigation} from "/src/providers/NavigationProvider.jsx"
 
 function HoverStaticTooltip({ id = "", targetId = "", label = "", className = "", onDesktopClick = null }) {
     const viewport = useViewport()
     const input = useInput()
     const utils = useUtils()
+    const navigation = useNavigation()
     const isTouchDevice = utils.device.isTouchDevice()
 
     const [visible, setVisible] = useState(false)
@@ -30,7 +32,7 @@ function HoverStaticTooltip({ id = "", targetId = "", label = "", className = ""
     /** @listens viewport.innerWidth **/
     useEffect(() => {
         _forceHide()
-    }, [viewport.innerWidth])
+    }, [viewport.innerWidth, navigation.targetSection])
 
     /** @listens input.mouseUpStatus **/
     useEffect(() => {
@@ -69,7 +71,7 @@ function HoverStaticTooltip({ id = "", targetId = "", label = "", className = ""
     return (
         <Tooltip label={label}
                  id={id}
-                 className={`status-circle-tooltip text-center ${className}`}/>
+                 className={`hover-static-tooltip ${className}`}/>
     )
 }
 
