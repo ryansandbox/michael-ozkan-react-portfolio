@@ -44,7 +44,7 @@ function HoverStaticTooltip({ id = "", targetId = "", label = "", className = ""
     /** @listens input.mouseUpStatus **/
     useEffect(() => {
         const lastMouseTargetId = input.lastMouseTarget?.getAttribute("id")
-        if(lastMouseTargetId === targetId || !toggleBehaviorOnTouchScreens)
+        if(lastMouseTargetId === targetId)
             return
         setVisible(false)
     }, [input.mouseUpStatus])
