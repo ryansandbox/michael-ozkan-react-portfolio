@@ -27,6 +27,12 @@ function HoverStaticTooltip({ id = "", targetId = "", label = "", className = ""
         targetEl.addEventListener("mouseenter", _onTargetMouseEnter)
         targetEl.addEventListener("mouseleave", _onTargetMouseLeave)
         targetEl.addEventListener("click", _onTargetClick)
+
+        return () => {
+            targetEl.removeEventListener("mouseenter", _onTargetMouseEnter)
+            targetEl.removeEventListener("mouseleave", _onTargetMouseLeave)
+            targetEl.removeEventListener("click", _onTargetClick)
+        }
     }, [null, targetId])
 
     /** @listens viewport.innerWidth **/
