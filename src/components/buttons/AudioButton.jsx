@@ -8,12 +8,13 @@ function AudioButton({ url = "", tooltip = "", size = "", buttonClassName = "", 
     const feedbacks = useFeedbacks()
     const utils = useUtils()
 
-    const isMagicCursorEnabledAndActive = feedbacks.animatedCursorEnabled && feedbacks.animatedCursorActive
-    const shouldShowStaticTooltip = tooltip && !isMagicCursorEnabledAndActive
-
     const audioRef = useRef(null)
     const [uniqueId, setUniqueId] = useState(utils.string.generateUniqueRandomString("audio-button-"))
     const [status, setStatus] = useState(AudioButton.Status.NONE)
+    const [playCount, setPlayCount] = useState(0)
+
+    const isMagicCursorEnabledAndActive = feedbacks.animatedCursorEnabled && feedbacks.animatedCursorActive
+    const shouldShowStaticTooltip = tooltip && !isMagicCursorEnabledAndActive
 
     const statusIconMap = {
         [AudioButton.Status.LOADING]: "fa-solid fa-spinner pi-spin",
@@ -72,6 +73,7 @@ function AudioButton({ url = "", tooltip = "", size = "", buttonClassName = "", 
 
     const _stopAudio = () => {
         if(!audioRef.current) return
+        setPlayCount(prevCount => prevCount + 1)
         setStatus(AudioButton.Status.COMPLETED)
         audioRef.current.currentTime = 0
         audioRef.current?.pause()
@@ -83,6 +85,7 @@ function AudioButton({ url = "", tooltip = "", size = "", buttonClassName = "", 
                 <HoverStaticTooltip label={tooltip}
                                     className={`audio-button-tooltip text-center ${tooltipClassName}`}
                                     id={uniqueId + "-tooltip"}
+                                    forceResetFlag={playCount}
                                     targetId={uniqueId}/>
             )}
 

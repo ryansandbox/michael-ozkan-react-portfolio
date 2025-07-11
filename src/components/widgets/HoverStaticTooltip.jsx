@@ -6,7 +6,7 @@ import {useUtils} from "/src/hooks/utils.js"
 import {useInput} from "/src/providers/InputProvider.jsx"
 import {useNavigation} from "/src/providers/NavigationProvider.jsx"
 
-function HoverStaticTooltip({ id = "", targetId = "", label = "", className = "", onDesktopClick = null }) {
+function HoverStaticTooltip({ id = "", targetId = "", label = "", className = "", onDesktopClick = null, forceResetFlag = null, toggleBehaviorOnTouchScreens = false }) {
     const viewport = useViewport()
     const input = useInput()
     const utils = useUtils()
@@ -31,15 +31,22 @@ function HoverStaticTooltip({ id = "", targetId = "", label = "", className = ""
 
     /** @listens viewport.innerWidth **/
     useEffect(() => {
-        _forceHide()
-    }, [viewport.innerWidth, navigation.targetSection])
+        setVisible(false)
+    }, [viewport.innerWidth, forceResetFlag])
+
+    /** @listens navigation.targetSection **/
+    useEffect(() => {
+        if(!isTouchDevice || !toggleBehaviorOnTouchScreens)
+            return
+        setVisible(false)
+    }, [navigation.targetSection])
 
     /** @listens input.mouseUpStatus **/
     useEffect(() => {
         const lastMouseTargetId = input.lastMouseTarget?.getAttribute("id")
-        if(lastMouseTargetId === targetId)
+        if(lastMouseTargetId === targetId || !toggleBehaviorOnTouchScreens)
             return
-        _forceHide()
+        setVisible(false)
     }, [input.mouseUpStatus])
 
     const _onTargetMouseEnter = () => {
@@ -57,21 +64,23 @@ function HoverStaticTooltip({ id = "", targetId = "", label = "", className = ""
     const _onTargetClick = () => {
         if(!isTouchDevice && onDesktopClick)
             onDesktopClick()
-        else if(isTouchDevice)
-            setVisible(!visible)
-    }
 
-    const _forceHide = () => {
-        setVisible(false)
+        if(isTouchDevice && toggleBehaviorOnTouchScreens) {
+            setVisible(visible => !visible)
+        }
+        else {
+            setVisible(true)
+        }
     }
-
-    if(!visible)
-        return <></>
 
     return (
-        <Tooltip label={label}
-                 id={id}
-                 className={`hover-static-tooltip ${className}`}/>
+        <>
+            {visible && (
+                <Tooltip label={label}
+                         id={id}
+                         className={`hover-static-tooltip ${className}`}/>
+            )}
+        </>
     )
 }
 

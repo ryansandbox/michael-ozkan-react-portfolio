@@ -14,7 +14,8 @@ function StatusCircle({ variant, message, size = "status-circle-size-default", c
                                 className={`status-circle-tooltip text-center`}
                                 id={uniqueId + "-tooltip"}
                                 targetId={uniqueId}
-                                onDesktopClick={onClick}/>
+                                onDesktopClick={onClick}
+                                toggleBehaviorOnTouchScreens={true}/>
 
             <div className={`status-circle-pulse`}/>
             <div className={`status-circle-body`}/>
