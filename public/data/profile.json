@@ -17,7 +17,9 @@
                 "Android Developer",
                 "Flutter Developer",
                 "Cross-Platform Developer"
-            ]
+            ],
+            "name_pronunciation_ipa": "/My-kuhl Oez-kahn/",
+            "name_pronunciation_audio_url": "audio/name-pronunciation.mp3"
         },
         "tr": {
             "status_message_available_for_freelance": "Freelance için müsaitim!",

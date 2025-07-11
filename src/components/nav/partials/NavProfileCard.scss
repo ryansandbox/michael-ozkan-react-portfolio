@@ -59,8 +59,8 @@ div.nav-profile-card {
 
     h1.nav-profile-card-name-with-audio-button {
         @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
-            margin-left: 65px;
-            margin-right: 65px;
+            margin-left: 55px;
+            margin-right: 55px;
         }
     }
 

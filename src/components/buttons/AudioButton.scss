@@ -61,6 +61,7 @@ div.audio-button-wrapper-size-dynamic-for-nav-title {
         min-width: 180px;
         transform: translate(calc(-50% + 1.2rem), calc(-100% - 0.6rem));
         @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+            min-width: 150px;
             transform: translate(calc(-50% + 1.26rem), calc(-100% - 0.65rem));
         }
     }
