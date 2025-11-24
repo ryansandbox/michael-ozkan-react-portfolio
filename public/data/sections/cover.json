@@ -238,6 +238,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {
                             "title": "{{AI}} video editing",
@@ -263,6 +264,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {
                             "title": "{{Arts}} & Illustration",
@@ -288,6 +290,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {
                             "title": "{{Investing}} & Finance",
@@ -313,6 +316,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {
                             "title": "{{UX}} design",
@@ -339,6 +343,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {
                             "title": "{{Photography}} & Photoshop",
@@ -364,6 +369,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {
                             "title": "Playing {{drums}}",

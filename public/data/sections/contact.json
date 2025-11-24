@@ -86,6 +86,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "+1 (123) 456-7890",
                     "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "Phone"},
                         "es": {"title": "Teléfono"},
@@ -99,6 +100,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "mark.choi@email.com",
                     "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "E-mail"},
                         "ko": {"title": "이메일"}
@@ -110,6 +112,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@markchoi",
                     "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "LinkedIn"},
                         "ko": {"title": "링크드인"}
@@ -121,6 +124,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "Mark Choi",
                     "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Facebook"},
                         "ko": {"title": "페이스북"}
@@ -132,6 +136,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@codingmark",
                     "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Instagram"},
                         "ko": {"title": "인스타그램"}
@@ -143,6 +148,7 @@
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@markchoi",
                     "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": { "title": "TikTok" },
                         "ko": { "title": "틱톡" }

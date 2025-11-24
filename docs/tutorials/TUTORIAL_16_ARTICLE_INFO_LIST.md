@@ -28,6 +28,7 @@ Just copy and paste this into a section's `articles` array and see the magic hap
             "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
             "label": null,
             "link": {"href": null, "tooltipString": null},
+            "copyToClipboardButton": false,
             "locales": {
                 "en": {
                     "title": "{{First}} item",
@@ -41,6 +42,7 @@ Just copy and paste this into a section's `articles` array and see the magic hap
             "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
             "label": "Google",
             "link": {"href": "https://google.com", "tooltipString": "open_website"},
+            "copyToClipboardButton": false,
             "locales": {
                 "en": {
                     "title": "{{Second}} item",
@@ -71,6 +73,7 @@ Each item of the `ArticleInfoList` article represents a piece of information tha
     "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
     "label": "",
     "link": {"href": "", "tooltipString": ""},
+    "copyToClipboardButton": false,
     "locales": {
         "en": {
             "title": "",
@@ -93,6 +96,7 @@ Each item of the `ArticleInfoList` article represents a piece of information tha
 | `label`                 | STRING             | OPTIONAL    | The label for the item link (if provided).                                                                                                           | 
 | `link.href`             | STRING             | OPTIONAL    | The destination URL if the item is clickable.                                                                                                        |
 | `link.tooltipString`    | STRING             | OPTIONAL    | A key from `strings.json` to show as a tooltip when hovering the item.                                                                               |
+| `copyToClipboardButton` | BOOLEAN            | OPTIONAL    | Whether to show a copy-to-clipboard button for the item's value.                                                                                     |
 
 ### 🌐 Item Locales Fields
 
