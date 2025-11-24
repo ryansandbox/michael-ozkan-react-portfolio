@@ -2,11 +2,9 @@
     "name": "Michael Özkan",
     "profilePictureUrl": "images/content/pfp-{theme}.png",
     "resumePdfUrl": "pdf/resume.pdf",
-
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
     "statusCircleHoverMessage": "status_message_available_for_freelance",
-
     "locales": {
         "en": {
             "localized_name": "Michael Özkan",

@@ -5,7 +5,6 @@
         "stayOnThePreloaderScreen": false,
         "version": "1.0.0"
     },
-
     "preloaderSettings": {
         "enabled": true,
         "title": "Michael <b>Özkan</b>",
@@ -16,7 +15,6 @@
             "bottom": -1
         }
     },
-
     "templateSettings": {
         "animatedCursorEnabled": true,
         "backgroundStyle": "animated",
@@ -25,7 +23,6 @@
         "fullscreenEnabled": true,
         "showSpinnerOnThemeChange": true
     },
-
     "supportedLanguages": [
         {
             "name": "English",
@@ -48,7 +45,6 @@
             "flagUrl": "images/flags/ja.png"
         }
     ],
-
     "supportedThemes": [
         {
             "id": "dark",
@@ -84,7 +80,6 @@
             }
         }
     ],
-
     "consoleMessageForDevelopers": {
         "title": "\uD83D\uDC2C️ Hey there, fellow developer!",
         "items": [
@@ -109,7 +104,6 @@
             }
         ]
     },
-
     "imagesToCache": [
         "images/content/pfp-dark.png",
         "images/content/pfp-light.png",
