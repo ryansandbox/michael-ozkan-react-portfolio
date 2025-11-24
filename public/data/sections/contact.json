@@ -27,7 +27,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -83,6 +82,7 @@
                         "href": "tel:+1234567890",
                         "tooltipString": "call_me"
                     },
+                    "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "Phone"},
                         "tr": {"title": "Telefon"},
@@ -98,6 +98,7 @@
                         "href": "mailto:mike.ozkan@live.com",
                         "tooltipString": "email_me"
                     },
+                    "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "E-mail"},
                         "ja": {"title": "メール"}
@@ -111,6 +112,7 @@
                         "href": "https://discord.com/",
                         "tooltipString": "open_website"
                     },
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Discord"},
                         "ja": {"title": "ディスコード"}
@@ -124,6 +126,7 @@
                         "href": "https://medium.com/",
                         "tooltipString": "open_website"
                     },
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": { "title": "Medium" },
                         "ja": { "title": "ミディアム" }
@@ -137,6 +140,7 @@
                         "href": "https://www.linkedin.com/",
                         "tooltipString": "open_website"
                     },
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": { "title": "LinkedIn" },
                         "ja": { "title": "リンクトイン" }
@@ -150,6 +154,7 @@
                         "href": "https://github.com/ryanbalieiro",
                         "tooltipString": "open_website"
                     },
+                    "copyToClipboardButton": false,
                     "locales": {
                         "en": { "title": "GitHub" },
                         "ja": { "title": "ギットハブ" }

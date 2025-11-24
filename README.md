@@ -1,4 +1,8 @@
-# 📱 React Portfolio Template – [Michael Özkan](https://ryansandbox.github.io/michael-ozkan-react-portfolio/)
+<p align="center">
+    <img src="docs/assets/logo.svg" width="120">
+</p>
+
+# React Portfolio Template – [Michael Özkan](https://ryansandbox.github.io/michael-ozkan-react-portfolio/)
 
 This project is a customized version of [React Portfolio Template](https://github.com/ryanbalieiro/react-portfolio-template) originally developed by **Ryan Balieiro**.
 
