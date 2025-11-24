@@ -121,7 +121,7 @@ function ArticleInfoListItem({ itemWrapper}) {
 
                     {itemWrapper.copyToClipboardButton && (
                         <CopyButton text={itemWrapper.locales.label || itemWrapper.label || itemWrapper.locales.text}
-                                    buttonClassName={`ms-2`}/>
+                                    buttonClassName={`ms-2 ps-1`}/>
                     )}
                 </div>
             </div>
