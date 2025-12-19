@@ -88,8 +88,8 @@ function ArticleInfoListItem({ itemWrapper}) {
         `article-info-list-item-hovered` :
         ``
 
-    const baseTextSize = itemWrapper.locales.text ? 3 : 4
-    const titleClass = `text-${baseTextSize + 1}`
+    const baseTextSize = 3
+    const titleClass = `text-${baseTextSize + 2}`
     const textClass = `text-${baseTextSize}`
 
     return (
@@ -101,7 +101,7 @@ function ArticleInfoListItem({ itemWrapper}) {
                         className={`article-info-list-item-avatar`}/>
 
             <div className={`article-info-list-item-content`}>
-                <div className={`article-info-list-item-info-title ${titleClass}`}
+                <div className={`article-info-list-item-info-title mb-0 mb-md-1 ${titleClass}`}
                      dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
 
                 <div className={`article-info-list-item-info-body`}>
@@ -121,7 +121,7 @@ function ArticleInfoListItem({ itemWrapper}) {
 
                     {itemWrapper.copyToClipboardButton && (
                         <CopyButton text={itemWrapper.locales.label || itemWrapper.label || itemWrapper.locales.text}
-                                    buttonClassName={`ms-2 ps-1`}/>
+                                    buttonClassName={`ms-1 ms-lg-2 ps-1`}/>
                     )}
                 </div>
             </div>
