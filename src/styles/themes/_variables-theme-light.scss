@@ -35,7 +35,7 @@
 
 $primary: #269366;
 $secondary: darken(#798287, 10%);
-$dark: #bfe0c5;
+$dark: #d1ead6;
 $danger: #932626;
 $muted: #7c8d7f;
 
@@ -46,16 +46,16 @@ $base-bg-dark: #7ecb94;
 $texts: #202521;
 $texts-inverted: #EEE;
 
-$base-container-bg: #d9f5e0;
+$base-container-bg: #f5faf6;
 $base-container-bg-accent: #c2e9d0;
 $base-popover-bg: #cae1d4;
-$base-boards: #d2eed8;
-$base-info-badges: #c3e3cd;
-$empty: #e8f8ef;
+$base-boards: lighten(#e6f6ea, 1%);
+$base-info-badges: lighten(#d2e8d8, 3%);
+$empty: #ffffff;
 
-$borders: #d9efdc;
+$borders: #eaf6eb;
 $borders-nav-mobile: rgba(white, 0.15);
-$borders-nav-mobile-accent: rgba(white, 0.2);
+$borders-nav-mobile-accent: rgba(white, 0.6);
 $scrollbar-track: #daf5e1;
 $scrollbar-thumb: #55bd91;
 
@@ -79,11 +79,11 @@ $scrollbar-thumb: #55bd91;
         /** TEXTS (INVERTED): **/           $texts-inverted,
 
         // Nav
-        /** NAV MOBILE BG: **/              $base-container-bg-accent,
+        /** NAV MOBILE BG: **/              $base-boards,
         /** NAV MOBILE: **/                 $texts,
         /** NAV MOBILE BORDER: **/          $borders-nav-mobile-accent,
 
-        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
+        /** NAV MOBILE HOVER BG: **/        $base-boards,
         /** NAV MOBILE HOVER: **/           $primary,
 
         /** NAV MOBILE SELECTED BG: **/     $primary,
